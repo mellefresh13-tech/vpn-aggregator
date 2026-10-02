@@ -6,12 +6,23 @@ sys.path.insert(0,str(Path(__file__).resolve().parent))
 from common import DATA,get_json,save_json,tcp_probe
 INPUT=DATA/"discovered.json"; OUTPUT=DATA/"validated.json"
 
+# Do not execute arbitrary scripts/plugins/hooks from untrusted .ovpn files.
+BLOCKED_DIRECTIVES=("up ","down ","route-up ","route-pre-down ","ipchange ","route-change ","learn-address ","client-connect ","client-disconnect ","plugin ","tls-verify ","management ")
+def safe_config(cfg):
+ lines=cfg.lower().splitlines()
+ return not any(any(line.strip().startswith(d) for d in BLOCKED_DIRECTIVES) for line in lines)
+
 def openvpn_handshake(profile):
  cfg=profile.get("config")
  if not cfg: return {"status":"not_tested","error":"raw config unavailable"}
+ if not safe_config(cfg): return {"status":"rejected","error":"config contains a blocked executable hook"}
  with tempfile.TemporaryDirectory() as td:
   path=Path(td)/"profile.ovpn"; path.write_text(cfg,encoding="utf-8")
   cmd=["sudo","openvpn","--config",str(path),"--connect-timeout","12","--connect-retry-max","1","--ping-exit","10","--verb","3"]
+  username=os.getenv("VPNONLINE_USERNAME"); password=os.getenv("VPNONLINE_PASSWORD")
+  if username and password:
+   auth=Path(td)/"auth.txt"; auth.write_text(username+"\n"+password+"\n",encoding="utf-8"); auth.chmod(0o600)
+   cmd += ["--auth-user-pass",str(auth)]
   try: p=subprocess.run(cmd,capture_output=True,text=True,timeout=20)
   except Exception as exc: return {"status":"error","error":str(exc)}
   combined=(p.stdout+"\n"+p.stderr).lower()
