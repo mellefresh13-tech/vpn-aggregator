@@ -28,10 +28,21 @@ def huntvpn_html(source,s):
  for country_url in dict.fromkeys(urljoin(r.url,x) for x in links):
   try:
    page=s.get(country_url,timeout=30); page.raise_for_status()
-   for link in dict.fromkeys(re.findall(r'''href=["']([^"']+\.ovpn(?:\?[^"']*)?)["']''',page.text,re.I)):
-    url=urljoin(page.url,link); cfg=s.get(url,timeout=20); cfg.raise_for_status(); p=parse_profile(cfg.text,source["id"],url)
-    if p: p["country"]=country_from_path(page.url); records.append(p)
-  except Exception as exc: print(f"[{source['id']}] page failed: {country_url}: {exc}")
+   links=re.findall(r'''href=["']([^"']+\.ovpn(?:\?[^"']*)?)["']''',page.text,re.I)
+   links += re.findall(r'''href=["']([^"']*/servers/[^"']+)["']''',page.text,re.I)
+   for link in dict.fromkeys(links):
+    url=urljoin(page.url,link)
+    try:
+     target=s.get(url,timeout=20); target.raise_for_status()
+     configs=re.findall(r'''href=["']([^"']+\.ovpn(?:\?[^"']*)?)["']''',target.text,re.I)
+     if configs:
+      for config_link in dict.fromkeys(configs):
+       cfg=s.get(urljoin(target.url,config_link),timeout=20); cfg.raise_for_status(); p=parse_profile(cfg.text,source["id"],cfg.url)
+       if p: p["country"]=country_from_path(page.url); records.append(p)
+     else:
+      p=parse_profile(target.text,source["id"],target.url)
+      if p: p["country"]=country_from_path(page.url); records.append(p)
+    except Exception as exc: print(f"[{source['id']}] config/server failed: {url}: {exc}")
  return records
 
 def publicvpnlist_html(source,s):
