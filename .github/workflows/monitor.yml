@@ -1,8 +1,5 @@
 name: VPN catalog monitor
 on:
-  push:
-    paths-ignore:
-      - ".github/workflows/monitor.yml"
   schedule:
     - cron: "17 */6 * * *"
   workflow_dispatch:
