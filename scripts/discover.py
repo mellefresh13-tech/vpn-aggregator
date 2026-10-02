@@ -23,27 +23,30 @@ def vpngate_csv(source,s):
  return records
 
 def huntvpn_html(source,s):
- records=[]; r=s.get(source["base_urls"][0],timeout=30); r.raise_for_status()
- links=re.findall(r'href=["\']([^"\']*vpn/[^"\']+)["\']',r.text,re.I)
- for country_url in dict.fromkeys(urljoin(r.url,x) for x in links):
-  try:
-   page=s.get(country_url,timeout=30); page.raise_for_status()
-   links=re.findall(r'''href=["']([^"']+\.ovpn(?:\?[^"']*)?)["']''',page.text,re.I)
-   links += re.findall(r'''href=["']([^"']*/servers/[^"']+)["']''',page.text,re.I)
-   for link in dict.fromkeys(links):
-    url=urljoin(page.url,link)
-    try:
-     target=s.get(url,timeout=20); target.raise_for_status()
-     configs=re.findall(r'''href=["']([^"']+\.ovpn(?:\?[^"']*)?)["']''',target.text,re.I)
-     if configs:
-      for config_link in dict.fromkeys(configs):
-       cfg=s.get(urljoin(target.url,config_link),timeout=20); cfg.raise_for_status(); p=parse_profile(cfg.text,source["id"],cfg.url)
-       if p: p["country"]=country_from_path(page.url); records.append(p)
-     else:
-      p=parse_profile(target.text,source["id"],target.url)
-      if p: p["country"]=country_from_path(page.url); records.append(p)
-    except Exception as exc: print(f"[{source['id']}] config/server failed: {url}: {exc}")
-  except Exception as exc: print(f"[{source['id']}] page failed: {country_url}: {exc}")
+ records=[]
+ r=s.get(source["base_urls"][0],timeout=30); r.raise_for_status()
+ seen_pages=set(); page_url=r.url
+ for _ in range(3):
+  if page_url in seen_pages: break
+  seen_pages.add(page_url)
+  page=s.get(page_url,timeout=30); page.raise_for_status()
+  server_links=re.findall(r'''href=["']([^"']*/servers/[^"']+)["']''',page.text,re.I)
+  for link in dict.fromkeys(server_links):
+   url=urljoin(page.url,link)
+   try:
+    target=s.get(url,timeout=20); target.raise_for_status()
+    candidates=[]
+    candidates += re.findall(r'''(?:href|data-href|data-url|data-download-url)=["']([^"']*(?:\.ovpn|download|config)[^"']*)["']''',target.text,re.I)
+    candidates += re.findall(r'''["'](/[^"']*\.ovpn[^"']*)["']''',target.text,re.I)
+    for config_link in dict.fromkeys(candidates):
+     cfg=s.get(urljoin(target.url,config_link),timeout=20); cfg.raise_for_status()
+     if ".ovpn" in cfg.url.lower() or cfg.text.lstrip().startswith(("client","dev ","remote ","# OpenVPN")):
+      p=parse_profile(cfg.text,source["id"],cfg.url)
+      if p: p["country"]=country_from_path(target.url); records.append(p)
+   except Exception as exc: print(f"[{source['id']}] server failed: {url}: {exc}")
+  nxt=re.search(r'''href=["']([^"']*[?&]cursor=[^"']+)["']''',page.text,re.I)
+  if not nxt: break
+  page_url=urljoin(page.url,nxt.group(1))
  return records
 
 def publicvpnlist_html(source,s):

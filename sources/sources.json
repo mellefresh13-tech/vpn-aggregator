@@ -1,8 +1,52 @@
 {
   "sources": [
-    {"id":"vpngate","name":"VPN Gate","adapter":"vpngate_csv","enabled":true,"base_urls":["https://www.vpngate.net/api/iphone/"],"country_hint":null,"auth_expected":false,"priority":80},
-    {"id":"huntvpn","name":"Hunt VPN","adapter":"huntvpn_html","enabled":true,"base_urls":["https://huntvpn.dev/countries"],"country_hint":null,"auth_expected":false,"priority":100},
-    {"id":"publicvpnlist","name":"PublicVPNList","adapter":"publicvpnlist_html","enabled":true,"base_urls":["https://publicvpnlist.com/country/"],"country_hint":null,"auth_expected":false,"priority":90},
-    {"id":"zoult","name":"Zoult .ovpn mirror","adapter":"github_tree","enabled":true,"base_urls":["https://api.github.com/repos/Zoult/.ovpn/git/trees/main?recursive=1"],"country_hint":null,"auth_expected":false,"priority":50}
+    {
+      "id": "vpngate",
+      "name": "VPN Gate",
+      "adapter": "vpngate_csv",
+      "enabled": true,
+      "base_urls": [
+        "https://www.vpngate.net/api/iphone/"
+      ],
+      "country_hint": null,
+      "auth_expected": false,
+      "priority": 80
+    },
+    {
+      "id": "huntvpn",
+      "name": "Hunt VPN",
+      "adapter": "huntvpn_html",
+      "enabled": true,
+      "base_urls": [
+        "https://huntvpn.dev/servers"
+      ],
+      "country_hint": null,
+      "auth_expected": false,
+      "priority": 100
+    },
+    {
+      "id": "publicvpnlist",
+      "name": "PublicVPNList",
+      "adapter": "publicvpnlist_html",
+      "enabled": true,
+      "base_urls": [
+        "https://publicvpnlist.com/country/"
+      ],
+      "country_hint": null,
+      "auth_expected": false,
+      "priority": 90
+    },
+    {
+      "id": "zoult",
+      "name": "Zoult .ovpn mirror",
+      "adapter": "github_tree",
+      "enabled": true,
+      "base_urls": [
+        "https://api.github.com/repos/Zoult/.ovpn/git/trees/main?recursive=1"
+      ],
+      "country_hint": null,
+      "auth_expected": false,
+      "priority": 50
+    }
   ]
 }
