@@ -1,8 +1,10 @@
 {
   "sources": [
-    {"id":"vpnonline","name":"VPNonline","adapter":"html_ovpn","enabled":true,"base_urls":["https://portal.vpnonline.pl/openvpn.html"],"country_hint":"PL","auth_expected":true},
-    {"id":"vpngate","name":"VPN Gate","adapter":"vpngate_csv","enabled":true,"base_urls":["https://www.vpngate.net/api/iphone/"],"country_hint":null,"auth_expected":false},
-    {"id":"huntvpn","name":"Hunt VPN","adapter":"html_ovpn","enabled":true,"base_urls":["https://huntvpn.dev/"],"country_hint":null,"auth_expected":false},
-    {"id":"publicvpnlist","name":"PublicVPNList","adapter":"publicvpnlist_api","enabled":true,"base_urls":["https://publicvpnlist.com/api/v1/servers"],"country_hint":null,"auth_expected":false,"secret_env":"PUBLICVPNLIST_API_KEY"}
+    {"id":"vpnonline","name":"VPNonline Poland","adapter":"html_ovpn","enabled":true,"base_urls":["https://portal.vpnonline.pl/openvpn.html"],"country_hint":"PL","auth_expected":true,"priority":100},
+    {"id":"vpnbook","name":"VPNBook","adapter":"html_ovpn","enabled":true,"base_urls":["https://www.vpnbook.com/freevpn/openvpn"],"country_hint":null,"auth_expected":true,"priority":80},
+    {"id":"vpngate","name":"VPN Gate","adapter":"vpngate_csv","enabled":true,"base_urls":["https://www.vpngate.net/api/iphone/"],"country_hint":null,"auth_expected":false,"priority":60},
+    {"id":"huntvpn","name":"Hunt VPN","adapter":"huntvpn_html","enabled":true,"base_urls":["https://huntvpn.dev/countries"],"country_hint":null,"priority":70},
+    {"id":"zoult","name":"Zoult .ovpn mirror","adapter":"github_tree","enabled":true,"base_urls":["https://api.github.com/repos/Zoult/.ovpn/git/trees/main?recursive=1"],"country_hint":null,"priority":40},
+    {"id":"publicvpnlist","name":"PublicVPNList","adapter":"publicvpnlist_api","enabled":false,"base_urls":["https://publicvpnlist.com/api/v1/servers"],"country_hint":null,"auth_expected":false,"secret_env":"PUBLICVPNLIST_API_KEY","priority":50}
   ]
 }
