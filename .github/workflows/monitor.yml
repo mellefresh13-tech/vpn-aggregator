@@ -1,0 +1,38 @@
+name: VPN catalog monitor
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install OpenVPN
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y openvpn
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Update catalog
+        env:
+          VPNONLINE_USERNAME: ${{ secrets.VPNONLINE_USERNAME }}
+          VPNONLINE_PASSWORD: ${{ secrets.VPNONLINE_PASSWORD }}
+          PUBLICVPNLIST_API_KEY: ${{ secrets.PUBLICVPNLIST_API_KEY }}
+        run: python scripts/update_catalog.py
+      - name: Publish generated data
+        run: |
+          git config user.name "vpn-aggregator[bot]"
+          git config user.email "vpn-aggregator[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "chore: update VPN catalog"
+          git push
