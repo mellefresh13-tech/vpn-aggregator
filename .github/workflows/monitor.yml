@@ -1,13 +1,10 @@
 name: VPN catalog monitor
-
 on:
   schedule:
     - cron: "17 */6 * * *"
   workflow_dispatch:
-
 permissions:
   contents: write
-
 jobs:
   monitor:
     runs-on: ubuntu-latest
@@ -29,10 +26,14 @@ jobs:
           VPNONLINE_PASSWORD: ${{ secrets.VPNONLINE_PASSWORD }}
           PUBLICVPNLIST_API_KEY: ${{ secrets.PUBLICVPNLIST_API_KEY }}
         run: python scripts/update_catalog.py
+      - name: Validate published files
+        run: |
+          python -m json.tool data/servers.json >/dev/null
+          python -m json.tool data/history.json >/dev/null
       - name: Publish generated data
         run: |
           git config user.name "vpn-aggregator[bot]"
           git config user.email "vpn-aggregator[bot]@users.noreply.github.com"
-          git add data/
+          git add data/servers.json data/history.json
           git diff --cached --quiet || git commit -m "chore: update VPN catalog"
           git push
