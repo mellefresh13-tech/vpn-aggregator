@@ -11,20 +11,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "fc5062c46b5722e5ae3102ec1ca8d0d6e8a204de865843f3267d7a3c9920b23f",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "127f013ece12b5488b8298f47f188a275db33215": {
       "id": "127f013ece12b5488b8298f47f188a275db33215",
@@ -37,20 +38,21 @@
       "auth": "certificate",
       "country": "FR",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "a3587285baafe129d37ac6105d6abf6cf16b0fb8206599043aead3535e6beaca",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "8441b1a1a1dd6a33ff57416943d005dae7101091": {
       "id": "8441b1a1a1dd6a33ff57416943d005dae7101091",
@@ -63,20 +65,21 @@
       "auth": "certificate",
       "country": "FR",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "5987908f19a03426660693f1c56ae86498defcc40582c4c679dda18d3c1b7b6c",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "c5305f3806cfd323ad32c47b46d871fbc0a5e6e3": {
       "id": "c5305f3806cfd323ad32c47b46d871fbc0a5e6e3",
@@ -89,20 +92,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "cbdf2ae33fc04087c712964e6288f3e3747985db237316f44e2bc1599b72ede9",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "3e88414056a99c71f720ff5e92c7dc13032c44a0": {
       "id": "3e88414056a99c71f720ff5e92c7dc13032c44a0",
@@ -115,20 +119,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "8ab8e482217912f459e28f58c0f5e84222abf61a272171bd6b379ee525f20bed",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "90daa04f1d991949c4de9df891bf453d66b96c94": {
       "id": "90daa04f1d991949c4de9df891bf453d66b96c94",
@@ -141,20 +146,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "0cb6d94adb378e947996c1497754a57f7a25112405188dfb5204cc1d049b216f",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "2696989be8c253ab9325a34cc5c216e2d996a279": {
       "id": "2696989be8c253ab9325a34cc5c216e2d996a279",
@@ -167,20 +173,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "6f75c49b7f1263281a3cb9337117c4d815e0a06d6701ae47ad6f380c91bba7bb",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "aa6cdb352b4a869a6788aa6f0533d9586d2db5d0": {
       "id": "aa6cdb352b4a869a6788aa6f0533d9586d2db5d0",
@@ -193,20 +200,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "a858d5ce532dba23d7e448249b6308cc2688f213be16179b4984f8a39e61e852",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "8a75a847ae525f3d882bcf6f5fa76696eefb8d73": {
       "id": "8a75a847ae525f3d882bcf6f5fa76696eefb8d73",
@@ -219,20 +227,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "831bf646b0800a0a176bdb8ae90798bd32d866529d925571aab97314a268ce18",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "90b9c454d1b2c5fe60a4f3dd1e3f38772853aa74": {
       "id": "90b9c454d1b2c5fe60a4f3dd1e3f38772853aa74",
@@ -245,20 +254,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "2fe2e6abba04f0f41a3a2604ccd91732dc563e8680a72d4cf8551091eff286c2",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "c6764c83654647b3d4b8e072c40bb5291f746053": {
       "id": "c6764c83654647b3d4b8e072c40bb5291f746053",
@@ -271,20 +281,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "35ca33327c117f76cb5e4f2cfd3c079f56040d61091c61b2d92cfcefd1153753",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "19d1d42a6ed2d9eddf3000c07a849edb20bf69ed": {
       "id": "19d1d42a6ed2d9eddf3000c07a849edb20bf69ed",
@@ -297,20 +308,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "a4b19c4bd6af9341e78108d00a5b909e90a7e0c239e7dd725ab79b9f77074120",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "782ea068865e397c809aa67fbf6a18f9ceb85acd": {
       "id": "782ea068865e397c809aa67fbf6a18f9ceb85acd",
@@ -323,20 +335,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "c4bfcf0931138e9e33fdcb98140222784b08dfc2de2fb5f0e3b9ef2d56868de3",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "0f5a6518e81a28eeec2c1b599d16c4ab64d61e71": {
       "id": "0f5a6518e81a28eeec2c1b599d16c4ab64d61e71",
@@ -349,20 +362,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "af1ad462982ca887bd3871ad74cd0eaa934d6e1e08791e07c81994f3cb46120c",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "a31dc3a3e707dda8fcf1167c1889bf3ac128bc45": {
       "id": "a31dc3a3e707dda8fcf1167c1889bf3ac128bc45",
@@ -375,20 +389,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "c8ecf243a6eee622894ab4deb13098f2724cfbb5c484e2c4ed7486515e13a289",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "19c7a76d379fecd407490ce2cad0ce8ff5f4a895": {
       "id": "19c7a76d379fecd407490ce2cad0ce8ff5f4a895",
@@ -401,20 +416,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "213b58d0747db3e8e4c6d0d2efa45be1c0cfbfa9c6114e7663db703790be5572",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "79bc8a7fce1a02ae7975d7d48945462162494220": {
       "id": "79bc8a7fce1a02ae7975d7d48945462162494220",
@@ -427,20 +443,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "21d0d486c16e3e732c7ebc70916885dbead7bb7ca9b8861a95e091610f94d2be",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "c203d4ead48bc941c2fac7859612f007b742f9ca": {
       "id": "c203d4ead48bc941c2fac7859612f007b742f9ca",
@@ -453,20 +470,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "d52c1b4ed690d99fa5124a603c9e98326a59570772539b8ff08a78aeaf12021f",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "3dc8aa8e224a5146011aef58e2c36f80d17bb932": {
       "id": "3dc8aa8e224a5146011aef58e2c36f80d17bb932",
@@ -479,20 +497,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "6f9420b5fba4bfbc9a817b710646cc55ec9c999a41e9c23d53ec1283c0fa2648",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "78033a591fd6dab5d24ebe9d4b06727e4224e6b5": {
       "id": "78033a591fd6dab5d24ebe9d4b06727e4224e6b5",
@@ -505,20 +524,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "1fb16f4ea4572e0743af39f036dbf5a9c76d1ace64a6810858174f4e7bab251f",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "161dad804f4b3fb0e315e00df4dedb37a350eaf5": {
       "id": "161dad804f4b3fb0e315e00df4dedb37a350eaf5",
@@ -531,20 +551,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "52e5b86e5d434c233ac401c840f06aa4fdf2099c32c2fa39696a8d61e3623d47",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "4af52c8f9bf7819719e096f7ee2e7b3626031401": {
       "id": "4af52c8f9bf7819719e096f7ee2e7b3626031401",
@@ -557,20 +578,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "a2602102d19772266f0f9fb682d5d62b0b99ca030a547956bbccd73c53cab112",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "3feb22d8798390f744a483b95f93c3a834b22a00": {
       "id": "3feb22d8798390f744a483b95f93c3a834b22a00",
@@ -583,22 +605,23 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": true,
         "error": null
       },
+      "config_sha256": "091a63a74423026ff54d3c09c53ecb5e9b6738ada20a46e309c101cc94145199",
       "handshake": {
         "status": "working",
         "error": null,
         "exit_ip": "124.212.251.101",
-        "handshake_ms": 3951
+        "handshake_ms": 4170
       },
       "status": "working",
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "d86fbf3e94d7ef22a586f6267d9db884f76f561b": {
       "id": "d86fbf3e94d7ef22a586f6267d9db884f76f561b",
@@ -611,20 +634,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "2d823a852b27b0680abe2ba9d7eabaedaa045be2011ecc0b8a8a203b1846808b",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "818d5436b3fbf20f6de8f626d1bef6d625b12a1e": {
       "id": "818d5436b3fbf20f6de8f626d1bef6d625b12a1e",
@@ -637,20 +661,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "b25cba3b653dca45286c09082e89c7c9f5c57f31ce090a41c50265bb1ec3669a",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "5ff160d3a7e99b9a51bbebed97c81b33163a75fb": {
       "id": "5ff160d3a7e99b9a51bbebed97c81b33163a75fb",
@@ -663,20 +688,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "0260295e597eebe63825fb76f32264aeec97c1677a1c5df6a837aec811c177f7",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "bfbb5c0d172670017123977ba1574ce2b4f9ad15": {
       "id": "bfbb5c0d172670017123977ba1574ce2b4f9ad15",
@@ -689,20 +715,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "7bb72dc706760ff41c5838321916f89569269bf4fc327b843100707768157ca9",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "ed9fbfd51b1581afd044655b5ad5dd1e9804c281": {
       "id": "ed9fbfd51b1581afd044655b5ad5dd1e9804c281",
@@ -715,20 +742,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "b84e253ff8df10f480bdc1e25d01b08700941835e6089dd01d50e4ea8a6a1321",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "c2c04c36f4aabd0767068f1478c1156885c19350": {
       "id": "c2c04c36f4aabd0767068f1478c1156885c19350",
@@ -741,20 +769,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "0f7d8a9e02467dd8b285970db098027baab9dfda4416810af58270dc5d0609b7",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "9725f8c1c195617a6c27b540ad71085a9589ea3e": {
       "id": "9725f8c1c195617a6c27b540ad71085a9589ea3e",
@@ -767,20 +796,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "bb3abadaccc815bc9c9c911815e9aada759cd4cc7763ace1e81d7888c3b46a7f",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "acdaa879f7b0c04d7b80dc55d730e9163fa8325c": {
       "id": "acdaa879f7b0c04d7b80dc55d730e9163fa8325c",
@@ -793,20 +823,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "c1909248b9684c58f0e6a9311eec2cd8294972606adf041c5b294178ebc3ba72",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "f4e96e3d144e3e1614d8e86cc26c2db1c25c0119": {
       "id": "f4e96e3d144e3e1614d8e86cc26c2db1c25c0119",
@@ -819,20 +850,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "a27f5d023eec1bdf4f56fe14b76537240651b64df1ecac4db749e97a1f79e65c",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "8fb3ad29497cd4e314e247051b5fa4266822c4a6": {
       "id": "8fb3ad29497cd4e314e247051b5fa4266822c4a6",
@@ -845,20 +877,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "3b04b2b8bd9bc32484f7eb39fb37e8083f89ec11a7816d78e2435b736792c872",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "94ebbadf97906c8ece200cff9af243a78e4b86df": {
       "id": "94ebbadf97906c8ece200cff9af243a78e4b86df",
@@ -871,20 +904,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "c0f24878d917f49810d405df56de99ae76e13886a8f078441617c9534d71b84e",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "5b3119e9faac8528c4ad4b9bf0fd3691573a6a26": {
       "id": "5b3119e9faac8528c4ad4b9bf0fd3691573a6a26",
@@ -897,20 +931,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "dbf1f21d5a48157477e657a4f4dfdc59a70b18224e47f7d4af66484ebc179b90",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "bdc1893221af6d5561462d5227d6fb203d819488": {
       "id": "bdc1893221af6d5561462d5227d6fb203d819488",
@@ -923,20 +958,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "15a2c0840b1d11041f7b8b6dc2a61c2727ca955e9cfbe37451100e243a1b78a3",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "f3773e0fb0b1cf7a59f8191f40defd1f993b177c": {
       "id": "f3773e0fb0b1cf7a59f8191f40defd1f993b177c",
@@ -949,20 +985,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": true,
         "error": null
       },
+      "config_sha256": "f647dfc6c97326a055abdce70411ef4faa85df9e65887984ab89cb7e9ca97502",
       "handshake": {
         "status": "auth_failed",
         "error": "authentication failed"
       },
       "status": "auth_failed",
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "ab17f0ab5405c0688bb12afa4e0a5084b6465d79": {
       "id": "ab17f0ab5405c0688bb12afa4e0a5084b6465d79",
@@ -975,20 +1012,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "4a5faae89a3638b5a74bda20f7598c1fab3fd47e2f7d976a43fb5dfbb6097813",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "d6fbafba5d65f1c344ebbba374a30dd9a772665c": {
       "id": "d6fbafba5d65f1c344ebbba374a30dd9a772665c",
@@ -1001,20 +1039,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "c4ed2d6ed41c080984945cf347bbdeed10406bce202fd1bbff7541741bd0c07f",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "0aa6f04018da5923a3b7f9f4306ee5fcab749600": {
       "id": "0aa6f04018da5923a3b7f9f4306ee5fcab749600",
@@ -1027,20 +1066,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "93744cf9131417567e601b0ef305d98d24ffef584b26ba186c907e3d7e40cddf",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "a7a77f6777b9e71decea45bc67f88794cc7587e1": {
       "id": "a7a77f6777b9e71decea45bc67f88794cc7587e1",
@@ -1053,20 +1093,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "78e0627398ba01ec0220914eb4f3234a6e30b8d7dd6730c427968767e6146470",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "694908a6edfc765e155d98140a250f4222d9f2e2": {
       "id": "694908a6edfc765e155d98140a250f4222d9f2e2",
@@ -1079,20 +1120,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "e11ddad228613781f7e987b73ac3c11cff65708a7b015534b211e99a500b1f68",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "422e6e4285e29692dd5a3fb4789f3d0982bf827d": {
       "id": "422e6e4285e29692dd5a3fb4789f3d0982bf827d",
@@ -1105,20 +1147,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "efefff7ae2d333de2dadc80925a4e6183e6389c5dc48a5c9a45508b99dccb25c",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "c07b075993c62982fe27695a11ce8395a93490e7": {
       "id": "c07b075993c62982fe27695a11ce8395a93490e7",
@@ -1131,20 +1174,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "0950cfbba36f1d327df0f42649e1f59b13b7054a849755f40c17c5872d7f2381",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "0921e765ef2d90bf7f32734346fc55ca265af2af": {
       "id": "0921e765ef2d90bf7f32734346fc55ca265af2af",
@@ -1157,20 +1201,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "e86dc53b59ce544801844f708678703806bc5908d75d92d96598223e4aae7d52",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "615faae31b8fe969457981674cb29e3d5eca1560": {
       "id": "615faae31b8fe969457981674cb29e3d5eca1560",
@@ -1183,20 +1228,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "bb0dd521d0ee9d868ec1f37bc750ae3378097ec34323a6293908926adab70c56",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "610b49dd88cef4122b3451ed3061a73ead5caf01": {
       "id": "610b49dd88cef4122b3451ed3061a73ead5caf01",
@@ -1209,20 +1255,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "eb2c3501fe690d701d54f6c3f03a3349bad915253d5162b57ff53b381b1d1fe0",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "b9517a17311d7e68b664fd095ed67a2624e814ba": {
       "id": "b9517a17311d7e68b664fd095ed67a2624e814ba",
@@ -1235,20 +1282,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "a46f1267c8e1ff2ac56e8f57455f915f921649daa11b37f9ccecc6f28f38f83d",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "38693d589d985576f3a5c94e7d8aea09904079a3": {
       "id": "38693d589d985576f3a5c94e7d8aea09904079a3",
@@ -1261,20 +1309,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "071f5a303b8004efc3b9a4cb54888cf9d8b4f3c97f4391f6e1931066c2611895",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "982c74a76f4fd69c25a1dc6d12919b627247bdef": {
       "id": "982c74a76f4fd69c25a1dc6d12919b627247bdef",
@@ -1287,20 +1336,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "a810423d1f51d3d60e9dac53d4ea8750bd2d5296e6bf7aa1c8859162912e8e7c",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "65aedd211c1c1633456db7925ad8d9fe6cb5f994": {
       "id": "65aedd211c1c1633456db7925ad8d9fe6cb5f994",
@@ -1313,20 +1363,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "213377682cd4b76f4bf7c3a4d15b0a10abf46ab38b13c2a9785b6c2ed31b3f6a",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "44074f45730ab3b4f3c39ba7621391ac25c6e9a5": {
       "id": "44074f45730ab3b4f3c39ba7621391ac25c6e9a5",
@@ -1339,20 +1390,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "8b29f84faa33cf25be3dd000a44a69beb5a874f5d35dee253dbf764a05611f48",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "449834f5f4bdce4f358cf1d15961df8848343d7f": {
       "id": "449834f5f4bdce4f358cf1d15961df8848343d7f",
@@ -1365,20 +1417,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "8e801dafac134d08dc82a5c97b15fc1276e0db08aed7037d9e06251b9e066b52",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "11e3fe9f1247e3e786ffb8aa55ce41dd2dfa7110": {
       "id": "11e3fe9f1247e3e786ffb8aa55ce41dd2dfa7110",
@@ -1391,20 +1444,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "af76ffb76e364d6fee12eb1632bd60288d6d18168d33c829fe35380dae059e6e",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "191315bbac97c94a438a8ed3e5396fd4e91909b3": {
       "id": "191315bbac97c94a438a8ed3e5396fd4e91909b3",
@@ -1417,20 +1471,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "1e07e09e88aeaf021b0653176fdb6080c183b231a97831a2579eb5792c165323",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "acbb0bbec5d72b99d7fd3c87c816148785fa7d0a": {
       "id": "acbb0bbec5d72b99d7fd3c87c816148785fa7d0a",
@@ -1443,20 +1498,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "b99a7dc8153a0ddcc0acf54a5fcd8189b730f8c8096822585144f67ad70d5e0a",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "a5eb7f4875bf409656f5dcea6a8472da3c206e17": {
       "id": "a5eb7f4875bf409656f5dcea6a8472da3c206e17",
@@ -1469,20 +1525,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "f488a3baaed6602182b3167669eac12679129d75c1001d6dc54589fd3d01ca95",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "fe6937dcef48d7718861be5c40d01a43664490d8": {
       "id": "fe6937dcef48d7718861be5c40d01a43664490d8",
@@ -1495,20 +1552,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "4607b40a685039576f52b8785db3c9e9284932f59210cf66e3fd7c892f3f0482",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "dd3b6d1b2bb8a9112c80229103d3cbd5e068d222": {
       "id": "dd3b6d1b2bb8a9112c80229103d3cbd5e068d222",
@@ -1521,20 +1579,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "3d401689d1397a73548822a2b4d25569063eac7629b7d0df4bb563be9a57db63",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "8c5064a5d311eab69fe887e94452e30106d20089": {
       "id": "8c5064a5d311eab69fe887e94452e30106d20089",
@@ -1547,20 +1606,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "c4614f952a49da06e4a0ddc3a20baea7e599d7493b65f4f4cb14433854081c6c",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "12df7de52d89c053ad86af52e43523d630ce9a9a": {
       "id": "12df7de52d89c053ad86af52e43523d630ce9a9a",
@@ -1573,20 +1633,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "eec314197fa8bad499ab6f5d053cce98053817fe01919df1dda001708be0a39a",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "bdb508135677d5a78f15377d286827d241ac57f8": {
       "id": "bdb508135677d5a78f15377d286827d241ac57f8",
@@ -1599,20 +1660,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "d55e2bd623b200c2004842fa179169deeb4a129fa110afc679b04c58c6455e1b",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "e572b9c55c0b7b1a50ae779d91eca040fd02d801": {
       "id": "e572b9c55c0b7b1a50ae779d91eca040fd02d801",
@@ -1625,20 +1687,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "288f710bd8bfb23ea4c1ce9eabb4a204d5384c242c06d435d78f16db69901e07",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "9af1c7d353ded23bbdd7c448c65f78ee904fbc50": {
       "id": "9af1c7d353ded23bbdd7c448c65f78ee904fbc50",
@@ -1651,20 +1714,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "347be2fa736e55a92fdadf8a4ea021ca6136e4ea6a0532b5d5b4b3fe52e226f7",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "f82b46ac78ce7a6d8ab6aaf9264c12b091a5b42e": {
       "id": "f82b46ac78ce7a6d8ab6aaf9264c12b091a5b42e",
@@ -1677,20 +1741,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "da6b4e9f1f9ebefbec55a9957c7563a642959ebbeed3b4130e9240e0d65be8ef",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "1b1a72bb9eab5d8d4fa8257a75de18a52f9accf7": {
       "id": "1b1a72bb9eab5d8d4fa8257a75de18a52f9accf7",
@@ -1703,20 +1768,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "4dd193b470ca3b23b201c5048017deeab92a9fea82cfd84462bafa2860e7f7c5",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "3ef35fb7fba43e8e33714013c2eff8c94cd9688b": {
       "id": "3ef35fb7fba43e8e33714013c2eff8c94cd9688b",
@@ -1729,20 +1795,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "fc763aa2d1c323966e5d1a3e7be578d8d4cf31949e732de68f21834ce8d1e338",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "c7d5dca553a669035dda03afc5ac8387d90fd0e9": {
       "id": "c7d5dca553a669035dda03afc5ac8387d90fd0e9",
@@ -1755,20 +1822,21 @@
       "auth": "certificate",
       "country": "JP",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "f2ea5d868bb003ea89f9e698a0b702919d8a149d3bd9a5b4ae62bf70428b914d",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "47c655b0356307a2b8f8ac61ebddc59ab12fa3f9": {
       "id": "47c655b0356307a2b8f8ac61ebddc59ab12fa3f9",
@@ -1781,20 +1849,21 @@
       "auth": "certificate",
       "country": "RO",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "f1ff0b395b82a86812ddc11a59b07ed5fe33cda9b6202d02b47a10fefc6d099f",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "498c11face20278216d926f35cdbf729974cead3": {
       "id": "498c11face20278216d926f35cdbf729974cead3",
@@ -1807,20 +1876,21 @@
       "auth": "certificate",
       "country": "RU",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "606ee83d1973149d31a73f478eb7b3a46279dfba9a0b2a17cc274b6d52ad0ec4",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "dffb79cc4e350bc714e384f60bf511c6841ad2ee": {
       "id": "dffb79cc4e350bc714e384f60bf511c6841ad2ee",
@@ -1833,20 +1903,21 @@
       "auth": "certificate",
       "country": "RU",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "f7a7d4ffb6ad9b35466f80306981a407a43102a622fdaabb8ac75ecf76fbba32",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "9ef0119ddada83f2107bf0190e6d53c01bb439c2": {
       "id": "9ef0119ddada83f2107bf0190e6d53c01bb439c2",
@@ -1859,20 +1930,21 @@
       "auth": "certificate",
       "country": "RU",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "f8b272aa5428ad3ff249ccd68442753671764cc154bdb59f1b6d1f62ee265e46",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "dc56183a7bf4add48e69074c401f32f5f2d88fc7": {
       "id": "dc56183a7bf4add48e69074c401f32f5f2d88fc7",
@@ -1885,20 +1957,21 @@
       "auth": "certificate",
       "country": "RU",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "b587dbdcbb25cac2aac067100e814a2305bd8c81a30a4a3f05aba085890439a7",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "65e245c08e5988fd92a396d7f9c9ff44b36b605e": {
       "id": "65e245c08e5988fd92a396d7f9c9ff44b36b605e",
@@ -1911,20 +1984,21 @@
       "auth": "certificate",
       "country": "RU",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "9c6dd7922a5b1f66398b082744d95493e7692a9e41d6ac9fdd7e23d8d16d7a82",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "f59f382d3d0565a2e067a7088eaeb218656b3e44": {
       "id": "f59f382d3d0565a2e067a7088eaeb218656b3e44",
@@ -1937,20 +2011,21 @@
       "auth": "certificate",
       "country": "RU",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "87c30089fba06c8429f6b8e290652aa277a76932fbac2566606af674c39df75c",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "206b02d5dd5c6f5108ee647d4629c35569bd6742": {
       "id": "206b02d5dd5c6f5108ee647d4629c35569bd6742",
@@ -1963,20 +2038,21 @@
       "auth": "certificate",
       "country": "RU",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "0e58d1ec954a7dd0c9f62fc1a9293850990984636d5422fa88885646981d7451",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "5ed3971bbce0eac6764df6bcd589d8b36e0b37f1": {
       "id": "5ed3971bbce0eac6764df6bcd589d8b36e0b37f1",
@@ -1989,20 +2065,21 @@
       "auth": "certificate",
       "country": "RU",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "92b08c9c9fb30c5aac1e64b6e0c4e442ebeb5e07d96f725fe1891fb1629f19d0",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "45137ad5cc2721bae03e0c9c753c3e14e120951c": {
       "id": "45137ad5cc2721bae03e0c9c753c3e14e120951c",
@@ -2015,20 +2092,21 @@
       "auth": "certificate",
       "country": "RU",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "f5a56870c09f4f337f56230f46f9f9563186ca00668995903fd5e28f044a2241",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "8f2ce7e15f5437b95e55cf38ca5bfe46d04b1b56": {
       "id": "8f2ce7e15f5437b95e55cf38ca5bfe46d04b1b56",
@@ -2041,20 +2119,21 @@
       "auth": "certificate",
       "country": "RU",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "b9592a8b64526c80f3d8f8a5d776897c265bf8e84936026e4a59326f1a32c38e",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "b95a41e0d21f74fba21672b9e1fc5d3060ae3b41": {
       "id": "b95a41e0d21f74fba21672b9e1fc5d3060ae3b41",
@@ -2067,20 +2146,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "84d3226997c1fd103066cc126eb1b62829925799e283591fe78a9c7a46c1afdd",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "c31d4ac708b0e355645eecf60e05a0b515400117": {
       "id": "c31d4ac708b0e355645eecf60e05a0b515400117",
@@ -2093,20 +2173,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "37532262f70e03bddfb0bacf22921e7db0a963155e387cf88df93a4df8043ccb",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "e507a2679eed2767341b32a6c5ae23a855ad638a": {
       "id": "e507a2679eed2767341b32a6c5ae23a855ad638a",
@@ -2119,20 +2200,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "978afe110741782a5dd9c87f6ef3741fdb7b3fb4ea6ee00a73d0e1623120f269",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "1d3668f4ac398fc0eff978cfc86cd96e5b6a7a6b": {
       "id": "1d3668f4ac398fc0eff978cfc86cd96e5b6a7a6b",
@@ -2145,20 +2227,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "7b26369feefac5793fca061122e04745ed69fbd0a0841f491a9fb5f3dd226ffb",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "6b2139115e2d134a97c9bc39fcdc1afe44f6e982": {
       "id": "6b2139115e2d134a97c9bc39fcdc1afe44f6e982",
@@ -2171,20 +2254,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "d59fe1c3f239863257cb1261a0a8fccc9d02d379bd5f99e9de0dd7fccb5ee3bb",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "188e7bf6e9e968cbd44d2e3310b54180deda6803": {
       "id": "188e7bf6e9e968cbd44d2e3310b54180deda6803",
@@ -2197,20 +2281,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "35e38d147e6c36ad36a8191ac7b988f12beed4ea2117573802de937a14a7ac43",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "f19b87a8ce8f144ac16be606fbcc670d56aa0a4c": {
       "id": "f19b87a8ce8f144ac16be606fbcc670d56aa0a4c",
@@ -2223,20 +2308,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "04ed525e66a8137efd6fa66ae332045fe016686e7a6c4300987fa5ff757e42b2",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "d69ca2a1429f4a7d2e508c76edf56c23fa1bc375": {
       "id": "d69ca2a1429f4a7d2e508c76edf56c23fa1bc375",
@@ -2249,20 +2335,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "c243a1f1f75c1b689bbe3331b1dc290ac411c89c5a44fc5db578e0ba55c93038",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "18a0d74b85bc637736f8cda302b916d707116bf7": {
       "id": "18a0d74b85bc637736f8cda302b916d707116bf7",
@@ -2275,20 +2362,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "c2745f62271ac49d6a18f1bb0a497ad31a60955d51a0309d67c48d001d48d544",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "d181f54559106d2c3a91fb0122cfb351a98f55db": {
       "id": "d181f54559106d2c3a91fb0122cfb351a98f55db",
@@ -2301,20 +2389,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "d43e8f9811dfe405c5dd9a65cfd0e6084b32992641698d25af5c693c0f1187f9",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "e5d794e8c0ee10fb86b836e71027bf4397f0ca6d": {
       "id": "e5d794e8c0ee10fb86b836e71027bf4397f0ca6d",
@@ -2327,20 +2416,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "c0e133350be2dc501586656ace39eaeee8a262e899be52a83adbe87d72e03efc",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "b43ce79ff054b056d509492e7589dd4ccbd6c879": {
       "id": "b43ce79ff054b056d509492e7589dd4ccbd6c879",
@@ -2353,20 +2443,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "4d186f3b747411f717eb8d38731a6fa907265bdb9202643ce53bac317e816c27",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "f95125211966d190c9dc8e48bb804ec3ac7cca64": {
       "id": "f95125211966d190c9dc8e48bb804ec3ac7cca64",
@@ -2379,20 +2470,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "d5b77779139a906c9803251e32c644de129d3780f305d95ea8b944602b629a9f",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "c469d1e4ecdd46c0a1c881a48122af6c5a720175": {
       "id": "c469d1e4ecdd46c0a1c881a48122af6c5a720175",
@@ -2405,20 +2497,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "2c71e597a7c952ed6b076acd690f488b69a2e57a642a9675a3f60ab518560e94",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "0162e55999f743197e6967a5fd3d0db4412b7550": {
       "id": "0162e55999f743197e6967a5fd3d0db4412b7550",
@@ -2431,20 +2524,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "d7b0312f12785d9c76cab238ee83fb53d66026304902bbf7655f620077900962",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "db03a6d1e186c93030a3dfd7f071948fcea12382": {
       "id": "db03a6d1e186c93030a3dfd7f071948fcea12382",
@@ -2457,20 +2551,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "a9bd96d5d89f7dda3c44b71afa9c9fd1ebdab11bf64f342cdd0581edae2d2975",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "374800a41054a86914569281265f5666395f0567": {
       "id": "374800a41054a86914569281265f5666395f0567",
@@ -2483,20 +2578,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "c8e0163050f96a7855183c296abe2ce115ecccb83b0a0ed548eb42387e12e38c",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "3a8a2b108fed0256c5360fa88949056f73172fbc": {
       "id": "3a8a2b108fed0256c5360fa88949056f73172fbc",
@@ -2509,20 +2605,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "f47f91d0cc64a6dfdb9c8d401b916a9f2594ef19fdf625c863779762a29a2d06",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "4081ba9299dcb5f17d4406ca754530142dca451f": {
       "id": "4081ba9299dcb5f17d4406ca754530142dca451f",
@@ -2535,20 +2632,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "6126456ee9193a4b05aa876e0573a2522a9528e63024bfa01f860d70a3f46960",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "b0545b7bafa07975aace0942e3789e659df317da": {
       "id": "b0545b7bafa07975aace0942e3789e659df317da",
@@ -2561,20 +2659,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "3bb9d135c52960c1f930465e774baa0921e9b4b8dd0ff03e827c4ee46640ea9c",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "0ecd8ce23224df9339d862c785e40130c06b66d7": {
       "id": "0ecd8ce23224df9339d862c785e40130c06b66d7",
@@ -2587,20 +2686,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "bc84ff9af0176be89da769e9f3c8489a14d16dcfe9eacce13c9f919a41ef60d3",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "880f8d551c3274065ed2fb715b203e0700f3e476": {
       "id": "880f8d551c3274065ed2fb715b203e0700f3e476",
@@ -2613,20 +2713,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "30b23bc54be505dc4b0603eef73ea89a475ed58a802df60d5940f42a61f62228",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "2f95970c87e7bc48976fad70b39334b0216746f3": {
       "id": "2f95970c87e7bc48976fad70b39334b0216746f3",
@@ -2639,20 +2740,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "e1c91ce1245795cc97e06f998d5003ccface933a5b90470ea00f79d591bc7ed0",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "c76090abed8dfb1d02d7e0a63077f95382dcac50": {
       "id": "c76090abed8dfb1d02d7e0a63077f95382dcac50",
@@ -2665,20 +2767,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "7af7701110a89da6bbe55e38ec144f3fcd5e36410a5db89b6d2edf78bb0787d2",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "2ea86e7384f927416bc2415076393217cf99d1d4": {
       "id": "2ea86e7384f927416bc2415076393217cf99d1d4",
@@ -2691,20 +2794,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "cb87aa1122c206c065e4a7bf73bb3af48b5a59a565d036ae6d25bc6f58417cd5",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "0d6ebb665daab8902a847aaf97542570e8a315a4": {
       "id": "0d6ebb665daab8902a847aaf97542570e8a315a4",
@@ -2717,20 +2821,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "16ae46f2c8b5cf39607fe907ffb7cd104b5503015be4ac6a923959f73deeeed5",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "d6a102002de8b3a1696a73e25ee8e594d9648f4e": {
       "id": "d6a102002de8b3a1696a73e25ee8e594d9648f4e",
@@ -2743,20 +2848,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "e28d83565877e12727a25e9f61bbc742f40b66bab4ef05e6022086a165c7243e",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "67b9c8af22a7fd2c1417008bfd72843e4643ceab": {
       "id": "67b9c8af22a7fd2c1417008bfd72843e4643ceab",
@@ -2769,20 +2875,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "05aeb72239de7263089950287129e7ff5aa5b6088af8be82ee205ab49d5219dd",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "f7d69a10450412e9de66eb9bf2c7b4c43f11ec5e": {
       "id": "f7d69a10450412e9de66eb9bf2c7b4c43f11ec5e",
@@ -2795,20 +2902,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "0de535bfae3a1849dfe1b0af3a6374f28d5117b38b7908faeb17689b97cff7d5",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "2c73aca21babf67fa18bbcebb085aa01c3284bdf": {
       "id": "2c73aca21babf67fa18bbcebb085aa01c3284bdf",
@@ -2821,20 +2929,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "d4b50b80aaf12d87a9098e8c59ca871a02ca617c968997ca6163af289f7aa849",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "a14a671a3442ce667f5f5d0e246e884a8e680f57": {
       "id": "a14a671a3442ce667f5f5d0e246e884a8e680f57",
@@ -2847,20 +2956,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "a14a32a0fab7f2bff36f16543d8987f84ce719382530d5ec8ad5b78336c06b0f",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "b6340bb4b3a04c7c79433cc9c809aa803814bfa0": {
       "id": "b6340bb4b3a04c7c79433cc9c809aa803814bfa0",
@@ -2873,20 +2983,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "0868c6e993f655d8f6284588603759b4271871208879bf25c6bca8e4efab5726",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "21a0a5d885b82342f3ee1be6820c213114abfdc3": {
       "id": "21a0a5d885b82342f3ee1be6820c213114abfdc3",
@@ -2899,20 +3010,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "8a914e4059d723f2130f191977d52d15ec29c19a93e36e822e5ebb0f032609b2",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "bf454e97f435669113c3b5958fa5ed5576520f49": {
       "id": "bf454e97f435669113c3b5958fa5ed5576520f49",
@@ -2925,20 +3037,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "713ad8c6b2839ab83671eb0ab7067c035e8be02125b911cb89f5f562ef2d394b",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "f19c09a1529866bfd69f2e7b217a17aa7cfa935f": {
       "id": "f19c09a1529866bfd69f2e7b217a17aa7cfa935f",
@@ -2951,20 +3064,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "49cedfbc93401ad301af431d23ca52632b8580a2d2f4f88579e78706ac134be2",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "d08e9958c89939d8970fd0e470034c9718cc9ac4": {
       "id": "d08e9958c89939d8970fd0e470034c9718cc9ac4",
@@ -2977,20 +3091,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "d0d3840a64e4a627139268fcb4a68a0b36cacb52c2fadec699773d9b0747198b",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "d2b63abfba0c69b9b56a7295be4e6d8c2baab9c9": {
       "id": "d2b63abfba0c69b9b56a7295be4e6d8c2baab9c9",
@@ -3003,20 +3118,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "9b89c455027a4b7e037983ce29cce3642db2935f9a9b4d054c97e4490dec06d7",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "29a782f852132975f50c9238f0fb009218704c1a": {
       "id": "29a782f852132975f50c9238f0fb009218704c1a",
@@ -3029,20 +3145,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "1fa24b45f9c30c44acb98427bbd52261cf5a061d85066df90244c83cd95a2019",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "4919f90160c354ebc6c35f7791386726f9d11ffe": {
       "id": "4919f90160c354ebc6c35f7791386726f9d11ffe",
@@ -3055,20 +3172,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "14dc99994d5fc9690d812a7328a654385d3938a7cbf0f55a1294f195c8d5fd5f",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "ae525b0debe5d7342f51d0324017abeb40e77dc8": {
       "id": "ae525b0debe5d7342f51d0324017abeb40e77dc8",
@@ -3081,20 +3199,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "3a9d154794e4aed0dc52d81c3e96871db257afe5c401af7df8a09ab665df4e24",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "f71a7d4d5284dcaa60c299e11aea5b9ce8e8f1f5": {
       "id": "f71a7d4d5284dcaa60c299e11aea5b9ce8e8f1f5",
@@ -3107,20 +3226,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "5e47b3e100a052e99ad083d8c460be3dc6d631c7d735f6974281c8ba7e888a89",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "6c266af8fdfc80277016b3b92e746692350d002a": {
       "id": "6c266af8fdfc80277016b3b92e746692350d002a",
@@ -3133,20 +3253,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "b53dabb183ec54f72b7810b2a4fd4ec473b9562f3c9c67b07de051c6103fe86a",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "8f5b101a95f1198baec45f5506f7f7a5b9499c01": {
       "id": "8f5b101a95f1198baec45f5506f7f7a5b9499c01",
@@ -3159,20 +3280,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "93a36b73daef268f5448704c05df6f5aed9016a8037107e4dc97685a399099c3",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "61742e4e9e9b43991a233d537193aa1952033b3b": {
       "id": "61742e4e9e9b43991a233d537193aa1952033b3b",
@@ -3185,20 +3307,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "8f4480ca2ffb4d451badf2a9c397aed33cb3e5de8ab8202662b97a2207ea3a01",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "b3ad0d739c9d0a2f82804e5e51f3f5c18edac4cf": {
       "id": "b3ad0d739c9d0a2f82804e5e51f3f5c18edac4cf",
@@ -3211,20 +3334,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "2d475c469a6eae82f8d0ab942f784cee053768dcd74d606554213d9087c51ce8",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "28d7a7750f71664b8a719bd139a6f494caef0a91": {
       "id": "28d7a7750f71664b8a719bd139a6f494caef0a91",
@@ -3237,20 +3361,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "8c751270242f9502b6810fe84aff3b953af5a1a47cbcbb7eb5c95d005185c428",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "047bd42ecdc0b538fa6cdf28c074e935b45d382e": {
       "id": "047bd42ecdc0b538fa6cdf28c074e935b45d382e",
@@ -3263,20 +3388,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "1ca39321e9efb87fceddee5f8812b34f473822d96bd93a9760720e2380ecd2e2",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "483c02c206260af898291cbbd0a32e36aaba95b1": {
       "id": "483c02c206260af898291cbbd0a32e36aaba95b1",
@@ -3289,20 +3415,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "85eca325f067c12d7470a9717c755ed9da7446a6315a795230298497e3ac3859",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "bcb280ff87761886dbe7d4beab2c7ccf135e9d65": {
       "id": "bcb280ff87761886dbe7d4beab2c7ccf135e9d65",
@@ -3315,20 +3442,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "ba56f116a0a0a26d768c1b4e016289362a521da0b759e6d99ccc46446c639ad6",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "3a41e7ba27dae8e0441b092c5d7ddc59a57c2412": {
       "id": "3a41e7ba27dae8e0441b092c5d7ddc59a57c2412",
@@ -3341,20 +3469,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "b48db03444c471c2344b055196736593bf90778e1775be45dabb554ac8ad5195",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "114a0dd281e78590a41451c16e3123f453b97c3a": {
       "id": "114a0dd281e78590a41451c16e3123f453b97c3a",
@@ -3367,20 +3496,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "fb1abf2f15e97c7038afb131b308ac43cd5a372786e7957dd78b0d1b3e5ff007",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "4a3882ea7c9b28a95d2ad3a228263b6b212d2f27": {
       "id": "4a3882ea7c9b28a95d2ad3a228263b6b212d2f27",
@@ -3393,20 +3523,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "f28304bbbc52bcf0482faf19027028f13ae60671a324cfc6d1179f7f12e8d313",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "eadad9ed212d6f8605c616635e1449506a7d8f73": {
       "id": "eadad9ed212d6f8605c616635e1449506a7d8f73",
@@ -3419,20 +3550,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "c76b168bb12f4821a638da5bd060d31fbe57c2f83bdc378a20f755e357eac992",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "7aff99e0ee43fd93f65c71f17a5c413c314afe83": {
       "id": "7aff99e0ee43fd93f65c71f17a5c413c314afe83",
@@ -3445,20 +3577,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "c64ed58b9a76fbd01bca8865f8ee89710dcd91e12c3bff0211b08ee123daca13",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "254f8e0740615250efdb43bcd8c979b0a46d19c3": {
       "id": "254f8e0740615250efdb43bcd8c979b0a46d19c3",
@@ -3471,20 +3604,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "e899f195cfeb7f73ebe744e82c18a2b1a9d0c57be2bf410094e3e5a9000482ce",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "c842a3e78c0e613db0ef7feb073b6b188dd97832": {
       "id": "c842a3e78c0e613db0ef7feb073b6b188dd97832",
@@ -3497,20 +3631,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "8dd33f586248602dfd5acc95f50801635f207bcdb3889783e28e1138bd0bb2e4",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "7d49662c0db1b1b547a8ddf129706c316b774623": {
       "id": "7d49662c0db1b1b547a8ddf129706c316b774623",
@@ -3523,20 +3658,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "c0aa776ed2a709ff72b83a4b6f5fb3ac12eeaeae7a04f1850fd0389574e791a6",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "f99855bb4d626cfb2b121f790f185b0b784b173d": {
       "id": "f99855bb4d626cfb2b121f790f185b0b784b173d",
@@ -3549,20 +3685,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "433ecf044a7ca0274c13cd2e33c9bb5269beeda03a5e1ed6ce82dfe037661aa2",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "84dd2f19492103af7f5aa30ee8b8fa8b636a09a3": {
       "id": "84dd2f19492103af7f5aa30ee8b8fa8b636a09a3",
@@ -3575,20 +3712,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "7d8015d0584d3ef8283e36d1874edcc76434ff12b54347f5ec97160d10a7e0aa",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "3e82147b5e2894ba21b238ef12534373eb8099c9": {
       "id": "3e82147b5e2894ba21b238ef12534373eb8099c9",
@@ -3601,20 +3739,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "dbbca7e375b59d25ded39693daba3a5e014bb4b8d6ce45a4c69608e7d4b0f947",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "84b88e0ecbbb153a7dc936ce6bb77936caf9336b": {
       "id": "84b88e0ecbbb153a7dc936ce6bb77936caf9336b",
@@ -3627,20 +3766,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "98e1c303183c671ccd7c53fd21deb2f6727f5c7ee223c3acd73fa9a7a2a5576a",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "771f085b62642862f095b3a0770076d006f9b1e7": {
       "id": "771f085b62642862f095b3a0770076d006f9b1e7",
@@ -3653,20 +3793,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "ad6c0e20e69685f961c5d852e4586ce3d6007a79967b041630b5095573324641",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "ff6d3897853f9ff77f0ba0ca8cdeeee8084c7e3e": {
       "id": "ff6d3897853f9ff77f0ba0ca8cdeeee8084c7e3e",
@@ -3679,20 +3820,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "9ee0ec61e88a89ad5d955efe250610b0807acff90edbb613e5438d3df40c7703",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "f8a74cb55cd225347622171266a2caa69c61ee34": {
       "id": "f8a74cb55cd225347622171266a2caa69c61ee34",
@@ -3705,20 +3847,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "05170f73b3f56e629ae176925fde50727abb23401aa4ea1fa4d09b7cb7c9afa2",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "05eb610a969be3d626ca696653d3a00f40dcaec2": {
       "id": "05eb610a969be3d626ca696653d3a00f40dcaec2",
@@ -3731,20 +3874,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "51e77cf906b924bc63e6b450dfabfba918f811883939e4f3b85994392191cc4f",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "d42538d6d9141f01c913a71196680968dd008018": {
       "id": "d42538d6d9141f01c913a71196680968dd008018",
@@ -3757,20 +3901,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "e32667ec05087bd0068746c337586d1ac3a2b836a55ea05c8a32d8427ac9578c",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "d33f4727deaaeaedf4576cc0034fbdb2628194e1": {
       "id": "d33f4727deaaeaedf4576cc0034fbdb2628194e1",
@@ -3783,20 +3928,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "e9b40ef76d3d5d789f9dd421caf7f8dc21fc8eb614307f3d982e6730ded3b0d7",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "fe4e5ea653651fac9417e6a520ae38fd473e56a8": {
       "id": "fe4e5ea653651fac9417e6a520ae38fd473e56a8",
@@ -3809,20 +3955,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "31d941aab2060a12adc77443279e3325988f008c41c99bb769742227fc2891bd",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "e1c9f559651294492dbd1a550318f6f30ee988d9": {
       "id": "e1c9f559651294492dbd1a550318f6f30ee988d9",
@@ -3835,20 +3982,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "115624c75820120293a068aa6540472b4e09338fa94cd0c14da75d5f8d701f14",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "54241dbe10cd66289b759dd2a4a81342e418aa5f": {
       "id": "54241dbe10cd66289b759dd2a4a81342e418aa5f",
@@ -3861,20 +4009,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "cf78b92e03155ac27e785aa775b22309e47b5508256ae55eb087bb35a732678d",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "b128ffe334921b6739f416aeb852cd30d2a93a52": {
       "id": "b128ffe334921b6739f416aeb852cd30d2a93a52",
@@ -3887,20 +4036,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "c1f3dfe5f6f7ebff0cf604dd1fe7d0057ad49442c38dc4e91bf626864880ebae",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "6e1b8b8f57a2f510d16c538246ad2ecc7c7bbe64": {
       "id": "6e1b8b8f57a2f510d16c538246ad2ecc7c7bbe64",
@@ -3913,20 +4063,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "5c6b6e0bb605fd1a2e123c08e6b0ba0416a29ba84a090ca6cb252942e8c341f4",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "ffc28a16ff8711c4b390f30c7c4fcc51f69b7cd6": {
       "id": "ffc28a16ff8711c4b390f30c7c4fcc51f69b7cd6",
@@ -3939,20 +4090,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "5996ba95c7deea6aa4880699cfefc8524e89ce892905bd839265550efc76a257",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "868775f54a600be602f13f828f0b322f1c2aefb8": {
       "id": "868775f54a600be602f13f828f0b322f1c2aefb8",
@@ -3965,20 +4117,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "[Errno 111] Connection refused"
       },
+      "config_sha256": "1c15f8459416733c6b773cb56880aea32ab4f92a39fddc04967f6e2426ac657f",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "81adf50e6161a02dcfa2d805ed04d9b53aeb0458": {
       "id": "81adf50e6161a02dcfa2d805ed04d9b53aeb0458",
@@ -3991,20 +4144,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "20e8eea0a0d4dc4b4bf7e462fb5a800c5f2928d077e02dae0e078a5fbdd2058a",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "e660c7f5413466ec60fc871bff7f6855bc7308d3": {
       "id": "e660c7f5413466ec60fc871bff7f6855bc7308d3",
@@ -4017,20 +4171,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "4fee1ca6cc34d1b75de6027693424a22dacba262531863ce994306f7a1cb51c4",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "dcd0bef55f236cd0a70c01b0869d10d62460f301": {
       "id": "dcd0bef55f236cd0a70c01b0869d10d62460f301",
@@ -4043,20 +4198,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "c0f43777da4c80fa27773cf475e0e8bd9083d7969490799468a33df27c787f12",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "b9f046e9c2657c9b1a9a8fe0309e6fa4f3f09387": {
       "id": "b9f046e9c2657c9b1a9a8fe0309e6fa4f3f09387",
@@ -4069,20 +4225,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "5667cfcced6f022960a9b7ef95c0b683abe8f2d883dc32a9100b960d42db08b1",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "57ba7bcdd98555ea26f5ce99a30b881c67ec4f7a": {
       "id": "57ba7bcdd98555ea26f5ce99a30b881c67ec4f7a",
@@ -4095,20 +4252,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "a409f9fe27363cf9a7c0bf84fcf3602c7d8b400a11d9ab2478f936d70b0f14bf",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "d8a232d9b9b50a78a458ea99720f1d4d7711f7ff": {
       "id": "d8a232d9b9b50a78a458ea99720f1d4d7711f7ff",
@@ -4121,20 +4279,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "63ab9b784ecded3b7734be5e0008e0fd6895b626caa947c25b888339d4d9626d",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "996a6e6ca006e5ef3463171b792ea922456da282": {
       "id": "996a6e6ca006e5ef3463171b792ea922456da282",
@@ -4147,20 +4306,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "7a8e8ddafb3ed305bcc8c15f330ea80b65e90110c61ca6f9dc0bd1d094ab3098",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "51555968efd6327486e53ca062425de87fe2bff1": {
       "id": "51555968efd6327486e53ca062425de87fe2bff1",
@@ -4173,20 +4333,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "06cc17ca3b125c816791aa89ad55408a7e22addaf3898e679d73b088a770d001",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "2765d1deede281ee6155f8a840d6ad20c1bc6cff": {
       "id": "2765d1deede281ee6155f8a840d6ad20c1bc6cff",
@@ -4199,20 +4360,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "96f5ae6e396895794b0eb509a94e130927b212ae19ef2edce1486e81ffe880b7",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "955e5b4e4bee84d2002edd9a68707f7575fd3cbc": {
       "id": "955e5b4e4bee84d2002edd9a68707f7575fd3cbc",
@@ -4225,20 +4387,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "32b00f8899b572fb3059f6ab0d8302ffc0d726415bb52a85bc9edb2a9447feb1",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "c7272d585c68d15bd48b6a0fd8da080adae316f3": {
       "id": "c7272d585c68d15bd48b6a0fd8da080adae316f3",
@@ -4251,20 +4414,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "c4829f5161fc37337f185faf3e2d3e582eb3637f34d4b7beef951d287899e0d8",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "ebe05759b27df18b19a3e03714df3a70c62faded": {
       "id": "ebe05759b27df18b19a3e03714df3a70c62faded",
@@ -4277,20 +4441,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "da8baa9b95872418563467477282f2f1bbff8c5b6f6b9d24df3ce5e1e493920f",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "593ca6d0cfdcfd71217ee1a092db24ddd463a0a3": {
       "id": "593ca6d0cfdcfd71217ee1a092db24ddd463a0a3",
@@ -4303,20 +4468,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "e39fb888fd710acbd0bd4ace7c2dabc509b22daaf28f38f872515c0d98a69a60",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "7c460817a467517b60e626852f4675837a09552c": {
       "id": "7c460817a467517b60e626852f4675837a09552c",
@@ -4329,20 +4495,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "becf6ed31815b9a7552da9afcc65b2ff31c11c18cf89c193937cf14ab45bb040",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "96abfac55f24103cd2f7593f40de979f4ebda92d": {
       "id": "96abfac55f24103cd2f7593f40de979f4ebda92d",
@@ -4355,20 +4522,21 @@
       "auth": "certificate",
       "country": "US",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "a239f616062a5dc66e4c2bb673124672f80b9c789c283d557e7ba73e331601d3",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "abccc10c9a903ddd5ffad605b9f13b33d2b0fb3f": {
       "id": "abccc10c9a903ddd5ffad605b9f13b33d2b0fb3f",
@@ -4381,20 +4549,21 @@
       "auth": "certificate",
       "country": "US",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "87a4b517abb5ee9d8b0b7c59bf20306fa83662826fd0d0f25c052879ede0e7bc",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "ab30524fc9779f4b83dea5f93b11c79b711f0b9c": {
       "id": "ab30524fc9779f4b83dea5f93b11c79b711f0b9c",
@@ -4407,20 +4576,21 @@
       "auth": "certificate",
       "country": "US",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "91971cef354fcad1754beda667c6d278084b768492023faca1b5adb05be112b9",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "8bc99a7caa4bb8bb1a143e446816ab6333a18ae4": {
       "id": "8bc99a7caa4bb8bb1a143e446816ab6333a18ae4",
@@ -4433,20 +4603,21 @@
       "auth": "certificate",
       "country": "US",
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "65a8eb5eb36bdfc99263cf71906983763a7edc0454878929f53e8a0231af4237",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "a6a07c77714337fcc59f04739c266b6b9346b5f8": {
       "id": "a6a07c77714337fcc59f04739c266b6b9346b5f8",
@@ -4459,20 +4630,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "1828b5b07a1368e089954970627fa891c49884f46b41f7dc197b9fd8c554376a",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     },
     "5b7132c7d78877e12d6496c46f22ca49d7fa5d08": {
       "id": "5b7132c7d78877e12d6496c46f22ca49d7fa5d08",
@@ -4485,20 +4657,21 @@
       "auth": "certificate",
       "country": null,
       "source_priority": 50,
-      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "checked_at": "2026-10-02T20:51:39.838589+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
       },
+      "config_sha256": "83ab870b85034d86abc3b00cde9aeeb129fcd9eafcdc3b7ba113fb8dae10f095",
       "status": "unreachable",
       "handshake": {
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-02T20:26:40.295243+00:00",
-      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+      "last_seen": "2026-10-02T20:51:39.838589+00:00"
     }
   }
 }

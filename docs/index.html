@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VPN Aggregator</title><style>
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#0b1020;color:#e8ecf4;font:15px system-ui,-apple-system,Segoe UI,sans-serif}
+main{max-width:1100px;margin:auto;padding:28px 18px}h1{margin:0 0 8px;font-size:32px}h2{margin:28px 0 10px}small{opacity:.55;font-size:.65em}
+.stats{color:#9da9bf;margin-bottom:18px}input{width:100%;padding:12px 14px;border-radius:10px;border:1px solid #2a3550;background:#121a2d;color:#fff;margin:12px 0 20px}
+.card{background:#121a2d;border:1px solid #26324b;border-radius:12px;padding:14px;margin:8px 0;display:grid;grid-template-columns:1fr auto;gap:8px 16px}
+.title{font-weight:650;word-break:break-word}.meta{grid-column:1;color:#9da9bf;display:flex;flex-wrap:wrap;gap:10px;font-size:13px}
+.download{grid-column:2;grid-row:1/3;align-self:center;background:#2563eb;color:#fff;text-decoration:none;padding:9px 13px;border-radius:9px;white-space:nowrap}
+@media(max-width:650px){.card{grid-template-columns:1fr}.download{grid-column:1;grid-row:auto;justify-self:start}}
+.empty{color:#9da9bf;padding:18px 0}
+</style></head><body><main>
+<h1>VPN Aggregator</h1>
+<div class="stats">Generated 2026-10-02T20:52:32.270933+00:00 · Found 173 profiles · Working 1 · Published 1</div>
+<input id="q" placeholder="Search country, server, protocol..." oninput="filter()">
+<section class="country"><h2>JP <small>1</small></h2><article class="card"><div class="title">IPS_124.212.251.101_tcp_1968</div><div class="meta"><span>Score 60</span><span>Handshake 4170 ms</span><span>Latency — ms</span><span>TCP</span></div><a class="download" href="profiles/JP/IPS_124.212.251.101_tcp_1968.ovpn" download>Download .ovpn</a></article></section>
+<script>function filter(){const q=document.getElementById('q').value.toLowerCase();document.querySelectorAll('.card,.country').forEach(e=>e.style.display=e.textContent.toLowerCase().includes(q)?'':'none')};</script>
+</main></body></html>
