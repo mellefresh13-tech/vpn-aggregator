@@ -1,1 +1,4504 @@
-{"servers":{}}
+{
+  "servers": {
+    "a6f933ee5212e293c76c0ced77b3e40de5cf3c90": {
+      "id": "a6f933ee5212e293c76c0ced77b3e40de5cf3c90",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Emirates/IPS_77.105.136.29_udp_40268.ovpn",
+      "name": "IPS_77.105.136.29_udp_40268",
+      "host": "77.105.136.29",
+      "port": 40268,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "127f013ece12b5488b8298f47f188a275db33215": {
+      "id": "127f013ece12b5488b8298f47f188a275db33215",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/France/IPS_51.77.20.114_tcp_1808.ovpn",
+      "name": "IPS_51.77.20.114_tcp_1808",
+      "host": "51.77.20.114",
+      "port": 1808,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "FR",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "8441b1a1a1dd6a33ff57416943d005dae7101091": {
+      "id": "8441b1a1a1dd6a33ff57416943d005dae7101091",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/France/IPS_51.77.20.114_udp_1492.ovpn",
+      "name": "IPS_51.77.20.114_udp_1492",
+      "host": "51.77.20.114",
+      "port": 1492,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "FR",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "c5305f3806cfd323ad32c47b46d871fbc0a5e6e3": {
+      "id": "c5305f3806cfd323ad32c47b46d871fbc0a5e6e3",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/India/IPS_103.206.176.32_udp_1195.ovpn",
+      "name": "IPS_103.206.176.32_udp_1195",
+      "host": "103.206.176.32",
+      "port": 1195,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "3e88414056a99c71f720ff5e92c7dc13032c44a0": {
+      "id": "3e88414056a99c71f720ff5e92c7dc13032c44a0",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Indonesia/IPS_111.95.166.218_tcp_1353.ovpn",
+      "name": "IPS_111.95.166.218_tcp_1353",
+      "host": "111.95.166.218",
+      "port": 1353,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "90daa04f1d991949c4de9df891bf453d66b96c94": {
+      "id": "90daa04f1d991949c4de9df891bf453d66b96c94",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Indonesia/IPS_111.95.166.218_udp_1257.ovpn",
+      "name": "IPS_111.95.166.218_udp_1257",
+      "host": "111.95.166.218",
+      "port": 1257,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "2696989be8c253ab9325a34cc5c216e2d996a279": {
+      "id": "2696989be8c253ab9325a34cc5c216e2d996a279",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/FOV_Japan_219.100.37.170_tcp.ovpn",
+      "name": "FOV_Japan_219.100.37.170_tcp",
+      "host": "219.100.37.170",
+      "port": 443,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "aa6cdb352b4a869a6788aa6f0533d9586d2db5d0": {
+      "id": "aa6cdb352b4a869a6788aa6f0533d9586d2db5d0",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/FOV_Japan_219.100.37.170_udp.ovpn",
+      "name": "FOV_Japan_219.100.37.170_udp",
+      "host": "219.100.37.170",
+      "port": 1195,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "8a75a847ae525f3d882bcf6f5fa76696eefb8d73": {
+      "id": "8a75a847ae525f3d882bcf6f5fa76696eefb8d73",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/FOV_Japan_219.100.37.186_tcp.ovpn",
+      "name": "FOV_Japan_219.100.37.186_tcp",
+      "host": "219.100.37.186",
+      "port": 443,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "90b9c454d1b2c5fe60a4f3dd1e3f38772853aa74": {
+      "id": "90b9c454d1b2c5fe60a4f3dd1e3f38772853aa74",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/FOV_Japan_219.100.37.31_tcp.ovpn",
+      "name": "FOV_Japan_219.100.37.31_tcp",
+      "host": "219.100.37.31",
+      "port": 443,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "c6764c83654647b3d4b8e072c40bb5291f746053": {
+      "id": "c6764c83654647b3d4b8e072c40bb5291f746053",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_1.66.34.131_tcp_1194.ovpn",
+      "name": "IPS_1.66.34.131_tcp_1194",
+      "host": "1.66.34.131",
+      "port": 1194,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "19d1d42a6ed2d9eddf3000c07a849edb20bf69ed": {
+      "id": "19d1d42a6ed2d9eddf3000c07a849edb20bf69ed",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_1.66.34.131_udp_1194.ovpn",
+      "name": "IPS_1.66.34.131_udp_1194",
+      "host": "1.66.34.131",
+      "port": 1194,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "782ea068865e397c809aa67fbf6a18f9ceb85acd": {
+      "id": "782ea068865e397c809aa67fbf6a18f9ceb85acd",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_111.96.169.52_tcp_1942.ovpn",
+      "name": "IPS_111.96.169.52_tcp_1942",
+      "host": "111.96.169.52",
+      "port": 1942,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "0f5a6518e81a28eeec2c1b599d16c4ab64d61e71": {
+      "id": "0f5a6518e81a28eeec2c1b599d16c4ab64d61e71",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_111.96.169.52_udp_1736.ovpn",
+      "name": "IPS_111.96.169.52_udp_1736",
+      "host": "111.96.169.52",
+      "port": 1736,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "a31dc3a3e707dda8fcf1167c1889bf3ac128bc45": {
+      "id": "a31dc3a3e707dda8fcf1167c1889bf3ac128bc45",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_111.97.61.103_tcp_1860.ovpn",
+      "name": "IPS_111.97.61.103_tcp_1860",
+      "host": "111.97.61.103",
+      "port": 1860,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "19c7a76d379fecd407490ce2cad0ce8ff5f4a895": {
+      "id": "19c7a76d379fecd407490ce2cad0ce8ff5f4a895",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_111.97.61.103_udp_1860.ovpn",
+      "name": "IPS_111.97.61.103_udp_1860",
+      "host": "111.97.61.103",
+      "port": 1860,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "79bc8a7fce1a02ae7975d7d48945462162494220": {
+      "id": "79bc8a7fce1a02ae7975d7d48945462162494220",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_112.71.202.158_tcp_1330.ovpn",
+      "name": "IPS_112.71.202.158_tcp_1330",
+      "host": "112.71.202.158",
+      "port": 1330,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "c203d4ead48bc941c2fac7859612f007b742f9ca": {
+      "id": "c203d4ead48bc941c2fac7859612f007b742f9ca",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_112.71.202.158_udp_1870.ovpn",
+      "name": "IPS_112.71.202.158_udp_1870",
+      "host": "112.71.202.158",
+      "port": 1870,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "3dc8aa8e224a5146011aef58e2c36f80d17bb932": {
+      "id": "3dc8aa8e224a5146011aef58e2c36f80d17bb932",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_114.163.141.21_udp_2432.ovpn",
+      "name": "IPS_114.163.141.21_udp_2432",
+      "host": "114.163.141.21",
+      "port": 2432,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "78033a591fd6dab5d24ebe9d4b06727e4224e6b5": {
+      "id": "78033a591fd6dab5d24ebe9d4b06727e4224e6b5",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_119.173.43.1_udp_1402.ovpn",
+      "name": "IPS_119.173.43.1_udp_1402",
+      "host": "119.173.43.1",
+      "port": 1402,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "161dad804f4b3fb0e315e00df4dedb37a350eaf5": {
+      "id": "161dad804f4b3fb0e315e00df4dedb37a350eaf5",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_123.220.226.143_tcp_1999.ovpn",
+      "name": "IPS_123.220.226.143_tcp_1999",
+      "host": "123.220.226.143",
+      "port": 1999,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "4af52c8f9bf7819719e096f7ee2e7b3626031401": {
+      "id": "4af52c8f9bf7819719e096f7ee2e7b3626031401",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_123.220.226.143_udp_1449.ovpn",
+      "name": "IPS_123.220.226.143_udp_1449",
+      "host": "123.220.226.143",
+      "port": 1449,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "3feb22d8798390f744a483b95f93c3a834b22a00": {
+      "id": "3feb22d8798390f744a483b95f93c3a834b22a00",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_124.212.251.101_tcp_1968.ovpn",
+      "name": "IPS_124.212.251.101_tcp_1968",
+      "host": "124.212.251.101",
+      "port": 1968,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": true,
+        "error": null
+      },
+      "handshake": {
+        "status": "working",
+        "error": null,
+        "exit_ip": "124.212.251.101",
+        "handshake_ms": 3951
+      },
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "d86fbf3e94d7ef22a586f6267d9db884f76f561b": {
+      "id": "d86fbf3e94d7ef22a586f6267d9db884f76f561b",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_124.212.251.101_udp_1415.ovpn",
+      "name": "IPS_124.212.251.101_udp_1415",
+      "host": "124.212.251.101",
+      "port": 1415,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "818d5436b3fbf20f6de8f626d1bef6d625b12a1e": {
+      "id": "818d5436b3fbf20f6de8f626d1bef6d625b12a1e",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_126.116.174.135_tcp_1759.ovpn",
+      "name": "IPS_126.116.174.135_tcp_1759",
+      "host": "126.116.174.135",
+      "port": 1759,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "5ff160d3a7e99b9a51bbebed97c81b33163a75fb": {
+      "id": "5ff160d3a7e99b9a51bbebed97c81b33163a75fb",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_126.116.174.135_udp_1504.ovpn",
+      "name": "IPS_126.116.174.135_udp_1504",
+      "host": "126.116.174.135",
+      "port": 1504,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "bfbb5c0d172670017123977ba1574ce2b4f9ad15": {
+      "id": "bfbb5c0d172670017123977ba1574ce2b4f9ad15",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_126.203.155.175_tcp_1224.ovpn",
+      "name": "IPS_126.203.155.175_tcp_1224",
+      "host": "126.203.155.175",
+      "port": 1224,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "ed9fbfd51b1581afd044655b5ad5dd1e9804c281": {
+      "id": "ed9fbfd51b1581afd044655b5ad5dd1e9804c281",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_126.203.155.175_udp_1979.ovpn",
+      "name": "IPS_126.203.155.175_udp_1979",
+      "host": "126.203.155.175",
+      "port": 1979,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "c2c04c36f4aabd0767068f1478c1156885c19350": {
+      "id": "c2c04c36f4aabd0767068f1478c1156885c19350",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_126.29.1.144_tcp_1972.ovpn",
+      "name": "IPS_126.29.1.144_tcp_1972",
+      "host": "126.29.1.144",
+      "port": 1972,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "9725f8c1c195617a6c27b540ad71085a9589ea3e": {
+      "id": "9725f8c1c195617a6c27b540ad71085a9589ea3e",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_126.29.1.144_udp_1333.ovpn",
+      "name": "IPS_126.29.1.144_udp_1333",
+      "host": "126.29.1.144",
+      "port": 1333,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "acdaa879f7b0c04d7b80dc55d730e9163fa8325c": {
+      "id": "acdaa879f7b0c04d7b80dc55d730e9163fa8325c",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_126.38.167.213_tcp_1219.ovpn",
+      "name": "IPS_126.38.167.213_tcp_1219",
+      "host": "126.38.167.213",
+      "port": 1219,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "f4e96e3d144e3e1614d8e86cc26c2db1c25c0119": {
+      "id": "f4e96e3d144e3e1614d8e86cc26c2db1c25c0119",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_126.38.167.213_udp_1312.ovpn",
+      "name": "IPS_126.38.167.213_udp_1312",
+      "host": "126.38.167.213",
+      "port": 1312,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "8fb3ad29497cd4e314e247051b5fa4266822c4a6": {
+      "id": "8fb3ad29497cd4e314e247051b5fa4266822c4a6",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_131.147.139.45_tcp_1290.ovpn",
+      "name": "IPS_131.147.139.45_tcp_1290",
+      "host": "131.147.139.45",
+      "port": 1290,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "94ebbadf97906c8ece200cff9af243a78e4b86df": {
+      "id": "94ebbadf97906c8ece200cff9af243a78e4b86df",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_131.147.139.45_udp_1891.ovpn",
+      "name": "IPS_131.147.139.45_udp_1891",
+      "host": "131.147.139.45",
+      "port": 1891,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "5b3119e9faac8528c4ad4b9bf0fd3691573a6a26": {
+      "id": "5b3119e9faac8528c4ad4b9bf0fd3691573a6a26",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_153.226.236.218_tcp_1235.ovpn",
+      "name": "IPS_153.226.236.218_tcp_1235",
+      "host": "153.226.236.218",
+      "port": 1235,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "bdc1893221af6d5561462d5227d6fb203d819488": {
+      "id": "bdc1893221af6d5561462d5227d6fb203d819488",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_153.226.236.218_udp_1293.ovpn",
+      "name": "IPS_153.226.236.218_udp_1293",
+      "host": "153.226.236.218",
+      "port": 1293,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "f3773e0fb0b1cf7a59f8191f40defd1f993b177c": {
+      "id": "f3773e0fb0b1cf7a59f8191f40defd1f993b177c",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_160.86.46.9_tcp_1694.ovpn",
+      "name": "IPS_160.86.46.9_tcp_1694",
+      "host": "160.86.46.9",
+      "port": 1694,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": true,
+        "error": null
+      },
+      "handshake": {
+        "status": "auth_failed",
+        "error": "authentication failed"
+      },
+      "status": "auth_failed",
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "ab17f0ab5405c0688bb12afa4e0a5084b6465d79": {
+      "id": "ab17f0ab5405c0688bb12afa4e0a5084b6465d79",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_160.86.46.9_udp_1962.ovpn",
+      "name": "IPS_160.86.46.9_udp_1962",
+      "host": "160.86.46.9",
+      "port": 1962,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "d6fbafba5d65f1c344ebbba374a30dd9a772665c": {
+      "id": "d6fbafba5d65f1c344ebbba374a30dd9a772665c",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_175.105.72.149_tcp_1970.ovpn",
+      "name": "IPS_175.105.72.149_tcp_1970",
+      "host": "175.105.72.149",
+      "port": 1970,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "0aa6f04018da5923a3b7f9f4306ee5fcab749600": {
+      "id": "0aa6f04018da5923a3b7f9f4306ee5fcab749600",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_218.221.199.158_tcp_1921.ovpn",
+      "name": "IPS_218.221.199.158_tcp_1921",
+      "host": "218.221.199.158",
+      "port": 1921,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "a7a77f6777b9e71decea45bc67f88794cc7587e1": {
+      "id": "a7a77f6777b9e71decea45bc67f88794cc7587e1",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_218.221.199.158_udp_1687.ovpn",
+      "name": "IPS_218.221.199.158_udp_1687",
+      "host": "218.221.199.158",
+      "port": 1687,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "694908a6edfc765e155d98140a250f4222d9f2e2": {
+      "id": "694908a6edfc765e155d98140a250f4222d9f2e2",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_218.251.28.111_tcp_1631.ovpn",
+      "name": "IPS_218.251.28.111_tcp_1631",
+      "host": "218.251.28.111",
+      "port": 1631,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "422e6e4285e29692dd5a3fb4789f3d0982bf827d": {
+      "id": "422e6e4285e29692dd5a3fb4789f3d0982bf827d",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_218.251.28.111_udp_1836.ovpn",
+      "name": "IPS_218.251.28.111_udp_1836",
+      "host": "218.251.28.111",
+      "port": 1836,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "c07b075993c62982fe27695a11ce8395a93490e7": {
+      "id": "c07b075993c62982fe27695a11ce8395a93490e7",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_219.100.37.105_tcp_443.ovpn",
+      "name": "IPS_219.100.37.105_tcp_443",
+      "host": "219.100.37.105",
+      "port": 443,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "0921e765ef2d90bf7f32734346fc55ca265af2af": {
+      "id": "0921e765ef2d90bf7f32734346fc55ca265af2af",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_219.100.37.12_tcp_443.ovpn",
+      "name": "IPS_219.100.37.12_tcp_443",
+      "host": "219.100.37.12",
+      "port": 443,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "615faae31b8fe969457981674cb29e3d5eca1560": {
+      "id": "615faae31b8fe969457981674cb29e3d5eca1560",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_219.100.37.12_udp_1195.ovpn",
+      "name": "IPS_219.100.37.12_udp_1195",
+      "host": "219.100.37.12",
+      "port": 1195,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "610b49dd88cef4122b3451ed3061a73ead5caf01": {
+      "id": "610b49dd88cef4122b3451ed3061a73ead5caf01",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_219.100.37.163_tcp_443.ovpn",
+      "name": "IPS_219.100.37.163_tcp_443",
+      "host": "219.100.37.163",
+      "port": 443,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "b9517a17311d7e68b664fd095ed67a2624e814ba": {
+      "id": "b9517a17311d7e68b664fd095ed67a2624e814ba",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_219.100.37.17_tcp_443.ovpn",
+      "name": "IPS_219.100.37.17_tcp_443",
+      "host": "219.100.37.17",
+      "port": 443,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "38693d589d985576f3a5c94e7d8aea09904079a3": {
+      "id": "38693d589d985576f3a5c94e7d8aea09904079a3",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_219.100.37.212_tcp_443.ovpn",
+      "name": "IPS_219.100.37.212_tcp_443",
+      "host": "219.100.37.212",
+      "port": 443,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "982c74a76f4fd69c25a1dc6d12919b627247bdef": {
+      "id": "982c74a76f4fd69c25a1dc6d12919b627247bdef",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_219.100.37.215_tcp_443.ovpn",
+      "name": "IPS_219.100.37.215_tcp_443",
+      "host": "219.100.37.215",
+      "port": 443,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "65aedd211c1c1633456db7925ad8d9fe6cb5f994": {
+      "id": "65aedd211c1c1633456db7925ad8d9fe6cb5f994",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_219.100.37.218_tcp_443.ovpn",
+      "name": "IPS_219.100.37.218_tcp_443",
+      "host": "219.100.37.218",
+      "port": 443,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "44074f45730ab3b4f3c39ba7621391ac25c6e9a5": {
+      "id": "44074f45730ab3b4f3c39ba7621391ac25c6e9a5",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_219.100.37.218_udp_1195.ovpn",
+      "name": "IPS_219.100.37.218_udp_1195",
+      "host": "219.100.37.218",
+      "port": 1195,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "449834f5f4bdce4f358cf1d15961df8848343d7f": {
+      "id": "449834f5f4bdce4f358cf1d15961df8848343d7f",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_219.100.37.85_tcp_443.ovpn",
+      "name": "IPS_219.100.37.85_tcp_443",
+      "host": "219.100.37.85",
+      "port": 443,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "11e3fe9f1247e3e786ffb8aa55ce41dd2dfa7110": {
+      "id": "11e3fe9f1247e3e786ffb8aa55ce41dd2dfa7110",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_219.100.37.85_udp_1195.ovpn",
+      "name": "IPS_219.100.37.85_udp_1195",
+      "host": "219.100.37.85",
+      "port": 1195,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "191315bbac97c94a438a8ed3e5396fd4e91909b3": {
+      "id": "191315bbac97c94a438a8ed3e5396fd4e91909b3",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_219.100.37.86_tcp_443.ovpn",
+      "name": "IPS_219.100.37.86_tcp_443",
+      "host": "219.100.37.86",
+      "port": 443,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "acbb0bbec5d72b99d7fd3c87c816148785fa7d0a": {
+      "id": "acbb0bbec5d72b99d7fd3c87c816148785fa7d0a",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_220.211.25.225_tcp_1614.ovpn",
+      "name": "IPS_220.211.25.225_tcp_1614",
+      "host": "220.211.25.225",
+      "port": 1614,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "a5eb7f4875bf409656f5dcea6a8472da3c206e17": {
+      "id": "a5eb7f4875bf409656f5dcea6a8472da3c206e17",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_220.211.25.225_udp_1879.ovpn",
+      "name": "IPS_220.211.25.225_udp_1879",
+      "host": "220.211.25.225",
+      "port": 1879,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "fe6937dcef48d7718861be5c40d01a43664490d8": {
+      "id": "fe6937dcef48d7718861be5c40d01a43664490d8",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_27.92.32.64_tcp_1336.ovpn",
+      "name": "IPS_27.92.32.64_tcp_1336",
+      "host": "27.92.32.64",
+      "port": 1336,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "dd3b6d1b2bb8a9112c80229103d3cbd5e068d222": {
+      "id": "dd3b6d1b2bb8a9112c80229103d3cbd5e068d222",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_58.98.120.67_tcp_1708.ovpn",
+      "name": "IPS_58.98.120.67_tcp_1708",
+      "host": "58.98.120.67",
+      "port": 1708,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "8c5064a5d311eab69fe887e94452e30106d20089": {
+      "id": "8c5064a5d311eab69fe887e94452e30106d20089",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_58.98.120.67_udp_1223.ovpn",
+      "name": "IPS_58.98.120.67_udp_1223",
+      "host": "58.98.120.67",
+      "port": 1223,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "12df7de52d89c053ad86af52e43523d630ce9a9a": {
+      "id": "12df7de52d89c053ad86af52e43523d630ce9a9a",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_60.134.4.75_udp_1527.ovpn",
+      "name": "IPS_60.134.4.75_udp_1527",
+      "host": "60.134.4.75",
+      "port": 1527,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "bdb508135677d5a78f15377d286827d241ac57f8": {
+      "id": "bdb508135677d5a78f15377d286827d241ac57f8",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_60.236.58.156_tcp_1911.ovpn",
+      "name": "IPS_60.236.58.156_tcp_1911",
+      "host": "60.236.58.156",
+      "port": 1911,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "e572b9c55c0b7b1a50ae779d91eca040fd02d801": {
+      "id": "e572b9c55c0b7b1a50ae779d91eca040fd02d801",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_60.236.58.156_udp_1270.ovpn",
+      "name": "IPS_60.236.58.156_udp_1270",
+      "host": "60.236.58.156",
+      "port": 1270,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "9af1c7d353ded23bbdd7c448c65f78ee904fbc50": {
+      "id": "9af1c7d353ded23bbdd7c448c65f78ee904fbc50",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_60.236.58.156_udp_1688.ovpn",
+      "name": "IPS_60.236.58.156_udp_1688",
+      "host": "60.236.58.156",
+      "port": 1688,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "f82b46ac78ce7a6d8ab6aaf9264c12b091a5b42e": {
+      "id": "f82b46ac78ce7a6d8ab6aaf9264c12b091a5b42e",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_60.95.76.42_tcp_1230.ovpn",
+      "name": "IPS_60.95.76.42_tcp_1230",
+      "host": "60.95.76.42",
+      "port": 1230,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "1b1a72bb9eab5d8d4fa8257a75de18a52f9accf7": {
+      "id": "1b1a72bb9eab5d8d4fa8257a75de18a52f9accf7",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_60.95.76.42_udp_1903.ovpn",
+      "name": "IPS_60.95.76.42_udp_1903",
+      "host": "60.95.76.42",
+      "port": 1903,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "3ef35fb7fba43e8e33714013c2eff8c94cd9688b": {
+      "id": "3ef35fb7fba43e8e33714013c2eff8c94cd9688b",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_61.205.190.22_tcp_1755.ovpn",
+      "name": "IPS_61.205.190.22_tcp_1755",
+      "host": "61.205.190.22",
+      "port": 1755,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "c7d5dca553a669035dda03afc5ac8387d90fd0e9": {
+      "id": "c7d5dca553a669035dda03afc5ac8387d90fd0e9",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Japan/IPS_61.205.190.22_udp_1691.ovpn",
+      "name": "IPS_61.205.190.22_udp_1691",
+      "host": "61.205.190.22",
+      "port": 1691,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "47c655b0356307a2b8f8ac61ebddc59ab12fa3f9": {
+      "id": "47c655b0356307a2b8f8ac61ebddc59ab12fa3f9",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Romania/IPS_217.138.212.58_tcp_443.ovpn",
+      "name": "IPS_217.138.212.58_tcp_443",
+      "host": "217.138.212.58",
+      "port": 443,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "RO",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "498c11face20278216d926f35cdbf729974cead3": {
+      "id": "498c11face20278216d926f35cdbf729974cead3",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Russia/FOV_Russia_46.48.168.226_tcp.ovpn",
+      "name": "FOV_Russia_46.48.168.226_tcp",
+      "host": "46.48.168.226",
+      "port": 1377,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "RU",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "dffb79cc4e350bc714e384f60bf511c6841ad2ee": {
+      "id": "dffb79cc4e350bc714e384f60bf511c6841ad2ee",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Russia/FOV_Russia_46.48.168.226_udp.ovpn",
+      "name": "FOV_Russia_46.48.168.226_udp",
+      "host": "46.48.168.226",
+      "port": 1402,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "RU",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "9ef0119ddada83f2107bf0190e6d53c01bb439c2": {
+      "id": "9ef0119ddada83f2107bf0190e6d53c01bb439c2",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Russia/FOV_Russia_79.105.137.11_udp.ovpn",
+      "name": "FOV_Russia_79.105.137.11_udp",
+      "host": "79.105.137.11",
+      "port": 1510,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "RU",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "dc56183a7bf4add48e69074c401f32f5f2d88fc7": {
+      "id": "dc56183a7bf4add48e69074c401f32f5f2d88fc7",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Russia/FOV_Russia_92.126.78.73_tcp.ovpn",
+      "name": "FOV_Russia_92.126.78.73_tcp",
+      "host": "92.126.78.73",
+      "port": 1421,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "RU",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "65e245c08e5988fd92a396d7f9c9ff44b36b605e": {
+      "id": "65e245c08e5988fd92a396d7f9c9ff44b36b605e",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Russia/FOV_Russia_92.126.78.73_udp.ovpn",
+      "name": "FOV_Russia_92.126.78.73_udp",
+      "host": "92.126.78.73",
+      "port": 1582,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "RU",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "f59f382d3d0565a2e067a7088eaeb218656b3e44": {
+      "id": "f59f382d3d0565a2e067a7088eaeb218656b3e44",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Russia/IPS_46.188.120.203_udp_6698.ovpn",
+      "name": "IPS_46.188.120.203_udp_6698",
+      "host": "46.188.120.203",
+      "port": 6698,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "RU",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "206b02d5dd5c6f5108ee647d4629c35569bd6742": {
+      "id": "206b02d5dd5c6f5108ee647d4629c35569bd6742",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Russia/IPS_92.127.69.137_tcp_1909.ovpn",
+      "name": "IPS_92.127.69.137_tcp_1909",
+      "host": "92.127.69.137",
+      "port": 1909,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "RU",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "5ed3971bbce0eac6764df6bcd589d8b36e0b37f1": {
+      "id": "5ed3971bbce0eac6764df6bcd589d8b36e0b37f1",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Russia/IPS_92.127.69.137_udp_1931.ovpn",
+      "name": "IPS_92.127.69.137_udp_1931",
+      "host": "92.127.69.137",
+      "port": 1931,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "RU",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "45137ad5cc2721bae03e0c9c753c3e14e120951c": {
+      "id": "45137ad5cc2721bae03e0c9c753c3e14e120951c",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Russia/IPS_94.245.166.243_tcp_1964.ovpn",
+      "name": "IPS_94.245.166.243_tcp_1964",
+      "host": "94.245.166.243",
+      "port": 1964,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "RU",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "8f2ce7e15f5437b95e55cf38ca5bfe46d04b1b56": {
+      "id": "8f2ce7e15f5437b95e55cf38ca5bfe46d04b1b56",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Russia/IPS_94.245.166.243_udp_1616.ovpn",
+      "name": "IPS_94.245.166.243_udp_1616",
+      "host": "94.245.166.243",
+      "port": 1616,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "RU",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "b95a41e0d21f74fba21672b9e1fc5d3060ae3b41": {
+      "id": "b95a41e0d21f74fba21672b9e1fc5d3060ae3b41",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/FOV_Korea_121.165.179.162_tcp.ovpn",
+      "name": "FOV_Korea_121.165.179.162_tcp",
+      "host": "121.165.179.162",
+      "port": 995,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "c31d4ac708b0e355645eecf60e05a0b515400117": {
+      "id": "c31d4ac708b0e355645eecf60e05a0b515400117",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/FOV_Korea_121.165.179.162_udp.ovpn",
+      "name": "FOV_Korea_121.165.179.162_udp",
+      "host": "121.165.179.162",
+      "port": 1195,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "e507a2679eed2767341b32a6c5ae23a855ad638a": {
+      "id": "e507a2679eed2767341b32a6c5ae23a855ad638a",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/FOV_Korea_183.96.168.78_tcp.ovpn",
+      "name": "FOV_Korea_183.96.168.78_tcp",
+      "host": "183.96.168.78",
+      "port": 995,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "1d3668f4ac398fc0eff978cfc86cd96e5b6a7a6b": {
+      "id": "1d3668f4ac398fc0eff978cfc86cd96e5b6a7a6b",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/FOV_Korea_183.96.168.78_udp.ovpn",
+      "name": "FOV_Korea_183.96.168.78_udp",
+      "host": "183.96.168.78",
+      "port": 1195,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "6b2139115e2d134a97c9bc39fcdc1afe44f6e982": {
+      "id": "6b2139115e2d134a97c9bc39fcdc1afe44f6e982",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/FOV_Korea_61.76.22.120_tcp.ovpn",
+      "name": "FOV_Korea_61.76.22.120_tcp",
+      "host": "61.76.22.120",
+      "port": 1210,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "188e7bf6e9e968cbd44d2e3310b54180deda6803": {
+      "id": "188e7bf6e9e968cbd44d2e3310b54180deda6803",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/FOV_Korea_61.76.22.120_udp.ovpn",
+      "name": "FOV_Korea_61.76.22.120_udp",
+      "host": "61.76.22.120",
+      "port": 1347,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "f19b87a8ce8f144ac16be606fbcc670d56aa0a4c": {
+      "id": "f19b87a8ce8f144ac16be606fbcc670d56aa0a4c",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_112.167.164.216_tcp_1224.ovpn",
+      "name": "IPS_112.167.164.216_tcp_1224",
+      "host": "112.167.164.216",
+      "port": 1224,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "d69ca2a1429f4a7d2e508c76edf56c23fa1bc375": {
+      "id": "d69ca2a1429f4a7d2e508c76edf56c23fa1bc375",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_112.167.164.216_udp_1775.ovpn",
+      "name": "IPS_112.167.164.216_udp_1775",
+      "host": "112.167.164.216",
+      "port": 1775,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "18a0d74b85bc637736f8cda302b916d707116bf7": {
+      "id": "18a0d74b85bc637736f8cda302b916d707116bf7",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_112.167.192.206_tcp_1462.ovpn",
+      "name": "IPS_112.167.192.206_tcp_1462",
+      "host": "112.167.192.206",
+      "port": 1462,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "d181f54559106d2c3a91fb0122cfb351a98f55db": {
+      "id": "d181f54559106d2c3a91fb0122cfb351a98f55db",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_112.167.192.206_udp_1647.ovpn",
+      "name": "IPS_112.167.192.206_udp_1647",
+      "host": "112.167.192.206",
+      "port": 1647,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "e5d794e8c0ee10fb86b836e71027bf4397f0ca6d": {
+      "id": "e5d794e8c0ee10fb86b836e71027bf4397f0ca6d",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_116.121.226.47_tcp_995.ovpn",
+      "name": "IPS_116.121.226.47_tcp_995",
+      "host": "116.121.226.47",
+      "port": 995,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "b43ce79ff054b056d509492e7589dd4ccbd6c879": {
+      "id": "b43ce79ff054b056d509492e7589dd4ccbd6c879",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_116.121.226.47_udp_1195.ovpn",
+      "name": "IPS_116.121.226.47_udp_1195",
+      "host": "116.121.226.47",
+      "port": 1195,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "f95125211966d190c9dc8e48bb804ec3ac7cca64": {
+      "id": "f95125211966d190c9dc8e48bb804ec3ac7cca64",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_118.40.99.64_tcp_995.ovpn",
+      "name": "IPS_118.40.99.64_tcp_995",
+      "host": "118.40.99.64",
+      "port": 995,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "c469d1e4ecdd46c0a1c881a48122af6c5a720175": {
+      "id": "c469d1e4ecdd46c0a1c881a48122af6c5a720175",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_118.40.99.64_udp_1195.ovpn",
+      "name": "IPS_118.40.99.64_udp_1195",
+      "host": "118.40.99.64",
+      "port": 1195,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "0162e55999f743197e6967a5fd3d0db4412b7550": {
+      "id": "0162e55999f743197e6967a5fd3d0db4412b7550",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_119.192.99.40_tcp_1276.ovpn",
+      "name": "IPS_119.192.99.40_tcp_1276",
+      "host": "119.192.99.40",
+      "port": 1276,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "db03a6d1e186c93030a3dfd7f071948fcea12382": {
+      "id": "db03a6d1e186c93030a3dfd7f071948fcea12382",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_119.192.99.40_udp_1419.ovpn",
+      "name": "IPS_119.192.99.40_udp_1419",
+      "host": "119.192.99.40",
+      "port": 1419,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "374800a41054a86914569281265f5666395f0567": {
+      "id": "374800a41054a86914569281265f5666395f0567",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_121.128.188.245_tcp_1400.ovpn",
+      "name": "IPS_121.128.188.245_tcp_1400",
+      "host": "121.128.188.245",
+      "port": 1400,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "3a8a2b108fed0256c5360fa88949056f73172fbc": {
+      "id": "3a8a2b108fed0256c5360fa88949056f73172fbc",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_121.128.188.245_tcp_1895.ovpn",
+      "name": "IPS_121.128.188.245_tcp_1895",
+      "host": "121.128.188.245",
+      "port": 1895,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "4081ba9299dcb5f17d4406ca754530142dca451f": {
+      "id": "4081ba9299dcb5f17d4406ca754530142dca451f",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_121.128.188.245_udp_1596.ovpn",
+      "name": "IPS_121.128.188.245_udp_1596",
+      "host": "121.128.188.245",
+      "port": 1596,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "b0545b7bafa07975aace0942e3789e659df317da": {
+      "id": "b0545b7bafa07975aace0942e3789e659df317da",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_121.132.16.235_tcp_995.ovpn",
+      "name": "IPS_121.132.16.235_tcp_995",
+      "host": "121.132.16.235",
+      "port": 995,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "0ecd8ce23224df9339d862c785e40130c06b66d7": {
+      "id": "0ecd8ce23224df9339d862c785e40130c06b66d7",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_121.132.16.235_udp_1195.ovpn",
+      "name": "IPS_121.132.16.235_udp_1195",
+      "host": "121.132.16.235",
+      "port": 1195,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "880f8d551c3274065ed2fb715b203e0700f3e476": {
+      "id": "880f8d551c3274065ed2fb715b203e0700f3e476",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_121.155.86.242_tcp_995.ovpn",
+      "name": "IPS_121.155.86.242_tcp_995",
+      "host": "121.155.86.242",
+      "port": 995,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "2f95970c87e7bc48976fad70b39334b0216746f3": {
+      "id": "2f95970c87e7bc48976fad70b39334b0216746f3",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_121.155.86.242_udp_1195.ovpn",
+      "name": "IPS_121.155.86.242_udp_1195",
+      "host": "121.155.86.242",
+      "port": 1195,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "c76090abed8dfb1d02d7e0a63077f95382dcac50": {
+      "id": "c76090abed8dfb1d02d7e0a63077f95382dcac50",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_121.170.44.114_tcp_1582.ovpn",
+      "name": "IPS_121.170.44.114_tcp_1582",
+      "host": "121.170.44.114",
+      "port": 1582,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "2ea86e7384f927416bc2415076393217cf99d1d4": {
+      "id": "2ea86e7384f927416bc2415076393217cf99d1d4",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_121.170.44.114_udp_1508.ovpn",
+      "name": "IPS_121.170.44.114_udp_1508",
+      "host": "121.170.44.114",
+      "port": 1508,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "0d6ebb665daab8902a847aaf97542570e8a315a4": {
+      "id": "0d6ebb665daab8902a847aaf97542570e8a315a4",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_121.172.142.77_tcp_1830.ovpn",
+      "name": "IPS_121.172.142.77_tcp_1830",
+      "host": "121.172.142.77",
+      "port": 1830,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "d6a102002de8b3a1696a73e25ee8e594d9648f4e": {
+      "id": "d6a102002de8b3a1696a73e25ee8e594d9648f4e",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_121.172.142.77_udp_1432.ovpn",
+      "name": "IPS_121.172.142.77_udp_1432",
+      "host": "121.172.142.77",
+      "port": 1432,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "67b9c8af22a7fd2c1417008bfd72843e4643ceab": {
+      "id": "67b9c8af22a7fd2c1417008bfd72843e4643ceab",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_121.177.40.29_tcp_995.ovpn",
+      "name": "IPS_121.177.40.29_tcp_995",
+      "host": "121.177.40.29",
+      "port": 995,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "f7d69a10450412e9de66eb9bf2c7b4c43f11ec5e": {
+      "id": "f7d69a10450412e9de66eb9bf2c7b4c43f11ec5e",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_121.177.40.29_udp_1195.ovpn",
+      "name": "IPS_121.177.40.29_udp_1195",
+      "host": "121.177.40.29",
+      "port": 1195,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "2c73aca21babf67fa18bbcebb085aa01c3284bdf": {
+      "id": "2c73aca21babf67fa18bbcebb085aa01c3284bdf",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_121.188.117.131_tcp_995.ovpn",
+      "name": "IPS_121.188.117.131_tcp_995",
+      "host": "121.188.117.131",
+      "port": 995,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "a14a671a3442ce667f5f5d0e246e884a8e680f57": {
+      "id": "a14a671a3442ce667f5f5d0e246e884a8e680f57",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_121.188.117.131_udp_1195.ovpn",
+      "name": "IPS_121.188.117.131_udp_1195",
+      "host": "121.188.117.131",
+      "port": 1195,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "b6340bb4b3a04c7c79433cc9c809aa803814bfa0": {
+      "id": "b6340bb4b3a04c7c79433cc9c809aa803814bfa0",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_121.188.190.24_tcp_1748.ovpn",
+      "name": "IPS_121.188.190.24_tcp_1748",
+      "host": "121.188.190.24",
+      "port": 1748,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "21a0a5d885b82342f3ee1be6820c213114abfdc3": {
+      "id": "21a0a5d885b82342f3ee1be6820c213114abfdc3",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_121.188.190.24_udp_1238.ovpn",
+      "name": "IPS_121.188.190.24_udp_1238",
+      "host": "121.188.190.24",
+      "port": 1238,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "bf454e97f435669113c3b5958fa5ed5576520f49": {
+      "id": "bf454e97f435669113c3b5958fa5ed5576520f49",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_123.111.38.146_tcp_995.ovpn",
+      "name": "IPS_123.111.38.146_tcp_995",
+      "host": "123.111.38.146",
+      "port": 995,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "f19c09a1529866bfd69f2e7b217a17aa7cfa935f": {
+      "id": "f19c09a1529866bfd69f2e7b217a17aa7cfa935f",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_123.111.38.146_udp_1195.ovpn",
+      "name": "IPS_123.111.38.146_udp_1195",
+      "host": "123.111.38.146",
+      "port": 1195,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "d08e9958c89939d8970fd0e470034c9718cc9ac4": {
+      "id": "d08e9958c89939d8970fd0e470034c9718cc9ac4",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_124.197.132.14_tcp_1471.ovpn",
+      "name": "IPS_124.197.132.14_tcp_1471",
+      "host": "124.197.132.14",
+      "port": 1471,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "d2b63abfba0c69b9b56a7295be4e6d8c2baab9c9": {
+      "id": "d2b63abfba0c69b9b56a7295be4e6d8c2baab9c9",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_124.197.132.14_udp_1383.ovpn",
+      "name": "IPS_124.197.132.14_udp_1383",
+      "host": "124.197.132.14",
+      "port": 1383,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "29a782f852132975f50c9238f0fb009218704c1a": {
+      "id": "29a782f852132975f50c9238f0fb009218704c1a",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_125.130.190.237_tcp_1600.ovpn",
+      "name": "IPS_125.130.190.237_tcp_1600",
+      "host": "125.130.190.237",
+      "port": 1600,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "4919f90160c354ebc6c35f7791386726f9d11ffe": {
+      "id": "4919f90160c354ebc6c35f7791386726f9d11ffe",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_125.130.190.237_udp_1639.ovpn",
+      "name": "IPS_125.130.190.237_udp_1639",
+      "host": "125.130.190.237",
+      "port": 1639,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "ae525b0debe5d7342f51d0324017abeb40e77dc8": {
+      "id": "ae525b0debe5d7342f51d0324017abeb40e77dc8",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_14.36.8.144_tcp_1746.ovpn",
+      "name": "IPS_14.36.8.144_tcp_1746",
+      "host": "14.36.8.144",
+      "port": 1746,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "f71a7d4d5284dcaa60c299e11aea5b9ce8e8f1f5": {
+      "id": "f71a7d4d5284dcaa60c299e11aea5b9ce8e8f1f5",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_14.36.8.144_udp_1654.ovpn",
+      "name": "IPS_14.36.8.144_udp_1654",
+      "host": "14.36.8.144",
+      "port": 1654,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "6c266af8fdfc80277016b3b92e746692350d002a": {
+      "id": "6c266af8fdfc80277016b3b92e746692350d002a",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_14.47.49.121_tcp_995.ovpn",
+      "name": "IPS_14.47.49.121_tcp_995",
+      "host": "14.47.49.121",
+      "port": 995,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "8f5b101a95f1198baec45f5506f7f7a5b9499c01": {
+      "id": "8f5b101a95f1198baec45f5506f7f7a5b9499c01",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_14.47.49.121_udp_1195.ovpn",
+      "name": "IPS_14.47.49.121_udp_1195",
+      "host": "14.47.49.121",
+      "port": 1195,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "61742e4e9e9b43991a233d537193aa1952033b3b": {
+      "id": "61742e4e9e9b43991a233d537193aa1952033b3b",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_14.48.158.250_tcp_1691.ovpn",
+      "name": "IPS_14.48.158.250_tcp_1691",
+      "host": "14.48.158.250",
+      "port": 1691,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "b3ad0d739c9d0a2f82804e5e51f3f5c18edac4cf": {
+      "id": "b3ad0d739c9d0a2f82804e5e51f3f5c18edac4cf",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_182.211.185.251_tcp_995.ovpn",
+      "name": "IPS_182.211.185.251_tcp_995",
+      "host": "182.211.185.251",
+      "port": 995,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "28d7a7750f71664b8a719bd139a6f494caef0a91": {
+      "id": "28d7a7750f71664b8a719bd139a6f494caef0a91",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_182.211.185.251_udp_1195.ovpn",
+      "name": "IPS_182.211.185.251_udp_1195",
+      "host": "182.211.185.251",
+      "port": 1195,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "047bd42ecdc0b538fa6cdf28c074e935b45d382e": {
+      "id": "047bd42ecdc0b538fa6cdf28c074e935b45d382e",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_183.100.161.201_tcp_1385.ovpn",
+      "name": "IPS_183.100.161.201_tcp_1385",
+      "host": "183.100.161.201",
+      "port": 1385,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "483c02c206260af898291cbbd0a32e36aaba95b1": {
+      "id": "483c02c206260af898291cbbd0a32e36aaba95b1",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_183.100.161.201_udp_1621.ovpn",
+      "name": "IPS_183.100.161.201_udp_1621",
+      "host": "183.100.161.201",
+      "port": 1621,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "bcb280ff87761886dbe7d4beab2c7ccf135e9d65": {
+      "id": "bcb280ff87761886dbe7d4beab2c7ccf135e9d65",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_210.222.253.161_tcp_995.ovpn",
+      "name": "IPS_210.222.253.161_tcp_995",
+      "host": "210.222.253.161",
+      "port": 995,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "3a41e7ba27dae8e0441b092c5d7ddc59a57c2412": {
+      "id": "3a41e7ba27dae8e0441b092c5d7ddc59a57c2412",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_210.222.253.161_udp_1195.ovpn",
+      "name": "IPS_210.222.253.161_udp_1195",
+      "host": "210.222.253.161",
+      "port": 1195,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "114a0dd281e78590a41451c16e3123f453b97c3a": {
+      "id": "114a0dd281e78590a41451c16e3123f453b97c3a",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_211.106.161.208_tcp_995.ovpn",
+      "name": "IPS_211.106.161.208_tcp_995",
+      "host": "211.106.161.208",
+      "port": 995,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "4a3882ea7c9b28a95d2ad3a228263b6b212d2f27": {
+      "id": "4a3882ea7c9b28a95d2ad3a228263b6b212d2f27",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_211.106.161.208_udp_1195.ovpn",
+      "name": "IPS_211.106.161.208_udp_1195",
+      "host": "211.106.161.208",
+      "port": 1195,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "eadad9ed212d6f8605c616635e1449506a7d8f73": {
+      "id": "eadad9ed212d6f8605c616635e1449506a7d8f73",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_211.183.202.54_tcp_1458.ovpn",
+      "name": "IPS_211.183.202.54_tcp_1458",
+      "host": "211.183.202.54",
+      "port": 1458,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "7aff99e0ee43fd93f65c71f17a5c413c314afe83": {
+      "id": "7aff99e0ee43fd93f65c71f17a5c413c314afe83",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_211.183.202.54_udp_1917.ovpn",
+      "name": "IPS_211.183.202.54_udp_1917",
+      "host": "211.183.202.54",
+      "port": 1917,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "254f8e0740615250efdb43bcd8c979b0a46d19c3": {
+      "id": "254f8e0740615250efdb43bcd8c979b0a46d19c3",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_211.194.151.195_tcp_995.ovpn",
+      "name": "IPS_211.194.151.195_tcp_995",
+      "host": "211.194.151.195",
+      "port": 995,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "c842a3e78c0e613db0ef7feb073b6b188dd97832": {
+      "id": "c842a3e78c0e613db0ef7feb073b6b188dd97832",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_211.194.151.195_udp_1195.ovpn",
+      "name": "IPS_211.194.151.195_udp_1195",
+      "host": "211.194.151.195",
+      "port": 1195,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "7d49662c0db1b1b547a8ddf129706c316b774623": {
+      "id": "7d49662c0db1b1b547a8ddf129706c316b774623",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_211.224.210.239_tcp_995.ovpn",
+      "name": "IPS_211.224.210.239_tcp_995",
+      "host": "211.224.210.239",
+      "port": 995,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "f99855bb4d626cfb2b121f790f185b0b784b173d": {
+      "id": "f99855bb4d626cfb2b121f790f185b0b784b173d",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_211.224.210.239_udp_1195.ovpn",
+      "name": "IPS_211.224.210.239_udp_1195",
+      "host": "211.224.210.239",
+      "port": 1195,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "84dd2f19492103af7f5aa30ee8b8fa8b636a09a3": {
+      "id": "84dd2f19492103af7f5aa30ee8b8fa8b636a09a3",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_211.54.93.41_tcp_1470.ovpn",
+      "name": "IPS_211.54.93.41_tcp_1470",
+      "host": "211.54.93.41",
+      "port": 1470,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "3e82147b5e2894ba21b238ef12534373eb8099c9": {
+      "id": "3e82147b5e2894ba21b238ef12534373eb8099c9",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_211.54.93.41_udp_1450.ovpn",
+      "name": "IPS_211.54.93.41_udp_1450",
+      "host": "211.54.93.41",
+      "port": 1450,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "84b88e0ecbbb153a7dc936ce6bb77936caf9336b": {
+      "id": "84b88e0ecbbb153a7dc936ce6bb77936caf9336b",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_218.153.152.37_tcp_995.ovpn",
+      "name": "IPS_218.153.152.37_tcp_995",
+      "host": "218.153.152.37",
+      "port": 995,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "771f085b62642862f095b3a0770076d006f9b1e7": {
+      "id": "771f085b62642862f095b3a0770076d006f9b1e7",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_218.153.152.37_udp_1195.ovpn",
+      "name": "IPS_218.153.152.37_udp_1195",
+      "host": "218.153.152.37",
+      "port": 1195,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "ff6d3897853f9ff77f0ba0ca8cdeeee8084c7e3e": {
+      "id": "ff6d3897853f9ff77f0ba0ca8cdeeee8084c7e3e",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_218.209.125.31_tcp_1370.ovpn",
+      "name": "IPS_218.209.125.31_tcp_1370",
+      "host": "218.209.125.31",
+      "port": 1370,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "f8a74cb55cd225347622171266a2caa69c61ee34": {
+      "id": "f8a74cb55cd225347622171266a2caa69c61ee34",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_218.209.125.31_udp_1370.ovpn",
+      "name": "IPS_218.209.125.31_udp_1370",
+      "host": "218.209.125.31",
+      "port": 1370,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "05eb610a969be3d626ca696653d3a00f40dcaec2": {
+      "id": "05eb610a969be3d626ca696653d3a00f40dcaec2",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_218.38.102.114_tcp_995.ovpn",
+      "name": "IPS_218.38.102.114_tcp_995",
+      "host": "218.38.102.114",
+      "port": 995,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "d42538d6d9141f01c913a71196680968dd008018": {
+      "id": "d42538d6d9141f01c913a71196680968dd008018",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_218.38.102.114_udp_1195.ovpn",
+      "name": "IPS_218.38.102.114_udp_1195",
+      "host": "218.38.102.114",
+      "port": 1195,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "d33f4727deaaeaedf4576cc0034fbdb2628194e1": {
+      "id": "d33f4727deaaeaedf4576cc0034fbdb2628194e1",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_221.147.27.204_tcp_443.ovpn",
+      "name": "IPS_221.147.27.204_tcp_443",
+      "host": "221.147.27.204",
+      "port": 443,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "fe4e5ea653651fac9417e6a520ae38fd473e56a8": {
+      "id": "fe4e5ea653651fac9417e6a520ae38fd473e56a8",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_221.147.27.204_udp_1194.ovpn",
+      "name": "IPS_221.147.27.204_udp_1194",
+      "host": "221.147.27.204",
+      "port": 1194,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "e1c9f559651294492dbd1a550318f6f30ee988d9": {
+      "id": "e1c9f559651294492dbd1a550318f6f30ee988d9",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_221.153.224.241_tcp_995.ovpn",
+      "name": "IPS_221.153.224.241_tcp_995",
+      "host": "221.153.224.241",
+      "port": 995,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "54241dbe10cd66289b759dd2a4a81342e418aa5f": {
+      "id": "54241dbe10cd66289b759dd2a4a81342e418aa5f",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_221.153.224.241_udp_1195.ovpn",
+      "name": "IPS_221.153.224.241_udp_1195",
+      "host": "221.153.224.241",
+      "port": 1195,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "b128ffe334921b6739f416aeb852cd30d2a93a52": {
+      "id": "b128ffe334921b6739f416aeb852cd30d2a93a52",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_221.154.199.66_tcp_995.ovpn",
+      "name": "IPS_221.154.199.66_tcp_995",
+      "host": "221.154.199.66",
+      "port": 995,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "6e1b8b8f57a2f510d16c538246ad2ecc7c7bbe64": {
+      "id": "6e1b8b8f57a2f510d16c538246ad2ecc7c7bbe64",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_221.154.199.66_udp_1195.ovpn",
+      "name": "IPS_221.154.199.66_udp_1195",
+      "host": "221.154.199.66",
+      "port": 1195,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "ffc28a16ff8711c4b390f30c7c4fcc51f69b7cd6": {
+      "id": "ffc28a16ff8711c4b390f30c7c4fcc51f69b7cd6",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_222.113.41.166_tcp_995.ovpn",
+      "name": "IPS_222.113.41.166_tcp_995",
+      "host": "222.113.41.166",
+      "port": 995,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "868775f54a600be602f13f828f0b322f1c2aefb8": {
+      "id": "868775f54a600be602f13f828f0b322f1c2aefb8",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_222.113.41.166_udp_1195.ovpn",
+      "name": "IPS_222.113.41.166_udp_1195",
+      "host": "222.113.41.166",
+      "port": 1195,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "81adf50e6161a02dcfa2d805ed04d9b53aeb0458": {
+      "id": "81adf50e6161a02dcfa2d805ed04d9b53aeb0458",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_27.124.175.64_tcp_1205.ovpn",
+      "name": "IPS_27.124.175.64_tcp_1205",
+      "host": "27.124.175.64",
+      "port": 1205,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "e660c7f5413466ec60fc871bff7f6855bc7308d3": {
+      "id": "e660c7f5413466ec60fc871bff7f6855bc7308d3",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_27.124.175.64_udp_1207.ovpn",
+      "name": "IPS_27.124.175.64_udp_1207",
+      "host": "27.124.175.64",
+      "port": 1207,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "dcd0bef55f236cd0a70c01b0869d10d62460f301": {
+      "id": "dcd0bef55f236cd0a70c01b0869d10d62460f301",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_39.119.1.171_tcp_995.ovpn",
+      "name": "IPS_39.119.1.171_tcp_995",
+      "host": "39.119.1.171",
+      "port": 995,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "b9f046e9c2657c9b1a9a8fe0309e6fa4f3f09387": {
+      "id": "b9f046e9c2657c9b1a9a8fe0309e6fa4f3f09387",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_39.119.1.171_udp_1195.ovpn",
+      "name": "IPS_39.119.1.171_udp_1195",
+      "host": "39.119.1.171",
+      "port": 1195,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "57ba7bcdd98555ea26f5ce99a30b881c67ec4f7a": {
+      "id": "57ba7bcdd98555ea26f5ce99a30b881c67ec4f7a",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_58.124.147.67_tcp_995.ovpn",
+      "name": "IPS_58.124.147.67_tcp_995",
+      "host": "58.124.147.67",
+      "port": 995,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "d8a232d9b9b50a78a458ea99720f1d4d7711f7ff": {
+      "id": "d8a232d9b9b50a78a458ea99720f1d4d7711f7ff",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_58.124.147.67_udp_1195.ovpn",
+      "name": "IPS_58.124.147.67_udp_1195",
+      "host": "58.124.147.67",
+      "port": 1195,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "996a6e6ca006e5ef3463171b792ea922456da282": {
+      "id": "996a6e6ca006e5ef3463171b792ea922456da282",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_58.232.230.23_tcp_1767.ovpn",
+      "name": "IPS_58.232.230.23_tcp_1767",
+      "host": "58.232.230.23",
+      "port": 1767,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "51555968efd6327486e53ca062425de87fe2bff1": {
+      "id": "51555968efd6327486e53ca062425de87fe2bff1",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_58.232.230.23_udp_1798.ovpn",
+      "name": "IPS_58.232.230.23_udp_1798",
+      "host": "58.232.230.23",
+      "port": 1798,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "2765d1deede281ee6155f8a840d6ad20c1bc6cff": {
+      "id": "2765d1deede281ee6155f8a840d6ad20c1bc6cff",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_61.255.60.93_tcp_995.ovpn",
+      "name": "IPS_61.255.60.93_tcp_995",
+      "host": "61.255.60.93",
+      "port": 995,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "955e5b4e4bee84d2002edd9a68707f7575fd3cbc": {
+      "id": "955e5b4e4bee84d2002edd9a68707f7575fd3cbc",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/South Korea/IPS_61.255.60.93_udp_1195.ovpn",
+      "name": "IPS_61.255.60.93_udp_1195",
+      "host": "61.255.60.93",
+      "port": 1195,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "c7272d585c68d15bd48b6a0fd8da080adae316f3": {
+      "id": "c7272d585c68d15bd48b6a0fd8da080adae316f3",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Thailand/FOV_Thailand_184.22.17.93_udp.ovpn",
+      "name": "FOV_Thailand_184.22.17.93_udp",
+      "host": "184.22.17.93",
+      "port": 1636,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "ebe05759b27df18b19a3e03714df3a70c62faded": {
+      "id": "ebe05759b27df18b19a3e03714df3a70c62faded",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Thailand/FOV_Thailand_184.22.233.211_tcp.ovpn",
+      "name": "FOV_Thailand_184.22.233.211_tcp",
+      "host": "184.22.233.211",
+      "port": 1754,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "593ca6d0cfdcfd71217ee1a092db24ddd463a0a3": {
+      "id": "593ca6d0cfdcfd71217ee1a092db24ddd463a0a3",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Thailand/FOV_Thailand_184.22.233.211_udp.ovpn",
+      "name": "FOV_Thailand_184.22.233.211_udp",
+      "host": "184.22.233.211",
+      "port": 1364,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "7c460817a467517b60e626852f4675837a09552c": {
+      "id": "7c460817a467517b60e626852f4675837a09552c",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Thailand/FOV_Thailand_49.228.208.198_udp.ovpn",
+      "name": "FOV_Thailand_49.228.208.198_udp",
+      "host": "49.228.208.198",
+      "port": 1335,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "96abfac55f24103cd2f7593f40de979f4ebda92d": {
+      "id": "96abfac55f24103cd2f7593f40de979f4ebda92d",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/USA/FOV_USA_174.51.166.85_tcp.ovpn",
+      "name": "FOV_USA_174.51.166.85_tcp",
+      "host": "174.51.166.85",
+      "port": 1669,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "US",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "abccc10c9a903ddd5ffad605b9f13b33d2b0fb3f": {
+      "id": "abccc10c9a903ddd5ffad605b9f13b33d2b0fb3f",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/USA/FOV_USA_174.51.166.85_udp.ovpn",
+      "name": "FOV_USA_174.51.166.85_udp",
+      "host": "174.51.166.85",
+      "port": 1651,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "US",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "ab30524fc9779f4b83dea5f93b11c79b711f0b9c": {
+      "id": "ab30524fc9779f4b83dea5f93b11c79b711f0b9c",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/USA/FOV_USA_73.158.94.82_tcp.ovpn",
+      "name": "FOV_USA_73.158.94.82_tcp",
+      "host": "73.158.94.82",
+      "port": 1893,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "US",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "8bc99a7caa4bb8bb1a143e446816ab6333a18ae4": {
+      "id": "8bc99a7caa4bb8bb1a143e446816ab6333a18ae4",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/USA/FOV_USA_73.158.94.82_udp.ovpn",
+      "name": "FOV_USA_73.158.94.82_udp",
+      "host": "73.158.94.82",
+      "port": 1870,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "US",
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "a6a07c77714337fcc59f04739c266b6b9346b5f8": {
+      "id": "a6a07c77714337fcc59f04739c266b6b9346b5f8",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Vietnam/IPS_118.71.213.89_tcp_1214.ovpn",
+      "name": "IPS_118.71.213.89_tcp_1214",
+      "host": "118.71.213.89",
+      "port": 1214,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    },
+    "5b7132c7d78877e12d6496c46f22ca49d7fa5d08": {
+      "id": "5b7132c7d78877e12d6496c46f22ca49d7fa5d08",
+      "source": "zoult",
+      "source_url": "https://raw.githubusercontent.com/Zoult/.ovpn/main/Vietnam/IPS_118.71.213.89_udp_1759.ovpn",
+      "name": "IPS_118.71.213.89_udp_1759",
+      "host": "118.71.213.89",
+      "port": 1759,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": null,
+      "source_priority": 50,
+      "checked_at": "2026-10-02T20:26:40.295243+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-02T20:26:40.295243+00:00",
+      "last_seen": "2026-10-02T20:26:40.295243+00:00"
+    }
+  }
+}
