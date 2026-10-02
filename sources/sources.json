@@ -9,20 +9,20 @@
         "https://www.vpngate.net/api/iphone/"
       ],
       "country_hint": null,
-      "auth_expected": false,
-      "priority": 80
+      "auth_expected": "public_static",
+      "priority": 120
     },
     {
-      "id": "huntvpn",
-      "name": "Hunt VPN",
-      "adapter": "huntvpn_html",
+      "id": "vpngate_mirror",
+      "name": "VPN Gate mirror (jsDelivr)",
+      "adapter": "vpngate_csv",
       "enabled": true,
       "base_urls": [
-        "https://huntvpn.dev/servers"
+        "https://cdn.jsdelivr.net/gh/GeorgeXie2333/vpngate-list-mirror@latest/data/vpngate.csv"
       ],
       "country_hint": null,
-      "auth_expected": false,
-      "priority": 100
+      "auth_expected": "public_static",
+      "priority": 110
     },
     {
       "id": "publicvpnlist",
@@ -31,6 +31,18 @@
       "enabled": true,
       "base_urls": [
         "https://publicvpnlist.com/country/"
+      ],
+      "country_hint": null,
+      "auth_expected": false,
+      "priority": 100
+    },
+    {
+      "id": "huntvpn",
+      "name": "Hunt VPN",
+      "adapter": "huntvpn_html",
+      "enabled": true,
+      "base_urls": [
+        "https://huntvpn.dev/countries"
       ],
       "country_hint": null,
       "auth_expected": false,
@@ -46,7 +58,7 @@
       ],
       "country_hint": null,
       "auth_expected": false,
-      "priority": 50
+      "priority": 60
     }
   ]
 }
