@@ -1,0 +1,8 @@
+{
+  "sources": [
+    {"id":"vpnonline","name":"VPNonline","adapter":"html_ovpn","enabled":true,"base_urls":["https://portal.vpnonline.pl/openvpn.html"],"country_hint":"PL","auth_expected":true},
+    {"id":"vpngate","name":"VPN Gate","adapter":"vpngate_csv","enabled":true,"base_urls":["https://www.vpngate.net/api/iphone/"],"country_hint":null,"auth_expected":false},
+    {"id":"huntvpn","name":"Hunt VPN","adapter":"html_ovpn","enabled":true,"base_urls":["https://huntvpn.dev/"],"country_hint":null,"auth_expected":false},
+    {"id":"publicvpnlist","name":"PublicVPNList","adapter":"publicvpnlist_api","enabled":true,"base_urls":["https://publicvpnlist.com/api/v1/servers"],"country_hint":null,"auth_expected":false,"secret_env":"PUBLICVPNLIST_API_KEY"}
+  ]
+}
