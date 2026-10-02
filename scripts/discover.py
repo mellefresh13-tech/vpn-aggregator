@@ -43,6 +43,7 @@ def huntvpn_html(source,s):
       p=parse_profile(target.text,source["id"],target.url)
       if p: p["country"]=country_from_path(page.url); records.append(p)
     except Exception as exc: print(f"[{source['id']}] config/server failed: {url}: {exc}")
+  except Exception as exc: print(f"[{source['id']}] page failed: {country_url}: {exc}")
  return records
 
 def publicvpnlist_html(source,s):
