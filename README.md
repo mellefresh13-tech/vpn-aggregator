@@ -49,3 +49,6 @@ GitHub Actions runs the catalog update every 6 hours.
 Local run:
 
 python3 scripts/update_catalog.py
+
+
+Validation trigger: one automated catalog run is being used to verify the current source set.
