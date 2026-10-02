@@ -24,7 +24,7 @@ def vpngate_csv(source,s):
 
 def huntvpn_html(source,s):
  records=[]; r=s.get(source["base_urls"][0],timeout=30); r.raise_for_status()
- links=re.findall(r'href=["\']([^"\']*countries/[^"\']+)["\']',r.text,re.I)
+ links=re.findall(r'href=["\']([^"\']*vpn/[^"\']+)["\']',r.text,re.I)
  for country_url in dict.fromkeys(urljoin(r.url,x) for x in links):
   try:
    page=s.get(country_url,timeout=30); page.raise_for_status()
