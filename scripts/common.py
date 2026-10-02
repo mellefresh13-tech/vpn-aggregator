@@ -8,8 +8,7 @@ def session():
 def get_json(path,default):
  return json.loads(path.read_text(encoding="utf-8")) if path.exists() else default
 def save_json(path,value):
- path.parent.mkdir(parents=True,exist_ok=True); path.write_text(json.dumps(value,ensure_ascii=False,indent=2)+"
-",encoding="utf-8")
+ path.parent.mkdir(parents=True,exist_ok=True); path.write_text(json.dumps(value,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 def sha1_key(host,port,proto): return hashlib.sha1(f"{host}:{port}:{proto}".encode()).hexdigest()
 def parse_remote(text):
  m=re.search(r"(?mi)^\s*remote\s+([^\s#]+)(?:\s+(\d+))?",text); return (m.group(1),int(m.group(2) or 1194)) if m else (None,None)
