@@ -1,10 +1,26 @@
 from __future__ import annotations
-import os,subprocess,sys,tempfile,time
+import hashlib,os,subprocess,sys,tempfile,time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime,timezone
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 from common import DATA,get_json,save_json,tcp_probe,config_is_safe
 INPUT=DATA/"discovered.json"; OUTPUT=DATA/"validated.json"
+WORKING_TTL_HOURS=24
+FAILED_TTL_HOURS=6
+TCP_WORKERS=16
+
+def config_hash(cfg):
+ return hashlib.sha256(cfg.encode("utf-8")).hexdigest()
+
+def fresh_enough(old, ttl_hours):
+ stamp=old.get("checked_at")
+ if not stamp: return False
+ try:
+  checked=datetime.fromisoformat(stamp.replace("Z","+00:00"))
+  return (datetime.now(timezone.utc)-checked).total_seconds() < ttl_hours*3600
+ except Exception:
+  return False
 
 def openvpn_handshake(profile):
  cfg=profile.get("config")
@@ -49,20 +65,48 @@ def openvpn_handshake(profile):
      except Exception: pass
 
 def main():
- data=get_json(INPUT,{"servers":[]}); history=get_json(DATA/"history.json",{"servers":{}}); out=[]; now=datetime.now(timezone.utc).isoformat()
- for p in data["servers"]:
-  tcp=tcp_probe(p["host"],p["port"]); record={k:v for k,v in p.items() if k!="config"}; record["checked_at"]=now; record["tcp"]=tcp
+ data=get_json(INPUT,{"servers":[]}); history=get_json(DATA/"history.json",{"servers":{}})
+ old_history=history["servers"]; out=[]; now=datetime.now(timezone.utc).isoformat()
+ tcp_results={}
+
+ def probe(p):
+  return p["id"],tcp_probe(p["host"],p["port"])
+
+ with ThreadPoolExecutor(max_workers=TCP_WORKERS) as pool:
+  for pid,result in pool.map(probe,data["servers"]):
+   tcp_results[pid]=result
+
+ reused=0; checked=0
+ for index,p in enumerate(data["servers"],1):
+  old=old_history.get(p["id"],{})
+  cfg=p.get("config",""); cfg_sha=config_hash(cfg)
+  ttl=WORKING_TTL_HOURS if old.get("status")=="working" else FAILED_TTL_HOURS
+  if old.get("config_sha256")==cfg_sha and fresh_enough(old,ttl):
+   record=dict(old)
+   for key in ("source","source_url","name","host","port","proto","auth","country","source_priority"):
+    if key in p: record[key]=p[key]
+   record["config_sha256"]=cfg_sha
+   record["last_seen"]=now
+   out.append(record); old_history[p["id"]]=record; reused+=1
+   continue
+
+  tcp=tcp_results[p["id"]]
+  record={k:v for k,v in p.items() if k!="config"}; record["checked_at"]=now; record["tcp"]=tcp; record["config_sha256"]=cfg_sha
   if not tcp["reachable"]:
    record["status"]="unreachable"; record["handshake"]={"status":"not_tested","error":"tcp unreachable"}
   elif p.get("auth")=="username_password" and not (os.getenv("VPNONLINE_USERNAME") and os.getenv("VPNONLINE_PASSWORD")):
    record["status"]="credentials_required"; record["handshake"]={"status":"not_tested","error":"credentials not configured"}
   else:
    record["handshake"]=openvpn_handshake(p); record["status"]=record["handshake"]["status"]
-  old=history["servers"].get(record["id"],{}); failures=int(old.get("consecutive_failures",0)); failures=0 if record["status"]=="working" else failures+1
+  failures=int(old.get("consecutive_failures",0)); failures=0 if record["status"]=="working" else failures+1
   record["consecutive_failures"]=failures
   record["lifecycle"]="working" if record["status"]=="working" else "dead" if failures>=12 else "quarantine" if failures>=4 else "temporarily_failed"
   record["first_seen"]=old.get("first_seen",now); record["last_seen"]=now
-  history["servers"][record["id"]]=record; out.append(record)
+  old_history[p["id"]]=record; out.append(record); checked+=1
+  if index%25==0 or index==len(data["servers"]):
+   print(f"progress {index}/{len(data['servers'])}; reused={reused}; checked={checked}")
+
  save_json(OUTPUT,{"generated_at":now,"servers":out}); save_json(DATA/"history.json",history)
- print(f"validated {len(out)} servers; working={sum(x['status']=='working' for x in out)}")
+ print(f"validated {len(out)} servers; working={sum(x['status']=='working' for x in out)}; reused={reused}; checked={checked}")
+
 if __name__=="__main__": main()
