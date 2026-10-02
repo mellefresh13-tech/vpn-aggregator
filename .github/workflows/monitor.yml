@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 concurrency:
   group: vpn-catalog-${{ github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: true
 permissions:
   contents: write
 jobs:
@@ -17,6 +17,8 @@ jobs:
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Install OpenVPN
         run: |
           sudo apt-get update
@@ -41,5 +43,20 @@ jobs:
           git config user.name "vpn-aggregator[bot]"
           git config user.email "vpn-aggregator[bot]@users.noreply.github.com"
           git add data/servers.json data/history.json docs
-          git diff --cached --quiet || git commit -m "chore: update VPN catalog"
-          git push
+          if git diff --cached --quiet; then
+            echo "No catalog changes to publish"
+            exit 0
+          fi
+          git commit -m "chore: update VPN catalog"
+          # Avoid race when another job pushed to main while this run was working.
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              echo "Published catalog on attempt $attempt"
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt), retrying..."
+            sleep 3
+          done
+          echo "Failed to push catalog after retries"
+          exit 1
