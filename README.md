@@ -2,18 +2,35 @@
 
 Private OpenVPN catalog and monitoring pipeline.
 
-Pipeline: discover -> parse -> authentication classification -> credentials check -> TCP/OpenVPN check -> exit IP/country -> latency/speed for best candidates -> deduplicate -> lifecycle history -> catalog.
+Pipeline: discover -> parse -> safety classification -> TCP reachability -> OpenVPN handshake -> exit-IP check -> scoring -> deduplication -> lifecycle history -> catalog.
 
-Sources: VPNonline (Poland/Europe), VPN Gate, Hunt VPN, and optional PublicVPNList API.
+The catalog is generated automatically every 6 hours.
 
-Optional GitHub Secrets: VPNONLINE_USERNAME, VPNONLINE_PASSWORD, PUBLICVPNLIST_API_KEY.
+Sources:
+- VPNonline Poland — Polish source; account credentials come only from GitHub Secrets.
+- VPNBook — public OpenVPN service with provider-published shared credentials.
+- VPN Gate — public server feed.
+- Hunt VPN — public volunteer-server catalog.
+- Zoult/.ovpn — secondary public GitHub mirror.
+- PublicVPNList — adapter retained but disabled until an API key is configured.
 
-Secrets are read only from the environment and never written to generated catalog files.
+A server is marked available only after TCP reachability and a real OpenVPN control-channel handshake. Source availability is not a trust endorsement.
 
-Repository layout:
-- sources/ source adapters and configuration
-- data/ generated catalog and history
-- scripts/ discovery, parsing, validation and catalog update
-- .github/workflows/monitor.yml scheduled monitor
+Security:
+- Untrusted .ovpn files are checked before execution.
+- Executable hooks, external config includes, management, plugins and auth-verification hooks are rejected.
+- Credentials are never written to generated catalog files.
+- Intermediate discovered/validated files are not published by Actions.
 
-Run locally with: python3 scripts/update_catalog.py
+Published files:
+- data/servers.json — current catalog.
+- data/history.json — lifecycle history.
+
+Lifecycle:
+- working
+- temporarily_failed
+- quarantine after 4 consecutive failures
+- dead after 12 consecutive failures
+- recovery returns a server to working.
+
+Local run: python3 scripts/update_catalog.py
