@@ -49,6 +49,3 @@ GitHub Actions runs the catalog update every 6 hours.
 Local run:
 
 python3 scripts/update_catalog.py
-
-
-<!-- discovery-fix-run -->
