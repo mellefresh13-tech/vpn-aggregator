@@ -4,6 +4,7 @@ import html
 import re
 import shutil
 from collections import defaultdict
+from datetime import datetime, timezone
 from pathlib import Path
 
 from common import DATA, config_is_safe, country_priority, get_json, is_connect_ready
@@ -27,6 +28,23 @@ def format_speed(kbps):
         return f"{float(kbps)/1000:.0f} kbps"
     except Exception:
         return "—"
+
+
+def format_generated_at(value: str | None) -> str:
+    """ISO timestamp → '3 Oct 2026, 09:00 UTC'."""
+    if not value:
+        return "unknown time"
+    try:
+        raw = value.strip().replace("Z", "+00:00")
+        dt = datetime.fromisoformat(raw)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        else:
+            dt = dt.astimezone(timezone.utc)
+        # 3 Oct 2026, 09:00 UTC (no leading zero on day)
+        return f"{dt.day} {dt.strftime('%b %Y, %H:%M')} UTC"
+    except Exception:
+        return value
 
 
 def main():
@@ -63,7 +81,6 @@ def main():
     def esc(v):
         return html.escape(str(v if v is not None else ""))
 
-    # PL first, then other EU, then the rest — each group by score/speed.
     country_order = sorted(
         groups.keys(),
         key=lambda c: (-country_priority(c), c),
@@ -103,9 +120,21 @@ def main():
             "</section>"
         )
 
-    generated = esc(catalog.get("generated_at", ""))
+    generated = esc(format_generated_at(catalog.get("generated_at")))
     pl_count = len(groups.get("PL", []))
     eu_count = sum(len(v) for k, v in groups.items() if country_priority(k) >= 200)
+    total = len(catalog.get("servers") or [])
+    working_n = len(working)
+    published_n = len(published)
+
+    stats_line = (
+        f"Updated {generated}"
+        f" · {total} in catalog"
+        f" · {working_n} working"
+        f" · {published_n} published"
+        f" · Poland: {pl_count}"
+        f" · Europe: {eu_count}"
+    )
 
     index = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -114,7 +143,7 @@ def main():
 body{{margin:0;background:#0b1020;color:#e8ecf4;font:15px system-ui,-apple-system,Segoe UI,sans-serif}}
 main{{max-width:1100px;margin:auto;padding:28px 18px}}
 h1{{margin:0 0 8px;font-size:32px}}h2{{margin:28px 0 10px}}small{{opacity:.55;font-size:.65em}}
-.stats{{color:#9da9bf;margin-bottom:8px}}.note{{color:#7f8aa3;font-size:13px;margin-bottom:14px}}
+.stats{{color:#9da9bf;margin-bottom:8px;line-height:1.45}}.note{{color:#7f8aa3;font-size:13px;margin-bottom:14px}}
 input{{width:100%;padding:12px 14px;border-radius:10px;border:1px solid #2a3550;background:#121a2d;color:#fff;margin:12px 0 20px}}
 .card{{background:#121a2d;border:1px solid #26324b;border-radius:12px;padding:14px;margin:8px 0;display:grid;grid-template-columns:1fr auto;gap:8px 16px}}
 .title{{font-weight:650;word-break:break-word}}
@@ -124,7 +153,7 @@ input{{width:100%;padding:12px 14px;border-radius:10px;border:1px solid #2a3550;
 .empty{{color:#9da9bf;padding:18px 0}}
 </style></head><body><main>
 <h1>VPN Aggregator</h1>
-<div class="stats">Generated {generated} · Catalog {len(catalog["servers"])} · Working {len(working)} · Published {len(published)} · PL {pl_count} · EU {eu_count}</div>
+<div class="stats">{esc(stats_line)}</div>
 <div class="note">Only connect-ready profiles: no interactive login. Certificate / anonymous / embedded public credentials. Free public endpoints — not a privacy guarantee.</div>
 <input id="q" placeholder="Search country, server, protocol..." oninput="filter()">
 {"".join(cards) if cards else '<div class="empty">No currently working servers. Wait for the next monitor run.</div>'}
@@ -133,7 +162,7 @@ input{{width:100%;padding:12px 14px;border-radius:10px;border:1px solid #2a3550;
 """
     (DOCS / "index.html").write_text(index, encoding="utf-8")
     (DOCS / ".nojekyll").write_text("", encoding="utf-8")
-    print(f"pages: working={len(working)}, published={len(published)}, PL={pl_count}, EU={eu_count}")
+    print(f"pages: working={working_n}, published={published_n}, PL={pl_count}, EU={eu_count}")
 
 
 if __name__ == "__main__":
