@@ -32,10 +32,18 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      # IMPORTANT: do NOT use workflow_run.head_sha — that is the commit
+      # the monitor *started* from, before it pushed the new docs/.
+      # Always deploy the current tip of main (includes catalog bot commit).
       - uses: actions/checkout@v4
         with:
-          # For workflow_run, check out the commit that finished the monitor.
-          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+          ref: main
+          fetch-depth: 1
+
+      - name: Show what we deploy
+        run: |
+          echo "Deploying commit: $(git rev-parse --short HEAD)"
+          grep -o 'Updated[^<]*' docs/index.html | head -1 || true
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
