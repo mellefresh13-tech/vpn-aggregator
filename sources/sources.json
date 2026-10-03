@@ -8,7 +8,8 @@
       "enabled": true,
       "base_urls": ["https://www.vpngate.net/api/iphone/"],
       "auth_expected": "public_static",
-      "priority": 120
+      "priority": 120,
+      "notes": "Main yield. Rarely has EU (JP/KR dominate). Username/password vpn/vpn."
     },
     {
       "id": "vpngate_mirror",
@@ -20,51 +21,8 @@
         "https://cdn.jsdelivr.net/gh/GeorgeXie2333/vpngate-list-mirror@latest/data/vpngate.csv"
       ],
       "auth_expected": "public_static",
-      "priority": 110
-    },
-    {
-      "id": "publicvpnlist",
-      "name": "PublicVPNList (EU countries)",
-      "kind": "website",
-      "adapter": "publicvpnlist_html",
-      "enabled": true,
-      "base_urls": ["https://publicvpnlist.com/country/"],
-      "auth_expected": false,
-      "priority": 100
-    },
-    {
-      "id": "huntvpn",
-      "name": "Hunt VPN",
-      "kind": "website",
-      "adapter": "huntvpn_html",
-      "enabled": true,
-      "base_urls": ["https://huntvpn.dev/countries"],
-      "auth_expected": false,
-      "priority": 90
-    },
-    {
-      "id": "ipspeed",
-      "name": "IPSpeed free OpenVPN",
-      "kind": "website",
-      "adapter": "generic_html_ovpn",
-      "enabled": true,
-      "base_urls": ["https://ipspeed.info/free-openvpn.php"],
-      "max_files": 100,
-      "auth_expected": false,
-      "priority": 95
-    },
-    {
-      "id": "zoult",
-      "name": "Zoult/.ovpn (GitHub)",
-      "kind": "github",
-      "adapter": "github_tree",
-      "enabled": true,
-      "base_urls": [
-        "https://api.github.com/repos/Zoult/.ovpn/git/trees/main?recursive=1"
-      ],
-      "max_files": 300,
-      "auth_expected": false,
-      "priority": 70
+      "priority": 110,
+      "notes": "Fallback when official API is slow/blocked."
     },
     {
       "id": "auto_ovpn",
@@ -75,48 +33,50 @@
       "base_urls": [
         "https://api.github.com/repos/9xN/auto-ovpn/git/trees/main?recursive=1"
       ],
-      "max_files": 200,
+      "max_files": 250,
       "auth_expected": "public_static",
-      "priority": 80
+      "priority": 100,
+      "notes": "Auto-mirrored VPN Gate configs. Same vpn/vpn auth."
+    },
+    {
+      "id": "zoult",
+      "name": "Zoult/.ovpn (GitHub, EU folders)",
+      "kind": "github",
+      "adapter": "github_tree",
+      "enabled": true,
+      "base_urls": [
+        "https://api.github.com/repos/Zoult/.ovpn/git/trees/main?recursive=1"
+      ],
+      "max_files": 400,
+      "auth_expected": false,
+      "priority": 90,
+      "notes": "Best GitHub source for EU paths (Poland, Germany, France, NL, UK, RO…). Many need rotating passwords from Password.url — those are skipped unless cert/anonymous."
+    }
+  ],
+  "disabled": [
+    {
+      "id": "publicvpnlist",
+      "reason": "0 ready profiles — page is JS/short-lived downloads, no static .ovpn hrefs"
+    },
+    {
+      "id": "huntvpn",
+      "reason": "0 profiles in recent runs"
+    },
+    {
+      "id": "ipspeed",
+      "reason": "0 ready / scraper yield empty"
     },
     {
       "id": "ovpn_scraper",
-      "name": "fox3000foxy/OVPN-Configs-scraper (GitHub)",
-      "kind": "github",
-      "adapter": "github_tree",
-      "enabled": true,
-      "base_urls": [
-        "https://api.github.com/repos/fox3000foxy/OVPN-Configs-scraper/git/trees/main?recursive=1"
-      ],
-      "max_files": 200,
-      "auth_expected": false,
-      "priority": 65
+      "reason": "0 available after validation (mostly dead/Asia duplicates of VPN Gate)"
     },
     {
       "id": "mytaditya",
-      "name": "MYTAditya/OVPN-Collection (GitHub)",
-      "kind": "github",
-      "adapter": "github_tree",
-      "enabled": true,
-      "base_urls": [
-        "https://api.github.com/repos/MYTAditya/OVPN-Collection/git/trees/main?recursive=1"
-      ],
-      "max_files": 150,
-      "auth_expected": false,
-      "priority": 55
+      "reason": "0 profiles discovered"
     },
     {
       "id": "openvpn_profiles",
-      "name": "AbdulAlimMahir/OpenVPN-Profiles (GitHub)",
-      "kind": "github",
-      "adapter": "github_tree",
-      "enabled": true,
-      "base_urls": [
-        "https://api.github.com/repos/AbdulAlimMahir/OpenVPN-Profiles/git/trees/main?recursive=1"
-      ],
-      "max_files": 200,
-      "auth_expected": false,
-      "priority": 60
+      "reason": "Many files but 0 connect-ready after auth filter (rotating passwords)"
     }
   ]
 }
