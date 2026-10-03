@@ -1,0 +1,33 @@
+name: Rebuild site only
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Rebuild index only
+        run: python scripts/publish_site.py --index-only
+      - name: Commit index
+        run: |
+          git config user.name "vpn-aggregator[bot]"
+          git config user.email "vpn-aggregator[bot]@users.noreply.github.com"
+          git add docs/index.html docs/.nojekyll
+          if git diff --cached --quiet; then
+            echo "No index changes"
+            exit 0
+          fi
+          git commit -m "chore: rebuild site index (UI only)"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            sleep 2
+          done
+          exit 1
