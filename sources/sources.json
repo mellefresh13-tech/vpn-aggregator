@@ -56,9 +56,49 @@
       "base_urls": [
         "https://api.github.com/repos/Zoult/.ovpn/git/trees/main?recursive=1"
       ],
+      "max_files": 350,
       "country_hint": null,
       "auth_expected": false,
-      "priority": 60
+      "priority": 70
+    },
+    {
+      "id": "auto_ovpn",
+      "name": "9xN auto-ovpn",
+      "adapter": "github_tree",
+      "enabled": true,
+      "base_urls": [
+        "https://api.github.com/repos/9xN/auto-ovpn/git/trees/main?recursive=1"
+      ],
+      "max_files": 200,
+      "country_hint": null,
+      "auth_expected": "public_static",
+      "priority": 80
+    },
+    {
+      "id": "ovpn_scraper",
+      "name": "OVPN-Configs-scraper",
+      "adapter": "github_tree",
+      "enabled": true,
+      "base_urls": [
+        "https://api.github.com/repos/fox3000foxy/OVPN-Configs-scraper/git/trees/main?recursive=1"
+      ],
+      "max_files": 200,
+      "country_hint": null,
+      "auth_expected": false,
+      "priority": 65
+    },
+    {
+      "id": "mytaditya",
+      "name": "MYTAditya OVPN-Collection",
+      "adapter": "github_tree",
+      "enabled": true,
+      "base_urls": [
+        "https://api.github.com/repos/MYTAditya/OVPN-Collection/git/trees/main?recursive=1"
+      ],
+      "max_files": 150,
+      "country_hint": null,
+      "auth_expected": false,
+      "priority": 55
     }
   ]
 }

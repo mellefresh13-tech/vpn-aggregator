@@ -7,7 +7,7 @@ import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import (  # noqa: E402
@@ -50,7 +50,6 @@ def vpngate_csv(source, s):
             r = s.get(url, timeout=45)
             r.raise_for_status()
             text = r.text
-            # Official feed starts with *vpn_servers then header line.
             lines = text.splitlines()
             header_idx = None
             for i, line in enumerate(lines):
@@ -162,34 +161,57 @@ def publicvpnlist_html(source, s):
     return records
 
 
+def _github_raw_base(api_tree_url: str) -> tuple[str, str, str]:
+    """Extract owner, repo, branch from GitHub trees API URL."""
+    # https://api.github.com/repos/OWNER/REPO/git/trees/BRANCH?recursive=1
+    m = re.search(r"api\.github\.com/repos/([^/]+)/([^/]+)/git/trees/([^/?]+)", api_tree_url)
+    if not m:
+        raise ValueError(f"Cannot parse GitHub tree URL: {api_tree_url}")
+    owner, repo, branch = m.group(1), m.group(2), m.group(3)
+    return owner, repo, branch
+
+
 def github_tree(source, s):
-    r = s.get(source["base_urls"][0], timeout=30)
-    r.raise_for_status()
+    """Walk any public GitHub repo tree and pull .ovpn blobs via raw.githubusercontent.com."""
     records = []
-    tree = r.json().get("tree", [])
-    # Prefer EU/PL paths first for earlier discovery under rate limits.
-    def path_rank(path: str) -> int:
-        code = country_from_path(path)
-        return -country_priority(code)
+    max_files = int(source.get("max_files") or 400)
 
-    blobs = [
-        item for item in tree
-        if item.get("type") == "blob" and str(item.get("path", "")).lower().endswith(".ovpn")
-    ]
-    blobs.sort(key=lambda x: path_rank(x.get("path", "")))
-
-    for item in blobs:
-        path = item.get("path", "")
-        url = f"https://raw.githubusercontent.com/Zoult/.ovpn/main/{path}"
+    for tree_url in source.get("base_urls", []):
         try:
-            cfg = s.get(url, timeout=20)
-            cfg.raise_for_status()
-            p = parse_profile(cfg.text, source["id"], url, Path(path).stem)
-            if p:
-                p["country"] = country_from_path(path)
-                records.append(p)
+            owner, repo, branch = _github_raw_base(tree_url)
+        except ValueError as exc:
+            print(f"[{source['id']}] {exc}")
+            continue
+
+        try:
+            r = s.get(tree_url, timeout=45)
+            r.raise_for_status()
+            tree = r.json().get("tree", [])
         except Exception as exc:
-            print(f"[{source['id']}] raw config failed: {path}: {exc}")
+            print(f"[{source['id']}] tree failed {tree_url}: {exc}")
+            continue
+
+        def path_rank(path: str) -> int:
+            return -country_priority(country_from_path(path))
+
+        blobs = [
+            item for item in tree
+            if item.get("type") == "blob" and str(item.get("path", "")).lower().endswith(".ovpn")
+        ]
+        blobs.sort(key=lambda x: path_rank(x.get("path", "")))
+
+        for item in blobs[:max_files]:
+            path = item.get("path", "")
+            url = f"https://raw.githubusercontent.com/{owner}/{repo}/{branch}/{path}"
+            try:
+                cfg = s.get(url, timeout=20)
+                cfg.raise_for_status()
+                p = parse_profile(cfg.text, source["id"], url, Path(path).stem)
+                if p:
+                    p["country"] = country_from_path(path)
+                    records.append(p)
+            except Exception as exc:
+                print(f"[{source['id']}] raw config failed: {path}: {exc}")
     return records
 
 
@@ -214,7 +236,6 @@ def main():
             else:
                 records = []
 
-            # Keep only profiles that can connect without interactive login.
             ready = [x for x in records if is_connect_ready(x.get("auth", ""))]
             skipped = len(records) - len(ready)
             for item in ready:
@@ -230,7 +251,6 @@ def main():
         if old is None or r.get("source_priority", 0) > old.get("source_priority", 0):
             unique[r["id"]] = r
 
-    # Prefer PL/EU in the working set order (validation can be capped by time).
     ordered = sorted(
         unique.values(),
         key=lambda x: (
