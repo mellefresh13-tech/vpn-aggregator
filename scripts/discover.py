@@ -7,7 +7,7 @@ import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import (  # noqa: E402
@@ -25,7 +25,6 @@ ROOT = Path(__file__).resolve().parents[1]
 CONFIG = ROOT / "sources" / "sources.json"
 OUT = ROOT / "data" / "discovered.json"
 
-# Prefer these countries when scraping HTML catalogs.
 EU_FOCUS = [
     "poland", "germany", "netherlands", "france", "united-kingdom",
     "romania", "italy", "spain", "sweden", "denmark", "finland", "norway",
@@ -41,8 +40,21 @@ def _decode_b64_config(b64: str) -> str | None:
         return None
 
 
+def _collect_ovpn_links(html: str, base_url: str) -> list[str]:
+    patterns = [
+        r'''href=["']([^"']+\.ovpn(?:\?[^"']*)?)["']''',
+        r'''href=["']([^"']+/download/[^"']+)["']''',
+        r'''href=["']([^"']*do_openvpn\.aspx[^"']*)["']''',
+    ]
+    found: list[str] = []
+    for pat in patterns:
+        for link in re.findall(pat, html, re.I):
+            found.append(urljoin(base_url, link))
+    # de-dupe preserving order
+    return list(dict.fromkeys(found))
+
+
 def vpngate_csv(source, s):
-    """Parse VPN Gate public CSV feed (official or mirror)."""
     records = []
     last_error = None
     for url in source.get("base_urls", []):
@@ -110,9 +122,9 @@ def huntvpn_html(source, s):
         try:
             page = s.get(country_url, timeout=30)
             page.raise_for_status()
-            links = re.findall(r'''href=["']([^"']+\.ovpn(?:\?[^"']*)?)["']''', page.text, re.I)
-            links += re.findall(r'''href=["']([^"']*/servers/[^"']+)["']''', page.text, re.I)
-            for link in dict.fromkeys(links):
+            page_links = re.findall(r'''href=["']([^"']+\.ovpn(?:\?[^"']*)?)["']''', page.text, re.I)
+            page_links += re.findall(r'''href=["']([^"']*/servers/[^"']+)["']''', page.text, re.I)
+            for link in dict.fromkeys(page_links):
                 url = urljoin(page.url, link)
                 try:
                     target = s.get(url, timeout=20)
@@ -161,18 +173,47 @@ def publicvpnlist_html(source, s):
     return records
 
 
+def generic_html_ovpn(source, s):
+    """Scrape one or more HTML pages for direct .ovpn links and download them."""
+    records = []
+    max_files = int(source.get("max_files") or 120)
+    country_hint = normalize_country(source.get("country_hint"))
+
+    for page_url in source.get("base_urls", []):
+        try:
+            page = s.get(page_url, timeout=30)
+            page.raise_for_status()
+        except Exception as exc:
+            print(f"[{source['id']}] page failed {page_url}: {exc}")
+            continue
+
+        links = _collect_ovpn_links(page.text, page.url)
+        for url in links[:max_files]:
+            try:
+                cfg = s.get(url, timeout=20)
+                cfg.raise_for_status()
+                text = cfg.text
+                # Skip HTML error pages mistaken for configs.
+                if "<html" in text.lower()[:200] and "remote " not in text.lower():
+                    continue
+                name = Path(url.split("?")[0]).stem
+                p = parse_profile(text, source["id"], url, name)
+                if p:
+                    p["country"] = country_from_path(url) or country_from_path(page_url) or country_hint
+                    records.append(p)
+            except Exception as exc:
+                print(f"[{source['id']}] config failed: {url}: {exc}")
+    return records
+
+
 def _github_raw_base(api_tree_url: str) -> tuple[str, str, str]:
-    """Extract owner, repo, branch from GitHub trees API URL."""
-    # https://api.github.com/repos/OWNER/REPO/git/trees/BRANCH?recursive=1
     m = re.search(r"api\.github\.com/repos/([^/]+)/([^/]+)/git/trees/([^/?]+)", api_tree_url)
     if not m:
         raise ValueError(f"Cannot parse GitHub tree URL: {api_tree_url}")
-    owner, repo, branch = m.group(1), m.group(2), m.group(3)
-    return owner, repo, branch
+    return m.group(1), m.group(2), m.group(3)
 
 
 def github_tree(source, s):
-    """Walk any public GitHub repo tree and pull .ovpn blobs via raw.githubusercontent.com."""
     records = []
     max_files = int(source.get("max_files") or 400)
 
@@ -231,6 +272,8 @@ def main():
                 records = huntvpn_html(source, s)
             elif adapter == "publicvpnlist_html":
                 records = publicvpnlist_html(source, s)
+            elif adapter == "generic_html_ovpn":
+                records = generic_html_ovpn(source, s)
             elif adapter == "github_tree":
                 records = github_tree(source, s)
             else:

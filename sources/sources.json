@@ -2,103 +2,121 @@
   "sources": [
     {
       "id": "vpngate",
-      "name": "VPN Gate",
+      "name": "VPN Gate (official API)",
+      "kind": "website",
       "adapter": "vpngate_csv",
       "enabled": true,
-      "base_urls": [
-        "https://www.vpngate.net/api/iphone/"
-      ],
-      "country_hint": null,
+      "base_urls": ["https://www.vpngate.net/api/iphone/"],
       "auth_expected": "public_static",
       "priority": 120
     },
     {
       "id": "vpngate_mirror",
       "name": "VPN Gate mirror (jsDelivr)",
+      "kind": "website",
       "adapter": "vpngate_csv",
       "enabled": true,
       "base_urls": [
         "https://cdn.jsdelivr.net/gh/GeorgeXie2333/vpngate-list-mirror@latest/data/vpngate.csv"
       ],
-      "country_hint": null,
       "auth_expected": "public_static",
       "priority": 110
     },
     {
       "id": "publicvpnlist",
-      "name": "PublicVPNList",
+      "name": "PublicVPNList (EU countries)",
+      "kind": "website",
       "adapter": "publicvpnlist_html",
       "enabled": true,
-      "base_urls": [
-        "https://publicvpnlist.com/country/"
-      ],
-      "country_hint": null,
+      "base_urls": ["https://publicvpnlist.com/country/"],
       "auth_expected": false,
       "priority": 100
     },
     {
       "id": "huntvpn",
       "name": "Hunt VPN",
+      "kind": "website",
       "adapter": "huntvpn_html",
       "enabled": true,
-      "base_urls": [
-        "https://huntvpn.dev/countries"
-      ],
-      "country_hint": null,
+      "base_urls": ["https://huntvpn.dev/countries"],
       "auth_expected": false,
       "priority": 90
     },
     {
+      "id": "ipspeed",
+      "name": "IPSpeed free OpenVPN",
+      "kind": "website",
+      "adapter": "generic_html_ovpn",
+      "enabled": true,
+      "base_urls": ["https://ipspeed.info/free-openvpn.php"],
+      "max_files": 100,
+      "auth_expected": false,
+      "priority": 95
+    },
+    {
       "id": "zoult",
-      "name": "Zoult .ovpn mirror",
+      "name": "Zoult/.ovpn (GitHub)",
+      "kind": "github",
       "adapter": "github_tree",
       "enabled": true,
       "base_urls": [
         "https://api.github.com/repos/Zoult/.ovpn/git/trees/main?recursive=1"
       ],
-      "max_files": 350,
-      "country_hint": null,
+      "max_files": 300,
       "auth_expected": false,
       "priority": 70
     },
     {
       "id": "auto_ovpn",
-      "name": "9xN auto-ovpn",
+      "name": "9xN/auto-ovpn (GitHub)",
+      "kind": "github",
       "adapter": "github_tree",
       "enabled": true,
       "base_urls": [
         "https://api.github.com/repos/9xN/auto-ovpn/git/trees/main?recursive=1"
       ],
       "max_files": 200,
-      "country_hint": null,
       "auth_expected": "public_static",
       "priority": 80
     },
     {
       "id": "ovpn_scraper",
-      "name": "OVPN-Configs-scraper",
+      "name": "fox3000foxy/OVPN-Configs-scraper (GitHub)",
+      "kind": "github",
       "adapter": "github_tree",
       "enabled": true,
       "base_urls": [
         "https://api.github.com/repos/fox3000foxy/OVPN-Configs-scraper/git/trees/main?recursive=1"
       ],
       "max_files": 200,
-      "country_hint": null,
       "auth_expected": false,
       "priority": 65
     },
     {
       "id": "mytaditya",
-      "name": "MYTAditya OVPN-Collection",
+      "name": "MYTAditya/OVPN-Collection (GitHub)",
+      "kind": "github",
       "adapter": "github_tree",
       "enabled": true,
       "base_urls": [
         "https://api.github.com/repos/MYTAditya/OVPN-Collection/git/trees/main?recursive=1"
       ],
       "max_files": 150,
-      "country_hint": null,
       "auth_expected": false,
       "priority": 55
+    },
+    {
+      "id": "openvpn_profiles",
+      "name": "AbdulAlimMahir/OpenVPN-Profiles (GitHub)",
+      "kind": "github",
+      "adapter": "github_tree",
+      "enabled": true,
+      "base_urls": [
+        "https://api.github.com/repos/AbdulAlimMahir/OpenVPN-Profiles/git/trees/main?recursive=1"
+      ],
+      "max_files": 200,
+      "auth_expected": false,
+      "priority": 60
     }
   ]
 }
