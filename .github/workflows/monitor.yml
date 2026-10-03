@@ -1,8 +1,5 @@
 name: VPN catalog monitor
 on:
-  push:
-    paths-ignore:
-      - ".github/workflows/monitor.yml"
   schedule:
     - cron: "17 */3 * * *"
   workflow_dispatch:
@@ -48,7 +45,6 @@ jobs:
             exit 0
           fi
           git commit -m "chore: update VPN catalog"
-          # Avoid race when another job pushed to main while this run was working.
           for attempt in 1 2 3 4 5; do
             git pull --rebase origin main
             if git push origin HEAD:main; then
