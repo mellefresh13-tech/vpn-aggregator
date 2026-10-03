@@ -130,7 +130,7 @@ def main(index_only: bool = False):
 
     tiles = []
     panels = []
-    for idx, country in enumerate(country_order):
+    for country in country_order:
         items = sorted(
             groups[country],
             key=lambda x: (
@@ -142,10 +142,8 @@ def main(index_only: bool = False):
         )
         cid = esc(country)
         label = esc(country_label(country))
-        open_attr = " open" if idx < 2 else ""
         tiles.append(
-            f'<button type="button" class="tile" data-target="c-{cid}" '
-            f'aria-expanded="{"true" if idx < 2 else "false"}">'
+            f'<button type="button" class="tile" data-target="c-{cid}" aria-expanded="false">'
             f'<span class="tile-code">{cid}</span>'
             f'<span class="tile-name">{label}</span>'
             f'<span class="tile-count">{len(items)}</span>'
@@ -168,7 +166,7 @@ def main(index_only: bool = False):
                 "</article>"
             )
         panels.append(
-            f'<details class="country" id="c-{cid}" data-country="{cid}"{open_attr}>'
+            f'<details class="country" id="c-{cid}" data-country="{cid}">'
             f'<summary><span class="sum-title">{label}</span>'
             f'<span class="sum-count">{len(items)} servers</span></summary>'
             f'{ "".join(rows) }'
