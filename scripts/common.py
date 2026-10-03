@@ -12,10 +12,10 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 
 # Public static credentials known to work for specific free sources.
-# These are intentionally public (VPN Gate documents username/password as vpn/vpn).
 KNOWN_PUBLIC_AUTH = {
     "vpngate": ("vpn", "vpn"),
     "vpngate_mirror": ("vpn", "vpn"),
+    "auto_ovpn": ("vpn", "vpn"),
 }
 
 EU_COUNTRIES = {
@@ -66,7 +66,7 @@ COUNTRY_ALIASES = {
 def session():
     s = requests.Session()
     s.headers.update({
-        "User-Agent": "vpn-aggregator/1.2 (+ready-to-connect catalog)",
+        "User-Agent": "vpn-aggregator/1.3 (+ready-to-connect catalog)",
         "Accept": "*/*",
     })
     return s
@@ -102,7 +102,6 @@ def has_inline_auth(text: str) -> bool:
 def auth_class(text: str) -> str:
     if has_inline_auth(text):
         return "embedded_credentials"
-    # Active auth-user-pass directive (not commented).
     if re.search(r"(?mi)^\s*auth-user-pass\b", text):
         return "username_password"
     if re.search(r"(?mi)^\s*(cert|key)\s+", text) or "<cert>" in text or "<key>" in text:
@@ -139,22 +138,14 @@ def country_priority(code: str | None) -> int:
 
 
 def embed_public_auth(text: str, username: str, password: str) -> str:
-    """Make profile connect without interactive login prompts.
-
-    Uses OpenVPN inline <auth-user-pass> block supported by OpenVPN 2.x
-    and common Android/desktop clients.
-    """
     if has_inline_auth(text):
         return text
-
-    # Remove standalone auth-user-pass lines (commented or not).
     cleaned = re.sub(r"(?mi)^\s*;?\s*auth-user-pass(?:\s+\S+)?\s*$\n?", "", text)
     block = f"<auth-user-pass>\n{username}\n{password}\n</auth-user-pass>\n"
     return cleaned.rstrip() + "\n\n" + block
 
 
 def make_ready_config(text: str, source_id: str) -> tuple[str, str]:
-    """Return (config, auth_class) ready for one-click connect when possible."""
     cls = auth_class(text)
     if cls in ("anonymous", "certificate", "embedded_credentials"):
         return text, cls
