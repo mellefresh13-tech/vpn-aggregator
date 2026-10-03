@@ -11,11 +11,16 @@ import requests
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 
-# Public static credentials known to work for specific free sources.
+# Public static credentials for VPN Gate–derived free sources.
 KNOWN_PUBLIC_AUTH = {
     "vpngate": ("vpn", "vpn"),
     "vpngate_mirror": ("vpn", "vpn"),
     "auto_ovpn": ("vpn", "vpn"),
+    "fdciabdul": ("vpn", "vpn"),
+    "tdxf1_sync": ("vpn", "vpn"),
+    "mizmaze_auto": ("vpn", "vpn"),
+    "ovpn_scraper": ("vpn", "vpn"),
+    "cynegeirus": ("vpn", "vpn"),
 }
 
 EU_COUNTRIES = {
@@ -60,13 +65,17 @@ COUNTRY_ALIASES = {
     "ireland": "IE", "ie": "IE",
     "greece": "GR", "gr": "GR",
     "switzerland": "CH", "ch": "CH",
+    "australia": "AU", "au": "AU",
+    "thailand": "TH", "th": "TH",
+    "vietnam": "VN", "vn": "VN",
+    "india": "IN", "in": "IN",
 }
 
 
 def session():
     s = requests.Session()
     s.headers.update({
-        "User-Agent": "vpn-aggregator/1.3 (+ready-to-connect catalog)",
+        "User-Agent": "vpn-aggregator/1.4 (+ready-to-connect catalog)",
         "Accept": "*/*",
     })
     return s
@@ -124,6 +133,12 @@ def country_from_path(path: str) -> str | None:
         code = normalize_country(part)
         if code:
             return code
+        # filenames like JP_ASAHI... or server_10_JP.ovpn
+        m = re.search(r"(?:^|[_-])([A-Za-z]{2})(?:[_-]|\.ovpn$)", part)
+        if m:
+            code = normalize_country(m.group(1))
+            if code:
+                return code
     return None
 
 

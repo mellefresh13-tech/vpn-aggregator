@@ -2,18 +2,17 @@
   "sources": [
     {
       "id": "vpngate",
-      "name": "VPN Gate (official API)",
+      "name": "VPN Gate official API",
       "kind": "website",
       "adapter": "vpngate_csv",
       "enabled": true,
       "base_urls": ["https://www.vpngate.net/api/iphone/"],
       "auth_expected": "public_static",
-      "priority": 120,
-      "notes": "Main yield. Rarely has EU (JP/KR dominate). Username/password vpn/vpn."
+      "priority": 130
     },
     {
       "id": "vpngate_mirror",
-      "name": "VPN Gate mirror (jsDelivr)",
+      "name": "VPN Gate CSV mirror (GeorgeXie / jsDelivr)",
       "kind": "website",
       "adapter": "vpngate_csv",
       "enabled": true,
@@ -21,12 +20,11 @@
         "https://cdn.jsdelivr.net/gh/GeorgeXie2333/vpngate-list-mirror@latest/data/vpngate.csv"
       ],
       "auth_expected": "public_static",
-      "priority": 110,
-      "notes": "Fallback when official API is slow/blocked."
+      "priority": 120
     },
     {
       "id": "auto_ovpn",
-      "name": "9xN/auto-ovpn (GitHub)",
+      "name": "9xN/auto-ovpn",
       "kind": "github",
       "adapter": "github_tree",
       "enabled": true,
@@ -35,12 +33,81 @@
       ],
       "max_files": 250,
       "auth_expected": "public_static",
+      "priority": 110
+    },
+    {
+      "id": "fdciabdul",
+      "name": "fdciabdul/Vpngate-Scraper-API",
+      "kind": "github",
+      "adapter": "github_tree",
+      "enabled": true,
+      "base_urls": [
+        "https://api.github.com/repos/fdciabdul/Vpngate-Scraper-API/git/trees/main?recursive=1"
+      ],
+      "max_files": 150,
+      "auth_expected": "public_static",
+      "priority": 105,
+      "notes": "~100 .ovpn, updated daily, 94★"
+    },
+    {
+      "id": "tdxf1_sync",
+      "name": "tdxf1/vpngate-sync",
+      "kind": "github",
+      "adapter": "github_tree",
+      "enabled": true,
+      "base_urls": [
+        "https://api.github.com/repos/tdxf1/vpngate-sync/git/trees/main?recursive=1"
+      ],
+      "max_files": 150,
+      "auth_expected": "public_static",
       "priority": 100,
-      "notes": "Auto-mirrored VPN Gate configs. Same vpn/vpn auth."
+      "notes": "~105 .ovpn in ovpn/, pushed today"
+    },
+    {
+      "id": "mizmaze_auto",
+      "name": "mizmazegt1-design/auto-vpngate-configs",
+      "kind": "github",
+      "adapter": "github_tree",
+      "enabled": true,
+      "base_urls": [
+        "https://api.github.com/repos/mizmazegt1-design/auto-vpngate-configs/git/trees/main?recursive=1"
+      ],
+      "max_files": 120,
+      "auth_expected": "public_static",
+      "priority": 95,
+      "notes": "Country-tagged filenames (JP_*), ~50 files, live today"
+    },
+    {
+      "id": "ovpn_scraper",
+      "name": "fox3000foxy/OVPN-Configs-scraper",
+      "kind": "github",
+      "adapter": "github_tree",
+      "enabled": true,
+      "base_urls": [
+        "https://api.github.com/repos/fox3000foxy/OVPN-Configs-scraper/git/trees/main?recursive=1"
+      ],
+      "max_files": 80,
+      "auth_expected": "public_static",
+      "priority": 85,
+      "notes": "Re-enabled: ~35 .ovpn, pushed today"
+    },
+    {
+      "id": "cynegeirus",
+      "name": "cynegeirus/public-openvpn-servers",
+      "kind": "github",
+      "adapter": "github_tree",
+      "enabled": true,
+      "base_urls": [
+        "https://api.github.com/repos/cynegeirus/public-openvpn-servers/git/trees/main?recursive=1"
+      ],
+      "max_files": 120,
+      "auth_expected": "public_static",
+      "priority": 70,
+      "notes": "~98 .ovpn; less fresh (last push 2025) but still downloadable"
     },
     {
       "id": "zoult",
-      "name": "Zoult/.ovpn (GitHub, EU folders)",
+      "name": "Zoult/.ovpn (EU country folders)",
       "kind": "github",
       "adapter": "github_tree",
       "enabled": true,
@@ -50,33 +117,7 @@
       "max_files": 400,
       "auth_expected": false,
       "priority": 90,
-      "notes": "Best GitHub source for EU paths (Poland, Germany, France, NL, UK, RO…). Many need rotating passwords from Password.url — those are skipped unless cert/anonymous."
-    }
-  ],
-  "disabled": [
-    {
-      "id": "publicvpnlist",
-      "reason": "0 ready profiles — page is JS/short-lived downloads, no static .ovpn hrefs"
-    },
-    {
-      "id": "huntvpn",
-      "reason": "0 profiles in recent runs"
-    },
-    {
-      "id": "ipspeed",
-      "reason": "0 ready / scraper yield empty"
-    },
-    {
-      "id": "ovpn_scraper",
-      "reason": "0 available after validation (mostly dead/Asia duplicates of VPN Gate)"
-    },
-    {
-      "id": "mytaditya",
-      "reason": "0 profiles discovered"
-    },
-    {
-      "id": "openvpn_profiles",
-      "reason": "Many files but 0 connect-ready after auth filter (rotating passwords)"
+      "notes": "Poland/Germany/France/NL/UK folders. Many need rotating passwords → filtered unless cert/anonymous."
     }
   ]
 }
