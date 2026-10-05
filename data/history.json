@@ -4703,27 +4703,25 @@
       "proto": "tcp",
       "auth": "certificate",
       "country": "RO",
-      "latency_ms": 16,
-      "speed_kbps": 232605022,
-      "score_upstream": 1073120,
+      "latency_ms": 13,
+      "speed_kbps": 238397876,
+      "score_upstream": 1196615,
       "source_priority": 330,
-      "checked_at": "2026-10-03T23:50:31.250062+00:00",
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": true,
         "error": null
       },
       "config_sha256": "386a501f5d597473e050a1763315614b3ddbd28f4f180b6ef3017c2ffdc66fde",
       "handshake": {
-        "status": "working",
-        "error": null,
-        "exit_ip": "187.15.134.160",
-        "handshake_ms": 4025
+        "status": "auth_failed",
+        "error": "authentication failed"
       },
-      "status": "working",
-      "consecutive_failures": 0,
-      "lifecycle": "working",
+      "status": "auth_failed",
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-03T05:28:30.191358+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "a7e825e38225c161c693c05a1ea80f6023966725": {
       "id": "a7e825e38225c161c693c05a1ea80f6023966725",
@@ -4935,7 +4933,7 @@
       "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-03T05:28:30.191358+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "fc145d5b42d9799338898384a110527ee306e2d7": {
       "id": "fc145d5b42d9799338898384a110527ee306e2d7",
@@ -5726,27 +5724,25 @@
       "proto": "tcp",
       "auth": "certificate",
       "country": "JP",
-      "latency_ms": 7,
-      "speed_kbps": 298297585,
-      "score_upstream": 676679,
-      "source_priority": 170,
-      "checked_at": "2026-10-03T05:28:30.191358+00:00",
+      "latency_ms": 8,
+      "speed_kbps": 171344537,
+      "score_upstream": 904423,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
-        "reachable": true,
-        "error": null
+        "reachable": false,
+        "error": "timed out"
       },
       "config_sha256": "58f764fab9589b0c5635fffe6e14dd4d4aeed15ac8edefbd5fcb95ed85798a51",
+      "status": "unreachable",
       "handshake": {
-        "status": "working",
-        "error": null,
-        "exit_ip": "223.133.172.21",
-        "handshake_ms": 4502
+        "status": "not_tested",
+        "error": "tcp unreachable"
       },
-      "status": "working",
-      "consecutive_failures": 0,
-      "lifecycle": "working",
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-03T05:28:30.191358+00:00",
-      "last_seen": "2026-10-03T05:28:30.191358+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "60b91a2c8a25bfabcfef7fbdfb6299d2393707c4": {
       "id": "60b91a2c8a25bfabcfef7fbdfb6299d2393707c4",
@@ -5873,16 +5869,19 @@
     },
     "27bbe0e4557635e872eee79365fd2e946434c225": {
       "id": "27bbe0e4557635e872eee79365fd2e946434c225",
-      "source": "auto_ovpn",
-      "source_url": "https://raw.githubusercontent.com/9xN/auto-ovpn/main/configs/server_48_JP.ovpn",
-      "name": "server_48_JP",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn238509487",
       "host": "119.173.41.65",
       "port": 1968,
       "proto": "udp",
       "auth": "certificate",
       "country": "JP",
-      "source_priority": 160,
-      "checked_at": "2026-10-03T23:50:31.250062+00:00",
+      "latency_ms": 34,
+      "speed_kbps": 266517460,
+      "score_upstream": 593530,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
@@ -5893,10 +5892,10 @@
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-03T05:28:30.191358+00:00",
-      "last_seen": "2026-10-03T23:50:31.250062+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "a80496b01cecbd38a66aaf225394f8e6a23164f5": {
       "id": "a80496b01cecbd38a66aaf225394f8e6a23164f5",
@@ -6257,7 +6256,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T05:28:30.191358+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "77e3bd27e6af5df6f9bc067582e42307e8f84c87": {
       "id": "77e3bd27e6af5df6f9bc067582e42307e8f84c87",
@@ -6503,7 +6502,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T05:28:30.191358+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "c2c296c2431abf2071736d5bd846c742683286aa": {
       "id": "c2c296c2431abf2071736d5bd846c742683286aa",
@@ -6820,10 +6819,10 @@
       "auth": "certificate",
       "country": "KR",
       "latency_ms": 28,
-      "speed_kbps": 93487851,
-      "score_upstream": 587279,
-      "source_priority": 170,
-      "checked_at": "2026-10-03T05:28:30.191358+00:00",
+      "speed_kbps": 63152136,
+      "score_upstream": 812667,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": true,
         "error": null
@@ -6833,13 +6832,13 @@
         "status": "working",
         "error": null,
         "exit_ip": "210.178.182.244",
-        "handshake_ms": 4733
+        "handshake_ms": 4400
       },
       "status": "working",
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T05:28:30.191358+00:00",
-      "last_seen": "2026-10-03T08:51:48.307657+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "8d75bda6d701bb61f25957145841d698f93444d5": {
       "id": "8d75bda6d701bb61f25957145841d698f93444d5",
@@ -7209,9 +7208,9 @@
     },
     "b3b028a860e7dfd0805b3221c0e55a2b2dff9a28": {
       "id": "b3b028a860e7dfd0805b3221c0e55a2b2dff9a28",
-      "source": "auto_ovpn",
-      "source_url": "https://raw.githubusercontent.com/9xN/auto-ovpn/main/configs/server_8_KR.ovpn",
-      "name": "server_8_KR",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn315315201",
       "host": "14.47.68.46",
       "port": 1215,
       "proto": "tcp",
@@ -7219,9 +7218,9 @@
       "country": "KR",
       "latency_ms": 32,
       "speed_kbps": 73907592,
-      "score_upstream": 1428243,
-      "source_priority": 160,
-      "checked_at": "2026-10-03T05:28:30.191358+00:00",
+      "score_upstream": 1430388,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": true,
         "error": null
@@ -7231,13 +7230,13 @@
         "status": "working",
         "error": null,
         "exit_ip": "14.47.68.46",
-        "handshake_ms": 5236
+        "handshake_ms": 4793
       },
       "status": "working",
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T05:28:30.191358+00:00",
-      "last_seen": "2026-10-03T18:44:42.697997+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "80cd63b8c0d4dba5ad37215073ed43bf85b66d31": {
       "id": "80cd63b8c0d4dba5ad37215073ed43bf85b66d31",
@@ -7267,7 +7266,7 @@
       "consecutive_failures": 3,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-03T05:28:30.191358+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "dc54f436dc22b23e87b7b01765419cb3b33e144a": {
       "id": "dc54f436dc22b23e87b7b01765419cb3b33e144a",
@@ -7356,7 +7355,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T05:28:30.191358+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "8353294b673d152e2dc1f88050382bf8d6373866": {
       "id": "8353294b673d152e2dc1f88050382bf8d6373866",
@@ -7398,8 +7397,8 @@
       "proto": "tcp",
       "auth": "certificate",
       "country": "JP",
-      "latency_ms": 31,
-      "speed_kbps": 120628487,
+      "latency_ms": 20,
+      "speed_kbps": 141628319,
       "score_upstream": 1390841,
       "source_priority": 180,
       "checked_at": "2026-10-04T06:02:50.173048+00:00",
@@ -7418,7 +7417,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T05:28:30.191358+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "6f793841a2179d00b54c132768c1611b2529de7a": {
       "id": "6f793841a2179d00b54c132768c1611b2529de7a",
@@ -8553,8 +8552,8 @@
       "proto": "tcp",
       "auth": "certificate",
       "country": "JP",
-      "latency_ms": 9,
-      "speed_kbps": 546353542,
+      "latency_ms": null,
+      "speed_kbps": 469234308,
       "score_upstream": 662812,
       "source_priority": 180,
       "checked_at": "2026-10-04T18:41:41.012318+00:00",
@@ -8573,7 +8572,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T05:28:30.191358+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "636d9d5f51591aafe483f52906e419c610c9c17a": {
       "id": "636d9d5f51591aafe483f52906e419c610c9c17a",
@@ -10772,7 +10771,7 @@
       "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-03T06:04:53.642837+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "a1032f00b7ea7936f80ec4f13f319909b71412a0": {
       "id": "a1032f00b7ea7936f80ec4f13f319909b71412a0",
@@ -10977,10 +10976,10 @@
       "auth": "certificate",
       "country": "JP",
       "latency_ms": 5,
-      "speed_kbps": 469132086,
-      "score_upstream": 657213,
-      "source_priority": 170,
-      "checked_at": "2026-10-03T06:04:53.642837+00:00",
+      "speed_kbps": 733991008,
+      "score_upstream": 742956,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": true,
         "error": null
@@ -10990,13 +10989,13 @@
         "status": "working",
         "error": null,
         "exit_ip": "153.132.67.172",
-        "handshake_ms": 3965
+        "handshake_ms": 3889
       },
       "status": "working",
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T06:04:53.642837+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "4f5e9c2e2e569941846484a68612ee649bafdf1d": {
       "id": "4f5e9c2e2e569941846484a68612ee649bafdf1d",
@@ -11120,7 +11119,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-03T06:04:53.642837+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "2e695bcb4277feede9b30352a4ffeed09de07f8e": {
       "id": "2e695bcb4277feede9b30352a4ffeed09de07f8e",
@@ -12111,7 +12110,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T06:04:53.642837+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "577eaeb452ac3627f6634d86d931b5655b4a8a3c": {
       "id": "577eaeb452ac3627f6634d86d931b5655b4a8a3c",
@@ -12417,7 +12416,7 @@
       "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-03T06:04:53.642837+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "80284723faced17d447870a580b43bb2ad464d11": {
       "id": "80284723faced17d447870a580b43bb2ad464d11",
@@ -13430,7 +13429,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-03T06:04:53.642837+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "fadaf80842dde605a8e9eedd614ee891778d7e5f": {
       "id": "fadaf80842dde605a8e9eedd614ee891778d7e5f",
@@ -13715,8 +13714,8 @@
       "proto": "tcp",
       "auth": "certificate",
       "country": "JP",
-      "latency_ms": 16,
-      "speed_kbps": 130091297,
+      "latency_ms": 15,
+      "speed_kbps": 172640552,
       "score_upstream": 1389797,
       "source_priority": 180,
       "checked_at": "2026-10-04T18:41:41.012318+00:00",
@@ -13735,7 +13734,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T06:04:53.642837+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "3270aa9fa6120978bb223711354439ab4a5581aa": {
       "id": "3270aa9fa6120978bb223711354439ab4a5581aa",
@@ -14057,30 +14056,35 @@
     },
     "803f8574608b20167eed11eb6923d2762cbbead9": {
       "id": "803f8574608b20167eed11eb6923d2762cbbead9",
-      "source": "mizmaze_auto",
-      "source_url": "https://raw.githubusercontent.com/mizmazegt1-design/auto-vpngate-configs/main/ovpn_files/JP_SoftBankCorp._60.137.146.81_268.3Mbps.ovpn",
-      "name": "JP_SoftBankCorp._60.137.146.81_268.3Mbps",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn180458260",
       "host": "60.137.146.81",
       "port": 1437,
       "proto": "tcp",
       "auth": "certificate",
       "country": "JP",
-      "source_priority": 145,
-      "checked_at": "2026-10-04T06:02:50.173048+00:00",
+      "latency_ms": 15,
+      "speed_kbps": 348671830,
+      "score_upstream": 1278544,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": true,
         "error": null
       },
-      "config_sha256": "bbeba125354d550105d0b11858a70f6921ac5e41fdcac502e4b4f28488a5a2ec",
-      "status": "deferred",
+      "config_sha256": "04e1f1028b956854aeed59b1e363416db78296e7cb075571b3395ee02e6a95d7",
       "handshake": {
-        "status": "not_tested",
-        "error": "handshake budget exceeded"
+        "status": "working",
+        "error": null,
+        "exit_ip": "60.137.146.81",
+        "handshake_ms": 3954
       },
-      "consecutive_failures": 4,
-      "lifecycle": "quarantine",
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
       "first_seen": "2026-10-03T06:04:53.642837+00:00",
-      "last_seen": "2026-10-04T06:02:50.173048+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "2d5e12fd85104de468bded7327722fe28c860fa7": {
       "id": "2d5e12fd85104de468bded7327722fe28c860fa7",
@@ -14402,19 +14406,19 @@
     },
     "7ff2c2a234dd06155bf816aa33e25e5a6ea88bd3": {
       "id": "7ff2c2a234dd06155bf816aa33e25e5a6ea88bd3",
-      "source": "vpngate_mirror",
-      "source_url": "https://cdn.jsdelivr.net/gh/GeorgeXie2333/vpngate-list-mirror@latest/data/vpngate.csv",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
       "name": "vpn359000538",
       "host": "176.116.167.230",
       "port": 24290,
       "proto": "udp",
       "auth": "certificate",
       "country": "RU",
-      "latency_ms": 69,
-      "speed_kbps": 162749112,
-      "score_upstream": 449285,
-      "source_priority": 160,
-      "checked_at": "2026-10-03T06:04:53.642837+00:00",
+      "latency_ms": 65,
+      "speed_kbps": 157906734,
+      "score_upstream": 498979,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
@@ -14425,10 +14429,10 @@
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-03T06:04:53.642837+00:00",
-      "last_seen": "2026-10-03T08:51:48.307657+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "c7125b5d2e124771373dead53b6f0ea1c13a3c83": {
       "id": "c7125b5d2e124771373dead53b6f0ea1c13a3c83",
@@ -14582,15 +14586,15 @@
     },
     "f885e7bd8a89a515fece6eebc5b603531e5424cc": {
       "id": "f885e7bd8a89a515fece6eebc5b603531e5424cc",
-      "source": "fdciabdul",
-      "source_url": "https://raw.githubusercontent.com/fdciabdul/Vpngate-Scraper-API/main/configs/server_99_JP.ovpn",
-      "name": "server_99_JP",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn453085161",
       "host": "124.35.90.44",
       "port": 443,
       "proto": "tcp",
       "auth": "certificate",
       "country": "JP",
-      "source_priority": 155,
+      "source_priority": 180,
       "checked_at": "2026-10-04T18:41:41.012318+00:00",
       "tcp": {
         "reachable": true,
@@ -14605,7 +14609,9 @@
       "consecutive_failures": 4,
       "lifecycle": "quarantine",
       "first_seen": "2026-10-03T06:04:53.642837+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00",
+      "latency_ms": 3,
+      "speed_kbps": 380143716
     },
     "d29218e5610dfcab541751940c1d7bc14143151d": {
       "id": "d29218e5610dfcab541751940c1d7bc14143151d",
@@ -15024,7 +15030,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T06:04:53.642837+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "f076658d18d858d6a764a950d5420ae1709f3e19": {
       "id": "f076658d18d858d6a764a950d5420ae1709f3e19",
@@ -15321,18 +15327,18 @@
     },
     "df8f732b0495629aa150a5cf8c278a9529dba701": {
       "id": "df8f732b0495629aa150a5cf8c278a9529dba701",
-      "source": "vpngate_mirror",
-      "source_url": "https://cdn.jsdelivr.net/gh/GeorgeXie2333/vpngate-list-mirror@latest/data/vpngate.csv",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
       "name": "vpn201053993",
       "host": "121.161.33.240",
       "port": 1386,
       "proto": "tcp",
       "auth": "certificate",
       "country": "KR",
-      "latency_ms": 29,
+      "latency_ms": 28,
       "speed_kbps": 37598238,
       "score_upstream": 861435,
-      "source_priority": 170,
+      "source_priority": 180,
       "checked_at": "2026-10-04T18:41:41.012318+00:00",
       "tcp": {
         "reachable": true,
@@ -15349,7 +15355,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T06:04:53.642837+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "67b1d988ad20dc76839c743d2e94777d7607edf3": {
       "id": "67b1d988ad20dc76839c743d2e94777d7607edf3",
@@ -16359,30 +16365,35 @@
     },
     "c890fbfd7b234d8b2474b3defe657f5d659be297": {
       "id": "c890fbfd7b234d8b2474b3defe657f5d659be297",
-      "source": "fdciabdul",
-      "source_url": "https://raw.githubusercontent.com/fdciabdul/Vpngate-Scraper-API/main/configs/server_67_JP.ovpn",
-      "name": "server_67_JP",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn373113722",
       "host": "43.233.105.3",
       "port": 1412,
       "proto": "tcp",
       "auth": "certificate",
       "country": "JP",
-      "source_priority": 155,
-      "checked_at": "2026-10-04T06:02:50.173048+00:00",
+      "latency_ms": 6,
+      "speed_kbps": 370997182,
+      "score_upstream": 650309,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
-        "reachable": false,
-        "error": "[Errno 111] Connection refused"
+        "reachable": true,
+        "error": null
       },
       "config_sha256": "e6201746502684e80084f5300836a48af4b2be08fa6b9683ba3714453575a190",
-      "status": "unreachable",
       "handshake": {
-        "status": "not_tested",
-        "error": "tcp unreachable"
+        "status": "working",
+        "error": null,
+        "exit_ip": null,
+        "handshake_ms": 18020
       },
-      "consecutive_failures": 2,
-      "lifecycle": "temporarily_failed",
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
       "first_seen": "2026-10-03T06:04:53.642837+00:00",
-      "last_seen": "2026-10-04T06:02:50.173048+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "97f91767a7773afcd0e090cb7a2e7d0237a979c2": {
       "id": "97f91767a7773afcd0e090cb7a2e7d0237a979c2",
@@ -17777,7 +17788,7 @@
       "consecutive_failures": 4,
       "lifecycle": "quarantine",
       "first_seen": "2026-10-03T06:04:53.642837+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "4e05790f11007684681563ea6ac2cf8f8785ce88": {
       "id": "4e05790f11007684681563ea6ac2cf8f8785ce88",
@@ -17977,7 +17988,7 @@
       "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-03T06:04:53.642837+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "141dc972963ead0ac72b083d22855f7093354f4e": {
       "id": "141dc972963ead0ac72b083d22855f7093354f4e",
@@ -18034,7 +18045,7 @@
       "consecutive_failures": 3,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-03T06:04:53.642837+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "99c54f070912dc8cd09dc3fc948917b33edc9fb1": {
       "id": "99c54f070912dc8cd09dc3fc948917b33edc9fb1",
@@ -18521,34 +18532,39 @@
       "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-03T06:04:53.642837+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "19da6f0e6550c4e8a9d5f5779fcf64dc0da6058b": {
       "id": "19da6f0e6550c4e8a9d5f5779fcf64dc0da6058b",
-      "source": "auto_ovpn",
-      "source_url": "https://raw.githubusercontent.com/9xN/auto-ovpn/main/configs/server_91_JP.ovpn",
-      "name": "server_91_JP",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn980909101",
       "host": "58.188.112.18",
       "port": 443,
       "proto": "tcp",
       "auth": "certificate",
       "country": "JP",
-      "source_priority": 160,
-      "checked_at": "2026-10-04T06:02:50.173048+00:00",
+      "latency_ms": 6,
+      "speed_kbps": 6151452,
+      "score_upstream": 395083,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": true,
         "error": null
       },
       "config_sha256": "acc502ad0bcbc301c954e864f3f6fd916aa6df5cbe504d009e9b6f726894c8de",
-      "status": "deferred",
       "handshake": {
-        "status": "not_tested",
-        "error": "handshake budget exceeded"
+        "status": "working",
+        "error": null,
+        "exit_ip": "58.188.112.18",
+        "handshake_ms": 5283
       },
-      "consecutive_failures": 3,
-      "lifecycle": "temporarily_failed",
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
       "first_seen": "2026-10-03T06:04:53.642837+00:00",
-      "last_seen": "2026-10-04T06:02:50.173048+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "b55cd35e0441ed7279a19c8aefbd9e6592758d07": {
       "id": "b55cd35e0441ed7279a19c8aefbd9e6592758d07",
@@ -20669,15 +20685,15 @@
     },
     "32ba3fd98c0bf7cf6a54343599539c47669d6e78": {
       "id": "32ba3fd98c0bf7cf6a54343599539c47669d6e78",
-      "source": "fdciabdul",
-      "source_url": "https://raw.githubusercontent.com/fdciabdul/Vpngate-Scraper-API/main/configs/server_24_JP.ovpn",
-      "name": "server_24_JP",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "public-vpn-206",
       "host": "219.100.37.165",
       "port": 443,
       "proto": "tcp",
       "auth": "certificate",
       "country": "JP",
-      "source_priority": 155,
+      "source_priority": 180,
       "checked_at": "2026-10-04T18:41:41.012318+00:00",
       "tcp": {
         "reachable": true,
@@ -20692,7 +20708,9 @@
       "consecutive_failures": 7,
       "lifecycle": "quarantine",
       "first_seen": "2026-10-03T06:04:53.642837+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00",
+      "latency_ms": 14,
+      "speed_kbps": 156679701
     },
     "96c38b8f95808c002baf36a41cc8407c341a1eb0": {
       "id": "96c38b8f95808c002baf36a41cc8407c341a1eb0",
@@ -23857,7 +23875,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T08:51:48.307657+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "37f3ce2eed1b0518c98ed1c2b7b5ebded245a6f2": {
       "id": "37f3ce2eed1b0518c98ed1c2b7b5ebded245a6f2",
@@ -24440,7 +24458,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T08:51:48.307657+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "d4e2bf04767394da9deb29a9e62dc8be20c07b3b": {
       "id": "d4e2bf04767394da9deb29a9e62dc8be20c07b3b",
@@ -24545,9 +24563,9 @@
       "country": "JP",
       "latency_ms": 14,
       "speed_kbps": 143856315,
-      "score_upstream": 680409,
+      "score_upstream": 1517563,
       "source_priority": 170,
-      "checked_at": "2026-10-03T23:50:31.250062+00:00",
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": true,
         "error": null
@@ -24556,14 +24574,14 @@
       "handshake": {
         "status": "working",
         "error": null,
-        "exit_ip": "219.100.37.244",
-        "handshake_ms": 8057
+        "exit_ip": null,
+        "handshake_ms": 20707
       },
       "status": "working",
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T08:51:48.307657+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "b1fbb9e82d7981c8d49a6a68c3f4f7cb63b2febc": {
       "id": "b1fbb9e82d7981c8d49a6a68c3f4f7cb63b2febc",
@@ -24754,30 +24772,33 @@
     },
     "6de827655736c2cc25c2195a6127fb64cedfb43b": {
       "id": "6de827655736c2cc25c2195a6127fb64cedfb43b",
-      "source": "mizmaze_auto",
-      "source_url": "https://raw.githubusercontent.com/mizmazegt1-design/auto-vpngate-configs/main/ovpn_files/JP_SoftEther_219.100.37.195_118.0Mbps.ovpn",
-      "name": "JP_SoftEther_219.100.37.195_118.0Mbps",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "public-vpn-195",
       "host": "219.100.37.195",
       "port": 443,
       "proto": "tcp",
       "auth": "certificate",
       "country": "JP",
-      "source_priority": 145,
-      "checked_at": "2026-10-04T18:41:41.012318+00:00",
+      "latency_ms": 19,
+      "speed_kbps": 167740717,
+      "score_upstream": 1359360,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": true,
         "error": null
       },
-      "config_sha256": "6f5f4d07afdb6cae98bfb6513d3b746a9a7682aec0cc437a7c6be20991e02830",
-      "status": "deferred",
+      "config_sha256": "a5fe0c22698d3047919ae044bb5f4856f31ef90a1335ba225baf7ccf8692c033",
       "handshake": {
-        "status": "not_tested",
-        "error": "handshake budget exceeded"
+        "status": "auth_failed",
+        "error": "authentication failed"
       },
-      "consecutive_failures": 3,
-      "lifecycle": "temporarily_failed",
+      "status": "auth_failed",
+      "consecutive_failures": 4,
+      "lifecycle": "quarantine",
       "first_seen": "2026-10-03T08:51:48.307657+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "fa687a0e9d7bbf122e0d48cbc9f283819b579e56": {
       "id": "fa687a0e9d7bbf122e0d48cbc9f283819b579e56",
@@ -24839,7 +24860,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-03T08:51:48.307657+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "67e5549c2e67094566a2c6aff5744edc3a5444bb": {
       "id": "67e5549c2e67094566a2c6aff5744edc3a5444bb",
@@ -25771,32 +25792,33 @@
     },
     "0ac41665dacbf170dbff359fac9d0dde746a7222": {
       "id": "0ac41665dacbf170dbff359fac9d0dde746a7222",
-      "source": "fdciabdul",
-      "source_url": "https://raw.githubusercontent.com/fdciabdul/Vpngate-Scraper-API/main/configs/server_29_JP.ovpn",
-      "name": "server_29_JP",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn530288126",
       "host": "153.175.43.56",
       "port": 1508,
       "proto": "tcp",
       "auth": "certificate",
       "country": "JP",
-      "source_priority": 155,
-      "checked_at": "2026-10-03T08:51:48.307657+00:00",
+      "latency_ms": 12,
+      "speed_kbps": 126137041,
+      "score_upstream": 621926,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
-        "reachable": true,
-        "error": null
+        "reachable": false,
+        "error": "timed out"
       },
       "config_sha256": "8414eef1a5635199c853ff6033f91926160364225d19fcaf76fdd43abe46f9c2",
+      "status": "unreachable",
       "handshake": {
-        "status": "working",
-        "error": null,
-        "exit_ip": "153.175.43.56",
-        "handshake_ms": 3981
+        "status": "not_tested",
+        "error": "tcp unreachable"
       },
-      "status": "working",
-      "consecutive_failures": 0,
-      "lifecycle": "working",
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-03T08:51:48.307657+00:00",
-      "last_seen": "2026-10-04T12:32:27.356581+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "bd7a37ccf676a198bf110fbe7583611495fe43dc": {
       "id": "bd7a37ccf676a198bf110fbe7583611495fe43dc",
@@ -27166,7 +27188,7 @@
       "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-03T08:51:48.307657+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "d8341554b2af964327de9fe349a99e1d29e5cddb": {
       "id": "d8341554b2af964327de9fe349a99e1d29e5cddb",
@@ -27206,10 +27228,10 @@
       "auth": "certificate",
       "country": "KR",
       "latency_ms": 33,
-      "speed_kbps": 438146923,
-      "score_upstream": 637224,
+      "speed_kbps": 351981715,
+      "score_upstream": 808868,
       "source_priority": 180,
-      "checked_at": "2026-10-03T18:44:42.697997+00:00",
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
@@ -27220,10 +27242,10 @@
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-03T08:51:48.307657+00:00",
-      "last_seen": "2026-10-03T18:44:42.697997+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "c4eedc31e112f9dc847e04682331e87326103354": {
       "id": "c4eedc31e112f9dc847e04682331e87326103354",
@@ -27451,7 +27473,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T08:51:48.307657+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "349f80d967ecef5817d9ac032de6bfeef7cd5998": {
       "id": "349f80d967ecef5817d9ac032de6bfeef7cd5998",
@@ -27799,22 +27821,22 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T08:51:48.307657+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "1014b6ae3aeaf1cbbc1c68830c1e9862b77da8b3": {
       "id": "1014b6ae3aeaf1cbbc1c68830c1e9862b77da8b3",
-      "source": "vpngate",
-      "source_url": "https://www.vpngate.net/api/iphone/",
+      "source": "vpngate_mirror",
+      "source_url": "https://cdn.jsdelivr.net/gh/GeorgeXie2333/vpngate-list-mirror@latest/data/vpngate.csv",
       "name": "public-vpn-204",
       "host": "219.100.37.181",
       "port": 443,
       "proto": "tcp",
       "auth": "certificate",
       "country": "JP",
-      "latency_ms": 16,
-      "speed_kbps": 108734436,
+      "latency_ms": 15,
+      "speed_kbps": 129665292,
       "score_upstream": 766840,
-      "source_priority": 180,
+      "source_priority": 170,
       "checked_at": "2026-10-04T18:41:41.012318+00:00",
       "tcp": {
         "reachable": true,
@@ -27831,7 +27853,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T08:51:48.307657+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "9ef3da499e04a18fe948cc99e109c91cdd3b40f6": {
       "id": "9ef3da499e04a18fe948cc99e109c91cdd3b40f6",
@@ -28961,8 +28983,8 @@
       "proto": "tcp",
       "auth": "certificate",
       "country": "JP",
-      "latency_ms": 14,
-      "speed_kbps": 362952829,
+      "latency_ms": 15,
+      "speed_kbps": 306090235,
       "score_upstream": 759978,
       "source_priority": 180,
       "checked_at": "2026-10-04T06:02:50.173048+00:00",
@@ -28981,7 +29003,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T14:23:39.422410+00:00",
-      "last_seen": "2026-10-04T06:02:50.173048+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "59c3b71ff41c4d52dd4fd7b1c9327c232a98540e": {
       "id": "59c3b71ff41c4d52dd4fd7b1c9327c232a98540e",
@@ -30372,11 +30394,11 @@
       "proto": "tcp",
       "auth": "certificate",
       "country": "JP",
-      "latency_ms": 34,
-      "speed_kbps": 28216283,
-      "score_upstream": 1251779,
+      "latency_ms": 23,
+      "speed_kbps": 33281521,
+      "score_upstream": 1397006,
       "source_priority": 180,
-      "checked_at": "2026-10-03T14:23:39.422410+00:00",
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": true,
         "error": null
@@ -30385,14 +30407,14 @@
       "handshake": {
         "status": "working",
         "error": null,
-        "exit_ip": "42.146.98.99",
-        "handshake_ms": 9624
+        "exit_ip": "42.146.106.27",
+        "handshake_ms": 4860
       },
       "status": "working",
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T14:23:39.422410+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "8a50b8013fade0849bf9e32032e46b6cb6c7519f": {
       "id": "8a50b8013fade0849bf9e32032e46b6cb6c7519f",
@@ -30663,7 +30685,7 @@
       "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-03T14:23:39.422410+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "3c21e081b3b25098265d8382960c6dcf10a67860": {
       "id": "3c21e081b3b25098265d8382960c6dcf10a67860",
@@ -31483,7 +31505,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-03T14:23:39.422410+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "b08249a0b7f843719f257f23c5660d2678215a31": {
       "id": "b08249a0b7f843719f257f23c5660d2678215a31",
@@ -33595,7 +33617,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T14:23:39.422410+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "ba6730ec12ae32b4a6cf47db67ea2d340bb3bbdf": {
       "id": "ba6730ec12ae32b4a6cf47db67ea2d340bb3bbdf",
@@ -34033,7 +34055,7 @@
       "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-03T14:23:39.422410+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "01bf9c6bb3b1624560ca233a20aa8e67f713e621": {
       "id": "01bf9c6bb3b1624560ca233a20aa8e67f713e621",
@@ -34796,16 +34818,19 @@
     },
     "7aee96daf10c266c17836734d57331e5c573db6d": {
       "id": "7aee96daf10c266c17836734d57331e5c573db6d",
-      "source": "auto_ovpn",
-      "source_url": "https://raw.githubusercontent.com/9xN/auto-ovpn/main/configs/server_23_KR.ovpn",
-      "name": "server_23_KR",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn989011939",
       "host": "118.40.122.139",
       "port": 1840,
       "proto": "tcp",
       "auth": "certificate",
       "country": "KR",
-      "source_priority": 160,
-      "checked_at": "2026-10-03T18:44:42.697997+00:00",
+      "latency_ms": 27,
+      "speed_kbps": 9573492,
+      "score_upstream": 1114889,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": true,
         "error": null
@@ -34815,13 +34840,13 @@
         "status": "working",
         "error": null,
         "exit_ip": "118.40.122.139",
-        "handshake_ms": 4430
+        "handshake_ms": 4275
       },
       "status": "working",
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T14:23:39.422410+00:00",
-      "last_seen": "2026-10-03T18:44:42.697997+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "00173a80fb0f69a0a38390f7765eb2af8707475a": {
       "id": "00173a80fb0f69a0a38390f7765eb2af8707475a",
@@ -35225,9 +35250,9 @@
       "country": "KR",
       "latency_ms": 30,
       "speed_kbps": 90450161,
-      "score_upstream": 1118195,
+      "score_upstream": 1173802,
       "source_priority": 170,
-      "checked_at": "2026-10-03T23:50:31.250062+00:00",
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": true,
         "error": null
@@ -35237,13 +35262,13 @@
         "status": "working",
         "error": null,
         "exit_ip": "218.154.30.82",
-        "handshake_ms": 3956
+        "handshake_ms": 4216
       },
       "status": "working",
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T14:23:39.422410+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "65b3aaffcd309bc98ce6b616cec9b9d0be31c421": {
       "id": "65b3aaffcd309bc98ce6b616cec9b9d0be31c421",
@@ -37080,7 +37105,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T18:44:42.697997+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "60fcb2354006c69524a598ccd28de3144da4282f": {
       "id": "60fcb2354006c69524a598ccd28de3144da4282f",
@@ -37913,7 +37938,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T18:44:42.697997+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "7d78439421c23050f10a274a10b1a1651c0a3f3c": {
       "id": "7d78439421c23050f10a274a10b1a1651c0a3f3c",
@@ -39017,30 +39042,35 @@
     },
     "23cd55ad3195f8e052fc6aaac5f5b3f880613dc3": {
       "id": "23cd55ad3195f8e052fc6aaac5f5b3f880613dc3",
-      "source": "fdciabdul",
-      "source_url": "https://raw.githubusercontent.com/fdciabdul/Vpngate-Scraper-API/main/configs/server_19_JP.ovpn",
-      "name": "server_19_JP",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "public-vpn-199",
       "host": "219.100.37.196",
       "port": 443,
       "proto": "tcp",
       "auth": "certificate",
       "country": "JP",
-      "source_priority": 155,
-      "checked_at": "2026-10-03T18:44:42.697997+00:00",
+      "latency_ms": 10,
+      "speed_kbps": 174033287,
+      "score_upstream": 1060590,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": true,
         "error": null
       },
       "config_sha256": "c60d92fb693822824f48e2ab281cd9855f7bb27bc0d5ae83023cb52776ca1712",
-      "status": "deferred",
       "handshake": {
-        "status": "not_tested",
-        "error": "handshake budget exceeded"
+        "status": "working",
+        "error": null,
+        "exit_ip": "219.100.37.245",
+        "handshake_ms": 5364
       },
-      "consecutive_failures": 1,
-      "lifecycle": "temporarily_failed",
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
       "first_seen": "2026-10-03T18:44:42.697997+00:00",
-      "last_seen": "2026-10-03T18:44:42.697997+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "ff989f0e521f0de10859c00eb03b24485f41a090": {
       "id": "ff989f0e521f0de10859c00eb03b24485f41a090",
@@ -39152,15 +39182,15 @@
     },
     "ee379c97a86b66abd6cc4c0ce775b490731a2da3": {
       "id": "ee379c97a86b66abd6cc4c0ce775b490731a2da3",
-      "source": "tdxf1_sync",
-      "source_url": "https://raw.githubusercontent.com/tdxf1/vpngate-sync/main/ovpn/public-vpn-40.ovpn",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
       "name": "public-vpn-40",
       "host": "219.100.37.4",
       "port": 443,
       "proto": "tcp",
       "auth": "certificate",
-      "country": null,
-      "source_priority": 100,
+      "country": "JP",
+      "source_priority": 180,
       "checked_at": "2026-10-04T18:41:41.012318+00:00",
       "tcp": {
         "reachable": true,
@@ -39175,7 +39205,9 @@
       "consecutive_failures": 3,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-03T18:44:42.697997+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00",
+      "latency_ms": 9,
+      "speed_kbps": 183684309
     },
     "66b3e14be04a8b22e395c211e2dc8440387ae42d": {
       "id": "66b3e14be04a8b22e395c211e2dc8440387ae42d",
@@ -41262,30 +41294,33 @@
     },
     "c0398c11b884fb2aaccfd42f1490089ae272e8f4": {
       "id": "c0398c11b884fb2aaccfd42f1490089ae272e8f4",
-      "source": "auto_ovpn",
-      "source_url": "https://raw.githubusercontent.com/9xN/auto-ovpn/main/configs/server_66_JP.ovpn",
-      "name": "server_66_JP",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn165856581",
       "host": "60.111.19.187",
       "port": 1853,
       "proto": "tcp",
       "auth": "certificate",
       "country": "JP",
-      "source_priority": 160,
-      "checked_at": "2026-10-04T12:32:27.356581+00:00",
+      "latency_ms": 6,
+      "speed_kbps": 409111140,
+      "score_upstream": 703301,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
-        "reachable": true,
-        "error": null
+        "reachable": false,
+        "error": "timed out"
       },
       "config_sha256": "f254cdfa4ed31837d63f13cd5df3baa4a5f6ed9b117c1a071fc1fa6f3fe50150",
-      "status": "deferred",
+      "status": "unreachable",
       "handshake": {
         "status": "not_tested",
-        "error": "handshake budget exceeded"
+        "error": "tcp unreachable"
       },
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-03T18:44:42.697997+00:00",
-      "last_seen": "2026-10-04T12:32:27.356581+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "ddf096a668f375c1ceb2ace75ec387c454bff604": {
       "id": "ddf096a668f375c1ceb2ace75ec387c454bff604",
@@ -41425,7 +41460,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T18:44:42.697997+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "1dd01fabf09af28a47099363240091e71e394dcf": {
       "id": "1dd01fabf09af28a47099363240091e71e394dcf",
@@ -41657,18 +41692,18 @@
     },
     "2ec00cc1179526736b69ce34eaa52f901484bd78": {
       "id": "2ec00cc1179526736b69ce34eaa52f901484bd78",
-      "source": "auto_ovpn",
-      "source_url": "https://raw.githubusercontent.com/9xN/auto-ovpn/main/configs/server_30_JP.ovpn",
-      "name": "server_30_JP",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "public-vpn-182",
       "host": "219.100.37.177",
       "port": 443,
       "proto": "tcp",
       "auth": "certificate",
       "country": "JP",
-      "latency_ms": 26,
-      "speed_kbps": 344613445,
+      "latency_ms": 18,
+      "speed_kbps": 372106245,
       "score_upstream": 1284039,
-      "source_priority": 160,
+      "source_priority": 180,
       "checked_at": "2026-10-04T06:02:50.173048+00:00",
       "tcp": {
         "reachable": true,
@@ -41685,7 +41720,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T18:44:42.697997+00:00",
-      "last_seen": "2026-10-04T12:32:27.356581+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "dc00b7c80179a9f1768f28fd09a9089063d89926": {
       "id": "dc00b7c80179a9f1768f28fd09a9089063d89926",
@@ -41833,7 +41868,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T18:44:42.697997+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "818c444431626d305ede06ae26b2e21d9a968cc3": {
       "id": "818c444431626d305ede06ae26b2e21d9a968cc3",
@@ -42701,30 +42736,35 @@
     },
     "91f1c97cf5eb0c0ac1548394f9ec8827ce7a0d12": {
       "id": "91f1c97cf5eb0c0ac1548394f9ec8827ce7a0d12",
-      "source": "tdxf1_sync",
-      "source_url": "https://raw.githubusercontent.com/tdxf1/vpngate-sync/main/ovpn/vpn541159742.ovpn",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
       "name": "vpn541159742",
       "host": "59.13.219.253",
       "port": 1500,
       "proto": "tcp",
       "auth": "certificate",
-      "country": null,
-      "source_priority": 100,
-      "checked_at": "2026-10-03T18:44:42.697997+00:00",
+      "country": "KR",
+      "latency_ms": 32,
+      "speed_kbps": 157598633,
+      "score_upstream": 360166,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": true,
         "error": null
       },
       "config_sha256": "027d5a3b0b9e4a77b08bc059f82f98809db95c9527e25c48ec0fb712c35eb9a4",
-      "status": "deferred",
       "handshake": {
-        "status": "not_tested",
-        "error": "handshake budget exceeded"
+        "status": "working",
+        "error": null,
+        "exit_ip": "59.13.219.253",
+        "handshake_ms": 4569
       },
-      "consecutive_failures": 1,
-      "lifecycle": "temporarily_failed",
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
       "first_seen": "2026-10-03T18:44:42.697997+00:00",
-      "last_seen": "2026-10-03T18:44:42.697997+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "4295a4f5a836a2a6c302dd209679148be731be61": {
       "id": "4295a4f5a836a2a6c302dd209679148be731be61",
@@ -42976,30 +43016,33 @@
     },
     "8e514aee573db3fa2a92efac0583e75a9506c654": {
       "id": "8e514aee573db3fa2a92efac0583e75a9506c654",
-      "source": "ovpn_scraper",
-      "source_url": "https://raw.githubusercontent.com/fox3000foxy/OVPN-Configs-scraper/main/data/configs/121.181.117.222.ovpn",
-      "name": "121.181.117.222",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn667999250",
       "host": "121.181.117.222",
       "port": 995,
       "proto": "tcp",
       "auth": "certificate",
-      "country": null,
-      "source_priority": 85,
-      "checked_at": "2026-10-04T06:02:50.173048+00:00",
+      "country": "KR",
+      "latency_ms": 26,
+      "speed_kbps": 9265848,
+      "score_upstream": 364323,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
-        "reachable": true,
-        "error": null
+        "reachable": false,
+        "error": "timed out"
       },
-      "config_sha256": "0651a96f2a4d19a1d8fd817209bec1bde2455fa6adfd7e9d41969e19d5628eb2",
-      "status": "deferred",
+      "config_sha256": "ba5c0a4212a40f9a9e62661a2c76b02353e5dcd91fe5baed8a5f76f4675a907f",
+      "status": "unreachable",
       "handshake": {
         "status": "not_tested",
-        "error": "handshake budget exceeded"
+        "error": "tcp unreachable"
       },
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-03T18:44:42.697997+00:00",
-      "last_seen": "2026-10-04T06:02:50.173048+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "e9ea9f21bce6ce6e3271bba082995102191cc924": {
       "id": "e9ea9f21bce6ce6e3271bba082995102191cc924",
@@ -43440,30 +43483,35 @@
     },
     "13d223999923f05b3115de3876dfea3ab43fa22b": {
       "id": "13d223999923f05b3115de3876dfea3ab43fa22b",
-      "source": "tdxf1_sync",
-      "source_url": "https://raw.githubusercontent.com/tdxf1/vpngate-sync/main/ovpn/vpn884521498.ovpn",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
       "name": "vpn884521498",
       "host": "124.198.97.126",
       "port": 995,
       "proto": "tcp",
       "auth": "certificate",
-      "country": null,
-      "source_priority": 100,
-      "checked_at": "2026-10-03T18:44:42.697997+00:00",
+      "country": "KR",
+      "latency_ms": null,
+      "speed_kbps": 41263494,
+      "score_upstream": 1278278,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": true,
         "error": null
       },
       "config_sha256": "c47abb00317517ff00e5879e39c0ec639b61883fbc83ee6deec8630028356bd4",
-      "status": "deferred",
       "handshake": {
-        "status": "not_tested",
-        "error": "handshake budget exceeded"
+        "status": "working",
+        "error": null,
+        "exit_ip": "58.29.140.252",
+        "handshake_ms": 4760
       },
-      "consecutive_failures": 1,
-      "lifecycle": "temporarily_failed",
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
       "first_seen": "2026-10-03T18:44:42.697997+00:00",
-      "last_seen": "2026-10-03T18:44:42.697997+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "5d445919f427590b2536458c2fbebbb9bf36381a": {
       "id": "5d445919f427590b2536458c2fbebbb9bf36381a",
@@ -43908,7 +43956,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T18:44:42.697997+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "6510603505e251e55564561fa38ff10a21719ff8": {
       "id": "6510603505e251e55564561fa38ff10a21719ff8",
@@ -46864,9 +46912,9 @@
       "country": "JP",
       "latency_ms": 7,
       "speed_kbps": 3067226844,
-      "score_upstream": 640596,
+      "score_upstream": 735544,
       "source_priority": 170,
-      "checked_at": "2026-10-03T23:50:31.250062+00:00",
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": true,
         "error": null
@@ -46876,13 +46924,13 @@
         "status": "working",
         "error": null,
         "exit_ip": "118.105.255.192",
-        "handshake_ms": 3638
+        "handshake_ms": 3851
       },
       "status": "working",
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T23:50:31.250062+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "f8978b180f8eb6e5ea3bdbb29dd9c84c72b482b7": {
       "id": "f8978b180f8eb6e5ea3bdbb29dd9c84c72b482b7",
@@ -47501,19 +47549,19 @@
     },
     "66f03aa8c67c432577a2fd7b29dda2b033c687f7": {
       "id": "66f03aa8c67c432577a2fd7b29dda2b033c687f7",
-      "source": "auto_ovpn",
-      "source_url": "https://raw.githubusercontent.com/9xN/auto-ovpn/main/configs/server_43_KR.ovpn",
-      "name": "server_43_KR",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn609211715",
       "host": "125.139.26.49",
       "port": 1679,
       "proto": "tcp",
       "auth": "certificate",
       "country": "KR",
       "latency_ms": 28,
-      "speed_kbps": 335319096,
-      "score_upstream": 702628,
-      "source_priority": 160,
-      "checked_at": "2026-10-03T23:50:31.250062+00:00",
+      "speed_kbps": 292881107,
+      "score_upstream": 834854,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": true,
         "error": null
@@ -47523,13 +47571,13 @@
         "status": "working",
         "error": null,
         "exit_ip": "125.139.26.49",
-        "handshake_ms": 4170
+        "handshake_ms": 4229
       },
       "status": "working",
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T23:50:31.250062+00:00",
-      "last_seen": "2026-10-04T12:32:27.356581+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "9994b21de036988ba47067dac71d62b940e4507a": {
       "id": "9994b21de036988ba47067dac71d62b940e4507a",
@@ -48737,8 +48785,8 @@
     },
     "7157ad62d612695589ec306360e197a7f0637041": {
       "id": "7157ad62d612695589ec306360e197a7f0637041",
-      "source": "vpngate_mirror",
-      "source_url": "https://cdn.jsdelivr.net/gh/GeorgeXie2333/vpngate-list-mirror@latest/data/vpngate.csv",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
       "name": "vpn893998190",
       "host": "131.147.213.9",
       "port": 1323,
@@ -48747,9 +48795,9 @@
       "country": "JP",
       "latency_ms": 3,
       "speed_kbps": 648776752,
-      "score_upstream": 627066,
-      "source_priority": 170,
-      "checked_at": "2026-10-04T06:02:50.173048+00:00",
+      "score_upstream": 611405,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
@@ -48760,10 +48808,10 @@
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-03T23:50:31.250062+00:00",
-      "last_seen": "2026-10-04T06:02:50.173048+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "c8ca79601e051bd9df4cf627886f4c373b2e09b1": {
       "id": "c8ca79601e051bd9df4cf627886f4c373b2e09b1",
@@ -49570,33 +49618,35 @@
     },
     "fddab1e779638662fb56455612d9208e4a182379": {
       "id": "fddab1e779638662fb56455612d9208e4a182379",
-      "source": "vpngate_mirror",
-      "source_url": "https://cdn.jsdelivr.net/gh/GeorgeXie2333/vpngate-list-mirror@latest/data/vpngate.csv",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
       "name": "vpn832297231",
       "host": "77.82.2.21",
       "port": 1549,
       "proto": "tcp",
       "auth": "certificate",
       "country": "RU",
-      "latency_ms": 143,
-      "speed_kbps": 94136788,
-      "score_upstream": 563126,
-      "source_priority": 170,
-      "checked_at": "2026-10-04T06:02:50.173048+00:00",
+      "latency_ms": 142,
+      "speed_kbps": 64808083,
+      "score_upstream": 687424,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": true,
         "error": null
       },
       "config_sha256": "0c5f8e3b76f6179e40ed8c12aaad1323991f673fd8d2d91572b1bf90867956bc",
-      "status": "deferred",
       "handshake": {
-        "status": "not_tested",
-        "error": "handshake budget exceeded"
+        "status": "working",
+        "error": null,
+        "exit_ip": "77.82.2.21",
+        "handshake_ms": 4919
       },
-      "consecutive_failures": 2,
-      "lifecycle": "temporarily_failed",
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
       "first_seen": "2026-10-03T23:50:31.250062+00:00",
-      "last_seen": "2026-10-04T06:02:50.173048+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "45f4596bfd22b2fafa0a27f3e93e9eb9304635fb": {
       "id": "45f4596bfd22b2fafa0a27f3e93e9eb9304635fb",
@@ -50161,33 +50211,35 @@
     },
     "b7d60da96e6daf84d6de4a291286d91602acbbe0": {
       "id": "b7d60da96e6daf84d6de4a291286d91602acbbe0",
-      "source": "vpngate_mirror",
-      "source_url": "https://cdn.jsdelivr.net/gh/GeorgeXie2333/vpngate-list-mirror@latest/data/vpngate.csv",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
       "name": "vpn114879424",
       "host": "39.123.119.109",
       "port": 1195,
       "proto": "tcp",
       "auth": "certificate",
       "country": "KR",
-      "latency_ms": 107,
-      "speed_kbps": 7593776,
-      "score_upstream": 1002188,
-      "source_priority": 170,
-      "checked_at": "2026-10-04T06:02:50.173048+00:00",
+      "latency_ms": 46,
+      "speed_kbps": 12041932,
+      "score_upstream": 1098838,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": true,
         "error": null
       },
       "config_sha256": "95edc3347cc8d4c08bcb52f873295e5797b46700ecd4152b584651b7aa238ca1",
-      "status": "deferred",
       "handshake": {
-        "status": "not_tested",
-        "error": "handshake budget exceeded"
+        "status": "working",
+        "error": null,
+        "exit_ip": "211.201.96.169",
+        "handshake_ms": 4178
       },
-      "consecutive_failures": 2,
-      "lifecycle": "temporarily_failed",
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
       "first_seen": "2026-10-03T23:50:31.250062+00:00",
-      "last_seen": "2026-10-04T06:02:50.173048+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "f45b2cc54760cf36122e4a954ef3a55f6ac8bd59": {
       "id": "f45b2cc54760cf36122e4a954ef3a55f6ac8bd59",
@@ -50334,15 +50386,15 @@
     },
     "11c6babbbc3a1517a3bcd38adc7eb12667ecc351": {
       "id": "11c6babbbc3a1517a3bcd38adc7eb12667ecc351",
-      "source": "tdxf1_sync",
-      "source_url": "https://raw.githubusercontent.com/tdxf1/vpngate-sync/main/ovpn/public-vpn-153.ovpn",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
       "name": "public-vpn-153",
       "host": "219.100.37.109",
       "port": 443,
       "proto": "tcp",
       "auth": "certificate",
-      "country": null,
-      "source_priority": 100,
+      "country": "JP",
+      "source_priority": 180,
       "checked_at": "2026-10-04T18:41:41.012318+00:00",
       "tcp": {
         "reachable": true,
@@ -50357,7 +50409,9 @@
       "consecutive_failures": 3,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-03T23:50:31.250062+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00",
+      "latency_ms": 9,
+      "speed_kbps": 166597125
     },
     "0d419b22dec93313622eca4b70d4a80d313c6087": {
       "id": "0d419b22dec93313622eca4b70d4a80d313c6087",
@@ -50613,7 +50667,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T23:50:31.250062+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "fcad621943654842965e7f7a9e2198544225ef9d": {
       "id": "fcad621943654842965e7f7a9e2198544225ef9d",
@@ -50645,7 +50699,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-03T23:50:31.250062+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "24fd82f8988968f32307238b39de63ddcc23f063": {
       "id": "24fd82f8988968f32307238b39de63ddcc23f063",
@@ -50927,30 +50981,35 @@
     },
     "f5e7d02ba678d8be0bd705e4d8a1ddda6fc43ae2": {
       "id": "f5e7d02ba678d8be0bd705e4d8a1ddda6fc43ae2",
-      "source": "auto_ovpn",
-      "source_url": "https://raw.githubusercontent.com/9xN/auto-ovpn/main/configs/server_56_JP.ovpn",
-      "name": "server_56_JP",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn400535836",
       "host": "36.12.244.203",
       "port": 1916,
       "proto": "tcp",
       "auth": "certificate",
       "country": "JP",
-      "source_priority": 160,
-      "checked_at": "2026-10-03T23:50:31.250062+00:00",
+      "latency_ms": 2,
+      "speed_kbps": 679617928,
+      "score_upstream": 631645,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": true,
         "error": null
       },
       "config_sha256": "4c4ae0a89231c50cac1928213bfbaa313887129a0be1f588b1eddc12db23545c",
-      "status": "deferred",
       "handshake": {
-        "status": "not_tested",
-        "error": "handshake budget exceeded"
+        "status": "working",
+        "error": null,
+        "exit_ip": "36.12.244.203",
+        "handshake_ms": 3706
       },
-      "consecutive_failures": 1,
-      "lifecycle": "temporarily_failed",
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
       "first_seen": "2026-10-03T23:50:31.250062+00:00",
-      "last_seen": "2026-10-03T23:50:31.250062+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "9babb0b016385b3ba190b8daec48fcc0a412cef3": {
       "id": "9babb0b016385b3ba190b8daec48fcc0a412cef3",
@@ -54339,30 +54398,35 @@
     },
     "04fec6f9fd172e0fa37a6ad66248ddefd2ad3ab9": {
       "id": "04fec6f9fd172e0fa37a6ad66248ddefd2ad3ab9",
-      "source": "tdxf1_sync",
-      "source_url": "https://raw.githubusercontent.com/tdxf1/vpngate-sync/main/ovpn/vpn455661023.ovpn",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
       "name": "vpn455661023",
       "host": "112.185.50.153",
       "port": 1669,
       "proto": "tcp",
       "auth": "certificate",
-      "country": null,
-      "source_priority": 100,
-      "checked_at": "2026-10-03T23:50:31.250062+00:00",
+      "country": "KR",
+      "latency_ms": 29,
+      "speed_kbps": 10796804,
+      "score_upstream": 607015,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": true,
         "error": null
       },
       "config_sha256": "fa0baf566167f42dce73c61698d63ba4d41d841d8b8608fe768340371f4bcf59",
-      "status": "deferred",
       "handshake": {
-        "status": "not_tested",
-        "error": "handshake budget exceeded"
+        "status": "working",
+        "error": null,
+        "exit_ip": "112.185.50.153",
+        "handshake_ms": 4425
       },
-      "consecutive_failures": 1,
-      "lifecycle": "temporarily_failed",
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
       "first_seen": "2026-10-03T23:50:31.250062+00:00",
-      "last_seen": "2026-10-03T23:50:31.250062+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "3dc89c08565a2bd2e32925e5e6133b03d29298b5": {
       "id": "3dc89c08565a2bd2e32925e5e6133b03d29298b5",
@@ -54450,30 +54514,35 @@
     },
     "b80e8db528c12263f6d3838b0c76f6a864fe8292": {
       "id": "b80e8db528c12263f6d3838b0c76f6a864fe8292",
-      "source": "ovpn_scraper",
-      "source_url": "https://raw.githubusercontent.com/fox3000foxy/OVPN-Configs-scraper/main/data/configs/1.223.216.162.ovpn",
-      "name": "1.223.216.162",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn561067742",
       "host": "1.223.216.162",
       "port": 1363,
       "proto": "tcp",
       "auth": "certificate",
-      "country": null,
-      "source_priority": 85,
-      "checked_at": "2026-10-04T12:32:27.356581+00:00",
+      "country": "KR",
+      "latency_ms": 45,
+      "speed_kbps": 95253780,
+      "score_upstream": 697731,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": true,
         "error": null
       },
-      "config_sha256": "668e0668c8dd967ab77455ded5dd7027bb825f66f7cfa5ca2e233f918e02eebb",
-      "status": "deferred",
+      "config_sha256": "425d942ba71e22f0eac727261b6cb26380801ffc9c6db58a61b8b52f2b600893",
       "handshake": {
-        "status": "not_tested",
-        "error": "handshake budget exceeded"
+        "status": "working",
+        "error": null,
+        "exit_ip": "1.223.216.162",
+        "handshake_ms": 4310
       },
-      "consecutive_failures": 3,
-      "lifecycle": "temporarily_failed",
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
       "first_seen": "2026-10-03T23:50:31.250062+00:00",
-      "last_seen": "2026-10-04T12:32:27.356581+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "0d81508807e75635c97be52f6d79bb50cea9db0a": {
       "id": "0d81508807e75635c97be52f6d79bb50cea9db0a",
@@ -55184,16 +55253,19 @@
     },
     "80292d89f8ac88f001dc88a4b158f1d61f58ffbd": {
       "id": "80292d89f8ac88f001dc88a4b158f1d61f58ffbd",
-      "source": "tdxf1_sync",
-      "source_url": "https://raw.githubusercontent.com/tdxf1/vpngate-sync/main/ovpn/vpn925748678.ovpn",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
       "name": "vpn925748678",
       "host": "175.177.44.198",
       "port": 1836,
       "proto": "udp",
       "auth": "certificate",
-      "country": null,
-      "source_priority": 100,
-      "checked_at": "2026-10-03T23:50:31.250062+00:00",
+      "country": "JP",
+      "latency_ms": 10,
+      "speed_kbps": 234539358,
+      "score_upstream": 749868,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": false,
         "error": "timed out"
@@ -55204,10 +55276,10 @@
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-03T23:50:31.250062+00:00",
-      "last_seen": "2026-10-03T23:50:31.250062+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "d483ef91057c3f25d25ce458759145b9b8e849c5": {
       "id": "d483ef91057c3f25d25ce458759145b9b8e849c5",
@@ -55988,7 +56060,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-04T06:02:50.173048+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "a3505678ecb9da31d9c8a8337964ad732dcffffc": {
       "id": "a3505678ecb9da31d9c8a8337964ad732dcffffc",
@@ -56031,7 +56103,7 @@
       "auth": "certificate",
       "country": "KR",
       "latency_ms": 29,
-      "speed_kbps": 318032839,
+      "speed_kbps": 142548718,
       "score_upstream": 1410918,
       "source_priority": 180,
       "checked_at": "2026-10-04T06:02:50.173048+00:00",
@@ -56050,7 +56122,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-04T06:02:50.173048+00:00",
-      "last_seen": "2026-10-04T06:02:50.173048+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "a1920d0490ea996dc5977788aa2e7ee567f03081": {
       "id": "a1920d0490ea996dc5977788aa2e7ee567f03081",
@@ -56653,8 +56725,8 @@
       "proto": "tcp",
       "auth": "certificate",
       "country": "KR",
-      "latency_ms": 35,
-      "speed_kbps": 51293944,
+      "latency_ms": 33,
+      "speed_kbps": 293621137,
       "score_upstream": 714796,
       "source_priority": 180,
       "checked_at": "2026-10-04T06:02:50.173048+00:00",
@@ -56673,7 +56745,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-04T06:02:50.173048+00:00",
-      "last_seen": "2026-10-04T06:02:50.173048+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "13ece68b1ecec8b5bb4ccafd0c7e584a9174e10d": {
       "id": "13ece68b1ecec8b5bb4ccafd0c7e584a9174e10d",
@@ -56886,7 +56958,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-04T06:02:50.173048+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "09ea8da69244930b01d23145af237f4e31c0b70d": {
       "id": "09ea8da69244930b01d23145af237f4e31c0b70d",
@@ -56950,7 +57022,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-04T06:02:50.173048+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "f2b64cb78fd242341610bd529c77b6eb23a0c366": {
       "id": "f2b64cb78fd242341610bd529c77b6eb23a0c366",
@@ -56981,30 +57053,35 @@
     },
     "a0c87ecdba324364a69066cb362dd7c950302dd0": {
       "id": "a0c87ecdba324364a69066cb362dd7c950302dd0",
-      "source": "auto_ovpn",
-      "source_url": "https://raw.githubusercontent.com/9xN/auto-ovpn/main/configs/server_14_KR.ovpn",
-      "name": "server_14_KR",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn154861873",
       "host": "59.26.13.141",
       "port": 995,
       "proto": "tcp",
       "auth": "certificate",
       "country": "KR",
-      "source_priority": 160,
-      "checked_at": "2026-10-04T06:02:50.173048+00:00",
+      "latency_ms": 31,
+      "speed_kbps": 37939155,
+      "score_upstream": 1332407,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": true,
         "error": null
       },
       "config_sha256": "5727d968d9c9a02620d20aaa8fc5ec2533114e5a06ee56d09d796296cbb0ce05",
-      "status": "deferred",
       "handshake": {
-        "status": "not_tested",
-        "error": "handshake budget exceeded"
+        "status": "working",
+        "error": null,
+        "exit_ip": "59.27.95.216",
+        "handshake_ms": 4402
       },
-      "consecutive_failures": 1,
-      "lifecycle": "temporarily_failed",
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
       "first_seen": "2026-10-04T06:02:50.173048+00:00",
-      "last_seen": "2026-10-04T06:02:50.173048+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "a6126053003c6188180901cd71239966ffd77710": {
       "id": "a6126053003c6188180901cd71239966ffd77710",
@@ -57171,7 +57248,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-04T06:02:50.173048+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "9456e17ec5b9cca1aa5efb06c79b68adb5a59743": {
       "id": "9456e17ec5b9cca1aa5efb06c79b68adb5a59743",
@@ -58597,30 +58674,35 @@
     },
     "2847ef9e0caeda1c3821729ae27c02194f6503bb": {
       "id": "2847ef9e0caeda1c3821729ae27c02194f6503bb",
-      "source": "fdciabdul",
-      "source_url": "https://raw.githubusercontent.com/fdciabdul/Vpngate-Scraper-API/main/configs/server_32_JP.ovpn",
-      "name": "server_32_JP",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "public-vpn-102",
       "host": "219.100.37.32",
       "port": 443,
       "proto": "tcp",
       "auth": "certificate",
       "country": "JP",
-      "source_priority": 155,
-      "checked_at": "2026-10-04T06:02:50.173048+00:00",
+      "latency_ms": 16,
+      "speed_kbps": 159208782,
+      "score_upstream": 1324512,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": true,
         "error": null
       },
       "config_sha256": "149862078efbf29e07197fc71cc0522bb18c86cce8248be69a0a98332172a416",
-      "status": "deferred",
       "handshake": {
-        "status": "not_tested",
-        "error": "handshake budget exceeded"
+        "status": "working",
+        "error": null,
+        "exit_ip": "219.100.37.234",
+        "handshake_ms": 5917
       },
-      "consecutive_failures": 1,
-      "lifecycle": "temporarily_failed",
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
       "first_seen": "2026-10-04T06:02:50.173048+00:00",
-      "last_seen": "2026-10-04T06:02:50.173048+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "55b8742cd1b45bcf90dbdf9601fb720f8525c180": {
       "id": "55b8742cd1b45bcf90dbdf9601fb720f8525c180",
@@ -59791,30 +59873,35 @@
     },
     "9b17825d4d1de5d458b3390d6dac0020a85a1a9c": {
       "id": "9b17825d4d1de5d458b3390d6dac0020a85a1a9c",
-      "source": "tdxf1_sync",
-      "source_url": "https://raw.githubusercontent.com/tdxf1/vpngate-sync/main/ovpn/public-vpn-121.ovpn",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
       "name": "public-vpn-121",
       "host": "219.100.37.88",
       "port": 443,
       "proto": "tcp",
       "auth": "certificate",
-      "country": null,
-      "source_priority": 100,
-      "checked_at": "2026-10-04T06:02:50.173048+00:00",
+      "country": "JP",
+      "latency_ms": 25,
+      "speed_kbps": 135249220,
+      "score_upstream": 1232418,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": true,
         "error": null
       },
       "config_sha256": "049c021525d31f4fa78acf9db3922c37a9cb236a50b64b1826c7576d0cc8fccf",
-      "status": "deferred",
       "handshake": {
-        "status": "not_tested",
-        "error": "handshake budget exceeded"
+        "status": "working",
+        "error": null,
+        "exit_ip": "219.100.37.238",
+        "handshake_ms": 4216
       },
-      "consecutive_failures": 1,
-      "lifecycle": "temporarily_failed",
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
       "first_seen": "2026-10-04T06:02:50.173048+00:00",
-      "last_seen": "2026-10-04T06:02:50.173048+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "a0b6e44cca5248f57c8a18b1cc55cfd27af9702f": {
       "id": "a0b6e44cca5248f57c8a18b1cc55cfd27af9702f",
@@ -61320,7 +61407,7 @@
       "auth": "certificate",
       "country": "JP",
       "latency_ms": 20,
-      "speed_kbps": 183620640,
+      "speed_kbps": 125731169,
       "score_upstream": 1555809,
       "source_priority": 180,
       "checked_at": "2026-10-04T18:41:41.012318+00:00",
@@ -61339,7 +61426,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-04T06:02:50.173048+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "d6d48820791753f5e95130292aa95895dd759df8": {
       "id": "d6d48820791753f5e95130292aa95895dd759df8",
@@ -61583,14 +61670,14 @@
       "proto": "tcp",
       "auth": "certificate",
       "country": "JP",
-      "latency_ms": 5,
+      "latency_ms": 6,
       "speed_kbps": 933043732,
-      "score_upstream": 614100,
+      "score_upstream": 654528,
       "source_priority": 180,
-      "checked_at": "2026-10-04T12:32:27.356581+00:00",
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": false,
-        "error": "timed out"
+        "error": "[Errno 111] Connection refused"
       },
       "config_sha256": "689c5b27479bc08153d8c8afa1021b024a8e582b7e0e83db6b0081452e344996",
       "status": "unreachable",
@@ -61598,10 +61685,10 @@
         "status": "not_tested",
         "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T12:32:27.356581+00:00",
-      "last_seen": "2026-10-04T12:32:27.356581+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "de1cb19dbf32bcbeaa3bd28b3b71146ff5de3154": {
       "id": "de1cb19dbf32bcbeaa3bd28b3b71146ff5de3154",
@@ -64052,33 +64139,35 @@
     },
     "f5a098e89182e78484817c5bb274abff7ae9d794": {
       "id": "f5a098e89182e78484817c5bb274abff7ae9d794",
-      "source": "vpngate_mirror",
-      "source_url": "https://cdn.jsdelivr.net/gh/GeorgeXie2333/vpngate-list-mirror@latest/data/vpngate.csv",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
       "name": "vpn679208102",
       "host": "101.111.226.172",
       "port": 1216,
       "proto": "tcp",
       "auth": "certificate",
       "country": "JP",
-      "latency_ms": 13,
-      "speed_kbps": 158224068,
-      "score_upstream": 843661,
-      "source_priority": 170,
-      "checked_at": "2026-10-04T12:32:27.356581+00:00",
+      "latency_ms": 12,
+      "speed_kbps": 158168353,
+      "score_upstream": 908085,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": true,
         "error": null
       },
       "config_sha256": "9d8eefd2ad942837a5cdcd2909cb2da7fe83bef303a319d7c14680edd46d484c",
-      "status": "deferred",
       "handshake": {
-        "status": "not_tested",
-        "error": "handshake budget exceeded"
+        "status": "working",
+        "error": null,
+        "exit_ip": "101.111.226.172",
+        "handshake_ms": 4041
       },
-      "consecutive_failures": 1,
-      "lifecycle": "temporarily_failed",
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
       "first_seen": "2026-10-04T12:32:27.356581+00:00",
-      "last_seen": "2026-10-04T12:32:27.356581+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "da8275e2113d1dc160161b40a89091082a3276ba": {
       "id": "da8275e2113d1dc160161b40a89091082a3276ba",
@@ -64818,7 +64907,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-04T12:32:27.356581+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "c6759419a9b8197bfd5a1158d0efb7355c24f146": {
       "id": "c6759419a9b8197bfd5a1158d0efb7355c24f146",
@@ -65334,7 +65423,7 @@
       "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T12:32:27.356581+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "79dc9b75145468463464e823949250117a1c1c7f": {
       "id": "79dc9b75145468463464e823949250117a1c1c7f",
@@ -67614,7 +67703,7 @@
       "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T12:32:27.356581+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "8875b7b543b57d6c5164a626504dd138a3168b68": {
       "id": "8875b7b543b57d6c5164a626504dd138a3168b68",
@@ -67756,30 +67845,33 @@
     },
     "b0e5d8c23cd543275757e460ba6e58f143fcea1e": {
       "id": "b0e5d8c23cd543275757e460ba6e58f143fcea1e",
-      "source": "mizmaze_auto",
-      "source_url": "https://raw.githubusercontent.com/mizmazegt1-design/auto-vpngate-configs/main/ovpn_files/JP_SoftEther_219.100.37.16_216.9Mbps.ovpn",
-      "name": "JP_SoftEther_219.100.37.16_216.9Mbps",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "public-vpn-52",
       "host": "219.100.37.16",
       "port": 443,
       "proto": "tcp",
       "auth": "certificate",
       "country": "JP",
-      "source_priority": 145,
-      "checked_at": "2026-10-04T18:41:41.012318+00:00",
+      "latency_ms": 17,
+      "speed_kbps": 311506401,
+      "score_upstream": 1354977,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": true,
         "error": null
       },
-      "config_sha256": "05145d605f191202e4848a960edd54a87857172a012dfa112b962270254810f8",
-      "status": "deferred",
+      "config_sha256": "f831914399cc29cbe814ffdb7f49edbdafd1b10ff7177c627ef388908b833727",
       "handshake": {
-        "status": "not_tested",
-        "error": "handshake budget exceeded"
+        "status": "auth_failed",
+        "error": "authentication failed"
       },
-      "consecutive_failures": 2,
+      "status": "auth_failed",
+      "consecutive_failures": 3,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T12:32:27.356581+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "6333e246324b1d3bed7a179364f35e82c57a781e": {
       "id": "6333e246324b1d3bed7a179364f35e82c57a781e",
@@ -67891,30 +67983,33 @@
     },
     "9e5670206f8d500f1ba2cc31ad242a03795988de": {
       "id": "9e5670206f8d500f1ba2cc31ad242a03795988de",
-      "source": "mizmaze_auto",
-      "source_url": "https://raw.githubusercontent.com/mizmazegt1-design/auto-vpngate-configs/main/ovpn_files/JP_ZTVCO.,LTD_113.20.201.162_229.7Mbps.ovpn",
-      "name": "JP_ZTVCO.,LTD_113.20.201.162_229.7Mbps",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn690047693",
       "host": "113.20.201.162",
       "port": 1777,
       "proto": "tcp",
       "auth": "certificate",
       "country": "JP",
-      "source_priority": 145,
-      "checked_at": "2026-10-04T12:32:27.356581+00:00",
+      "latency_ms": null,
+      "speed_kbps": 186328753,
+      "score_upstream": 418753,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
-        "reachable": true,
-        "error": null
+        "reachable": false,
+        "error": "timed out"
       },
-      "config_sha256": "093209b791310482260b4f18170f0caf59c99a21482469747827ab9522f0cf9e",
-      "status": "deferred",
+      "config_sha256": "78e17ccc7dfe4ad7a122e8acc2f63d8407d876a75280f4a638c1c6dc29c0fc27",
+      "status": "unreachable",
       "handshake": {
         "status": "not_tested",
-        "error": "handshake budget exceeded"
+        "error": "tcp unreachable"
       },
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T12:32:27.356581+00:00",
-      "last_seen": "2026-10-04T12:32:27.356581+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "7e6941520c5d1ed6197ff35396a01f3e9a55e7a8": {
       "id": "7e6941520c5d1ed6197ff35396a01f3e9a55e7a8",
@@ -69761,7 +69856,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-04T12:32:27.356581+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "6658ca62002b84d8ad5a2dcddf496c13e200b07b": {
       "id": "6658ca62002b84d8ad5a2dcddf496c13e200b07b",
@@ -71274,7 +71369,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "eb837f34972f84df0fcff8b2c9692523c07cbc84": {
       "id": "eb837f34972f84df0fcff8b2c9692523c07cbc84",
@@ -71304,7 +71399,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "2b9f17fdb4c31439bc0506a4e33e152a43a75d7d": {
       "id": "2b9f17fdb4c31439bc0506a4e33e152a43a75d7d",
@@ -71334,7 +71429,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "d51d490f0539b7ff0f17e8681c041957ed8953a0": {
       "id": "d51d490f0539b7ff0f17e8681c041957ed8953a0",
@@ -71364,7 +71459,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "4592e72030adb66c37dec085498397362d9804d6": {
       "id": "4592e72030adb66c37dec085498397362d9804d6",
@@ -71394,7 +71489,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "06a8da199e693a07d9d0627702d9766e2edd4361": {
       "id": "06a8da199e693a07d9d0627702d9766e2edd4361",
@@ -71424,7 +71519,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "2a5c905f75951c48ab6e47b75e2d2696768bd969": {
       "id": "2a5c905f75951c48ab6e47b75e2d2696768bd969",
@@ -71454,7 +71549,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "cc0a3a72f89420ef45a2590be257b8416e2cd4af": {
       "id": "cc0a3a72f89420ef45a2590be257b8416e2cd4af",
@@ -71484,7 +71579,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "dcc388fa1c2a9e011cd56bc6ff4d7b26546fa755": {
       "id": "dcc388fa1c2a9e011cd56bc6ff4d7b26546fa755",
@@ -71514,7 +71609,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "c8d45dafedc504b57e3676275abd033b85450630": {
       "id": "c8d45dafedc504b57e3676275abd033b85450630",
@@ -71544,7 +71639,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "017a6dca321e9e0cad201e84b4b929cbb4c0c760": {
       "id": "017a6dca321e9e0cad201e84b4b929cbb4c0c760",
@@ -71576,7 +71671,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "36a75a49b1db757ccadd50ac07856e4acba9b141": {
       "id": "36a75a49b1db757ccadd50ac07856e4acba9b141",
@@ -71606,7 +71701,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "e3c26e2e73830bee4e0f2ffbc677a502c5172919": {
       "id": "e3c26e2e73830bee4e0f2ffbc677a502c5172919",
@@ -71636,7 +71731,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "e4f461220c33a07a7bdbcf386992ecf460547e49": {
       "id": "e4f461220c33a07a7bdbcf386992ecf460547e49",
@@ -71666,7 +71761,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "105f8fd39094b4fcbc11bf4dc93537a9abc30d65": {
       "id": "105f8fd39094b4fcbc11bf4dc93537a9abc30d65",
@@ -71696,7 +71791,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "731977c18a5bbe15979522fd1c1ad3e289619b9e": {
       "id": "731977c18a5bbe15979522fd1c1ad3e289619b9e",
@@ -71726,7 +71821,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "6d262fdf47beffc6a221e2d11f7e56149681b0ec": {
       "id": "6d262fdf47beffc6a221e2d11f7e56149681b0ec",
@@ -71756,7 +71851,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "18ae2555e657b5a1bf57335917d080b1c0a482f9": {
       "id": "18ae2555e657b5a1bf57335917d080b1c0a482f9",
@@ -71786,7 +71881,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "460bbc75760a5e9567670ad192d5014fbcc9fb46": {
       "id": "460bbc75760a5e9567670ad192d5014fbcc9fb46",
@@ -71816,7 +71911,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "d2294d24a542c8eb1de398c7d744a3ceb947c172": {
       "id": "d2294d24a542c8eb1de398c7d744a3ceb947c172",
@@ -71848,7 +71943,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "860fa685a3528003ffed3a56cce30c17a45d805e": {
       "id": "860fa685a3528003ffed3a56cce30c17a45d805e",
@@ -71880,7 +71975,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "508d499f88fdffc946e97e826a13e360d98dabb5": {
       "id": "508d499f88fdffc946e97e826a13e360d98dabb5",
@@ -71912,7 +72007,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "72193ebdb9ecbc14c544fac7eedb953b61c1c26f": {
       "id": "72193ebdb9ecbc14c544fac7eedb953b61c1c26f",
@@ -71942,7 +72037,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "e23784371b817b43fa7a3d90ac4472a3948b2eef": {
       "id": "e23784371b817b43fa7a3d90ac4472a3948b2eef",
@@ -71972,7 +72067,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "6963805f82deb59589c29cf6a2d00a4c7dbef2a0": {
       "id": "6963805f82deb59589c29cf6a2d00a4c7dbef2a0",
@@ -72002,7 +72097,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "697f03a4e91beae6921077628b24979d323f3a0a": {
       "id": "697f03a4e91beae6921077628b24979d323f3a0a",
@@ -72032,7 +72127,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "0ce0e808d876898fbf0e660471e62e6cdbb2d292": {
       "id": "0ce0e808d876898fbf0e660471e62e6cdbb2d292",
@@ -72062,7 +72157,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "e14a45351e5a3627d1edf043257fd1a7cefeacbf": {
       "id": "e14a45351e5a3627d1edf043257fd1a7cefeacbf",
@@ -72092,7 +72187,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "af1e4a5d691e4b07f4a65ab092da6d6edda79cf1": {
       "id": "af1e4a5d691e4b07f4a65ab092da6d6edda79cf1",
@@ -72122,7 +72217,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "b03c467d1b7aa9592a8209cbc0d72ba51e9d0cea": {
       "id": "b03c467d1b7aa9592a8209cbc0d72ba51e9d0cea",
@@ -72154,7 +72249,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "f705e7c3825ad638749a7ccc9fdcad6ca72af648": {
       "id": "f705e7c3825ad638749a7ccc9fdcad6ca72af648",
@@ -72184,7 +72279,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "89cfc246e01e57480198605627ba4d0dfd113d30": {
       "id": "89cfc246e01e57480198605627ba4d0dfd113d30",
@@ -72214,7 +72309,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "ecd5b2c40b27d1a7bd9809491349cb24781800ca": {
       "id": "ecd5b2c40b27d1a7bd9809491349cb24781800ca",
@@ -72244,7 +72339,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "c14d70048472101f94bcb3b36dfb3ca2a56892a6": {
       "id": "c14d70048472101f94bcb3b36dfb3ca2a56892a6",
@@ -72274,7 +72369,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "09f7cd6168083d05ec6f2dfa93b4b6f7f90c1313": {
       "id": "09f7cd6168083d05ec6f2dfa93b4b6f7f90c1313",
@@ -72304,7 +72399,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "6df86626d4f7d0812391b52dba9e0a213c5e7f0c": {
       "id": "6df86626d4f7d0812391b52dba9e0a213c5e7f0c",
@@ -72334,7 +72429,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "3bae6b6137509dcb3b3ab965c23310f946045152": {
       "id": "3bae6b6137509dcb3b3ab965c23310f946045152",
@@ -72364,7 +72459,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "bf1631361f3bb3dca4a6f25cd698af284b9b6b83": {
       "id": "bf1631361f3bb3dca4a6f25cd698af284b9b6b83",
@@ -72396,7 +72491,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "c42f6240d671b3b141ef6e23a98fdb6732b46201": {
       "id": "c42f6240d671b3b141ef6e23a98fdb6732b46201",
@@ -72426,7 +72521,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "81a998e17074780a07b9ee4b52674d67ec2bdc25": {
       "id": "81a998e17074780a07b9ee4b52674d67ec2bdc25",
@@ -72456,7 +72551,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "cb4b325e519d800aa5d9f7fe1bcef0badb383b92": {
       "id": "cb4b325e519d800aa5d9f7fe1bcef0badb383b92",
@@ -72488,7 +72583,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "cf50e650d242f91043df6900d9f3563691b30030": {
       "id": "cf50e650d242f91043df6900d9f3563691b30030",
@@ -72518,7 +72613,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "3b1745cfba4cfc8165537ac146e0d42cdd224b2f": {
       "id": "3b1745cfba4cfc8165537ac146e0d42cdd224b2f",
@@ -72550,7 +72645,7 @@
       "consecutive_failures": 0,
       "lifecycle": "working",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "7e03660dd0824f5b581c9cf510a7f52bf1d22e50": {
       "id": "7e03660dd0824f5b581c9cf510a7f52bf1d22e50",
@@ -72580,7 +72675,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "f303585c05b679232ab0e7f7624abf5b95259d3b": {
       "id": "f303585c05b679232ab0e7f7624abf5b95259d3b",
@@ -72610,7 +72705,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "13ed47654d241444fa3e4201aa6cfa22666d7660": {
       "id": "13ed47654d241444fa3e4201aa6cfa22666d7660",
@@ -72640,7 +72735,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "bb9552fd3b0e07338b422c9fd53f0f21f2a5df98": {
       "id": "bb9552fd3b0e07338b422c9fd53f0f21f2a5df98",
@@ -72670,7 +72765,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "e76fa59c58dd5ffb38a0268dfb21662b0e7f57f9": {
       "id": "e76fa59c58dd5ffb38a0268dfb21662b0e7f57f9",
@@ -72700,7 +72795,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "799b3e7ee2ea4acad48b1951f6d923ca798b394e": {
       "id": "799b3e7ee2ea4acad48b1951f6d923ca798b394e",
@@ -72730,7 +72825,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "1d9c93fa67ab5a529d20042248ba5bbcb37d4cb9": {
       "id": "1d9c93fa67ab5a529d20042248ba5bbcb37d4cb9",
@@ -72760,7 +72855,7 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "8fceb07c5dfa095c7c93f413c62a85af4608e337": {
       "id": "8fceb07c5dfa095c7c93f413c62a85af4608e337",
@@ -74606,15 +74701,15 @@
     },
     "4541952e512295bcd2464f73c6bc1785675540a3": {
       "id": "4541952e512295bcd2464f73c6bc1785675540a3",
-      "source": "fdciabdul",
-      "source_url": "https://raw.githubusercontent.com/fdciabdul/Vpngate-Scraper-API/main/configs/server_56_JP.ovpn",
-      "name": "server_56_JP",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn593689384",
       "host": "60.237.42.45",
       "port": 1467,
       "proto": "tcp",
       "auth": "certificate",
       "country": "JP",
-      "source_priority": 155,
+      "source_priority": 180,
       "checked_at": "2026-10-04T18:41:41.012318+00:00",
       "tcp": {
         "reachable": true,
@@ -74629,7 +74724,9 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00",
+      "latency_ms": 11,
+      "speed_kbps": 82068377
     },
     "ff1fca2154aa24526a515021c88c601bb9b1d94b": {
       "id": "ff1fca2154aa24526a515021c88c601bb9b1d94b",
@@ -75065,15 +75162,15 @@
     },
     "84154f072b608d12174c6901c0a76d2132f3b4d9": {
       "id": "84154f072b608d12174c6901c0a76d2132f3b4d9",
-      "source": "fdciabdul",
-      "source_url": "https://raw.githubusercontent.com/fdciabdul/Vpngate-Scraper-API/main/configs/server_82_KR.ovpn",
-      "name": "server_82_KR",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn828952115",
       "host": "121.130.194.50",
       "port": 1725,
       "proto": "tcp",
       "auth": "certificate",
       "country": "KR",
-      "source_priority": 155,
+      "source_priority": 180,
       "checked_at": "2026-10-04T18:41:41.012318+00:00",
       "tcp": {
         "reachable": true,
@@ -75088,7 +75185,9 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00",
+      "latency_ms": 31,
+      "speed_kbps": 83258056
     },
     "f8b06ed069fa58ed230401824c2cb70b940387b9": {
       "id": "f8b06ed069fa58ed230401824c2cb70b940387b9",
@@ -75497,30 +75596,33 @@
     },
     "c84a8a81ad08f4af910ebe7b4cc2c10ac23c6243": {
       "id": "c84a8a81ad08f4af910ebe7b4cc2c10ac23c6243",
-      "source": "mizmaze_auto",
-      "source_url": "https://raw.githubusercontent.com/mizmazegt1-design/auto-vpngate-configs/main/ovpn_files/JP_KddiCorporation_113.145.237.167_619.9Mbps.ovpn",
-      "name": "JP_KddiCorporation_113.145.237.167_619.9Mbps",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn717671506",
       "host": "113.145.237.167",
       "port": 1870,
       "proto": "tcp",
       "auth": "certificate",
       "country": "JP",
-      "source_priority": 145,
-      "checked_at": "2026-10-04T18:41:41.012318+00:00",
+      "latency_ms": 23,
+      "speed_kbps": 665338700,
+      "score_upstream": 1210280,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
       "tcp": {
         "reachable": true,
         "error": null
       },
-      "config_sha256": "adaf1ef38f5ddc4f5116be8c4f130f321aa7373b4c357a66c76fc01c908f072c",
-      "status": "deferred",
+      "config_sha256": "03cd60375df6a23b135ece4433c53fcd64e420742878cb525d98f471ca156d20",
       "handshake": {
-        "status": "not_tested",
-        "error": "handshake budget exceeded"
+        "status": "auth_failed",
+        "error": "authentication failed"
       },
-      "consecutive_failures": 1,
+      "status": "auth_failed",
+      "consecutive_failures": 2,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     },
     "e363961c6e80b2d09b00d2432199456537d4aa44": {
       "id": "e363961c6e80b2d09b00d2432199456537d4aa44",
@@ -75767,15 +75869,15 @@
     },
     "4c64b6067b1752d7a83553386c94f6b15852245e": {
       "id": "4c64b6067b1752d7a83553386c94f6b15852245e",
-      "source": "tdxf1_sync",
-      "source_url": "https://raw.githubusercontent.com/tdxf1/vpngate-sync/main/ovpn/vpn116713335.ovpn",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
       "name": "vpn116713335",
       "host": "220.121.202.48",
       "port": 995,
       "proto": "tcp",
       "auth": "certificate",
-      "country": null,
-      "source_priority": 100,
+      "country": "KR",
+      "source_priority": 180,
       "checked_at": "2026-10-04T18:41:41.012318+00:00",
       "tcp": {
         "reachable": true,
@@ -75790,7 +75892,9 @@
       "consecutive_failures": 1,
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
-      "last_seen": "2026-10-04T18:41:41.012318+00:00"
+      "last_seen": "2026-10-04T23:58:55.706604+00:00",
+      "latency_ms": 28,
+      "speed_kbps": 434682891
     },
     "367f0af3f3cab5e2f060ce011f36058d54fe06d3": {
       "id": "367f0af3f3cab5e2f060ce011f36058d54fe06d3",
@@ -77303,6 +77407,1426 @@
       "lifecycle": "temporarily_failed",
       "first_seen": "2026-10-04T18:41:41.012318+00:00",
       "last_seen": "2026-10-04T18:41:41.012318+00:00"
+    },
+    "db2a644b4fc722f59ba300c369c3eec162b093b7": {
+      "id": "db2a644b4fc722f59ba300c369c3eec162b093b7",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn962496160",
+      "host": "150.40.105.24",
+      "port": 443,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "HR",
+      "latency_ms": 1,
+      "speed_kbps": 22635073,
+      "score_upstream": 363167,
+      "source_priority": 330,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": true,
+        "error": null
+      },
+      "config_sha256": "abc7456d18fec7ca4fd8febbf1a53bd33ebd9d1c1f324be9fee4751f72726240",
+      "handshake": {
+        "status": "working",
+        "error": null,
+        "exit_ip": "150.40.105.24",
+        "handshake_ms": 5993
+      },
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "4fcc346fb9fd26aa2257645d2c227fd24fc8e91a": {
+      "id": "4fcc346fb9fd26aa2257645d2c227fd24fc8e91a",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn497910382",
+      "host": "175.129.117.170",
+      "port": 1213,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "latency_ms": 2,
+      "speed_kbps": 939203132,
+      "score_upstream": 692694,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": true,
+        "error": null
+      },
+      "config_sha256": "f26ef5065dd593e56bf800667e68f0f68e30f99d40cead88ab5a6fff5fc41c49",
+      "handshake": {
+        "status": "working",
+        "error": null,
+        "exit_ip": "175.129.117.170",
+        "handshake_ms": 3835
+      },
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "ef7c075c7fbc458a4da377bc34910a401c078e2d": {
+      "id": "ef7c075c7fbc458a4da377bc34910a401c078e2d",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn858819988",
+      "host": "110.67.14.151",
+      "port": 1257,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "latency_ms": 2,
+      "speed_kbps": 583970248,
+      "score_upstream": 365652,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "config_sha256": "1434bed5b3e7329dc036cc35ce27d5111f7f58305d00a32f61c9093d6d584bfe",
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "a5cc5098028bce45da892810997d830cb7de12d0": {
+      "id": "a5cc5098028bce45da892810997d830cb7de12d0",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn880633907",
+      "host": "60.149.136.130",
+      "port": 1767,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "latency_ms": 4,
+      "speed_kbps": 525324819,
+      "score_upstream": 1396305,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "[Errno 111] Connection refused"
+      },
+      "config_sha256": "4076c224cdf20fb63b9374f16ef3dbedccde0045920d1340af6ceac0fefdbf8f",
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "224155ff7efd5fa7b5cf8c2fbf524e3750815f57": {
+      "id": "224155ff7efd5fa7b5cf8c2fbf524e3750815f57",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn462338595",
+      "host": "223.204.248.16",
+      "port": 1965,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "TH",
+      "latency_ms": 6,
+      "speed_kbps": 518655436,
+      "score_upstream": 665398,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "config_sha256": "20035bbe325c07128ff40b3c132f5eec491e3fd1edb23bdb2f36ced5faea0663",
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "513d8bc0a282e553ab3ec98f754f6090ab808c71": {
+      "id": "513d8bc0a282e553ab3ec98f754f6090ab808c71",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn525554372",
+      "host": "101.142.196.72",
+      "port": 1612,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "latency_ms": 2,
+      "speed_kbps": 494516761,
+      "score_upstream": 607014,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "config_sha256": "fab9adb1258e123ab3d050396fe43af07b48940537fe35e1c42d300f9001b390",
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "52ba77a74dcff18a6d5376f4335260d6cccb4120": {
+      "id": "52ba77a74dcff18a6d5376f4335260d6cccb4120",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn593703252",
+      "host": "58.136.15.163",
+      "port": 1774,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "TH",
+      "latency_ms": 10,
+      "speed_kbps": 492013507,
+      "score_upstream": 644863,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": true,
+        "error": null
+      },
+      "config_sha256": "191face449e4007584b4bf05d32175c784d6994b7371bd8c35b0335f3b69b01f",
+      "handshake": {
+        "status": "working",
+        "error": null,
+        "exit_ip": "58.136.15.163",
+        "handshake_ms": 5088
+      },
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "33e64fe950ea36d4585c665af770a8b81938112f": {
+      "id": "33e64fe950ea36d4585c665af770a8b81938112f",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn173458867",
+      "host": "87.225.107.25",
+      "port": 1968,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "RU",
+      "latency_ms": 115,
+      "speed_kbps": 471032596,
+      "score_upstream": 1023433,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "config_sha256": "0ccf22a7babe113497732c6fef1e4d001fd01dbc634df7f25b3121e5275386bd",
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "317b05abf8ddfd9a9ba037005786515768c7b1d8": {
+      "id": "317b05abf8ddfd9a9ba037005786515768c7b1d8",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn191365935",
+      "host": "27.130.98.251",
+      "port": 1746,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "TH",
+      "latency_ms": 3,
+      "speed_kbps": 411734064,
+      "score_upstream": 590939,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "config_sha256": "ad41656a42423ae952efc1d8a6a7027bd122eb8cd4e4d23989ac31f05cd2b565",
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "2dada355f591525193701e1e07e9ac1e109555c8": {
+      "id": "2dada355f591525193701e1e07e9ac1e109555c8",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn404762313",
+      "host": "180.196.161.202",
+      "port": 1266,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "latency_ms": 6,
+      "speed_kbps": 395269704,
+      "score_upstream": 614573,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": true,
+        "error": null
+      },
+      "config_sha256": "ef73a4d35efc9c07451ad4627e8c5c51bbe4cf013329b00cbba01034736974fc",
+      "handshake": {
+        "status": "working",
+        "error": null,
+        "exit_ip": "180.196.161.202",
+        "handshake_ms": 3618
+      },
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "2425f273f5d08d27a400491a7e714d8a24624e70": {
+      "id": "2425f273f5d08d27a400491a7e714d8a24624e70",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn739493105",
+      "host": "27.130.93.132",
+      "port": 1357,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "TH",
+      "latency_ms": 6,
+      "speed_kbps": 339619904,
+      "score_upstream": 687641,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "config_sha256": "f067e460793036ab9e38eebc22921fcfc72962f539eb30320721ded1fc555a9e",
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "f18221fdcef0a2e3115261995c79de7d315a09bd": {
+      "id": "f18221fdcef0a2e3115261995c79de7d315a09bd",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn500557821",
+      "host": "60.153.248.204",
+      "port": 1400,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "latency_ms": 6,
+      "speed_kbps": 307940732,
+      "score_upstream": 642349,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": true,
+        "error": null
+      },
+      "config_sha256": "cbc8dccc8ec3f5a3fe61101a3513e427fff7207aaf9c42d2b15ffa71e0c6a08b",
+      "handshake": {
+        "status": "working",
+        "error": null,
+        "exit_ip": "60.153.248.204",
+        "handshake_ms": 3857
+      },
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "babac4d87b97209f1a02184fe7116ad33b9f4277": {
+      "id": "babac4d87b97209f1a02184fe7116ad33b9f4277",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn606745717",
+      "host": "27.130.66.141",
+      "port": 1233,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "TH",
+      "latency_ms": 4,
+      "speed_kbps": 303954014,
+      "score_upstream": 690794,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "config_sha256": "4a395109b7c615792e33bfbd410d486d7dd2b4d67bd1ba9a820393e13aba580f",
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "9234ee83f753264e5b488b7b82c45de075090890": {
+      "id": "9234ee83f753264e5b488b7b82c45de075090890",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn712475119",
+      "host": "27.130.84.79",
+      "port": 1770,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "TH",
+      "latency_ms": 6,
+      "speed_kbps": 281536393,
+      "score_upstream": 654941,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "config_sha256": "ff4dff786b0956e1ec5428824feafe013c2af3bc408d608f1407dcd2f7d1280e",
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "72ca5e0606bdcca9e231dd1ba5862311c082ac92": {
+      "id": "72ca5e0606bdcca9e231dd1ba5862311c082ac92",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn944078823",
+      "host": "139.101.173.133",
+      "port": 1918,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "latency_ms": 5,
+      "speed_kbps": 247076342,
+      "score_upstream": 371288,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": true,
+        "error": null
+      },
+      "config_sha256": "ca847594379aae69fada9ff05d22547de4db1e96e748ed19fd58de42ef5225a2",
+      "handshake": {
+        "status": "working",
+        "error": null,
+        "exit_ip": "139.101.173.133",
+        "handshake_ms": 4197
+      },
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "b2253cd185a0b430bb5f804cf1dc9882a174d824": {
+      "id": "b2253cd185a0b430bb5f804cf1dc9882a174d824",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn527631357",
+      "host": "95.105.4.44",
+      "port": 57713,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "RU",
+      "latency_ms": 29,
+      "speed_kbps": 224503355,
+      "score_upstream": 587282,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "config_sha256": "ebcd712b9e46d2147057a3b85e69ed6c0bd1e436dc5acc0a8c2669c0aa36e7de",
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "24b8a12ea768b015d97c0e4ea40e3210c41ff74d": {
+      "id": "24b8a12ea768b015d97c0e4ea40e3210c41ff74d",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn541518962",
+      "host": "220.92.53.186",
+      "port": 1288,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "KR",
+      "latency_ms": 27,
+      "speed_kbps": 223152100,
+      "score_upstream": 1446622,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": true,
+        "error": null
+      },
+      "config_sha256": "08888e88149126b9aca5550af2b7a958725f332c2e023d96920a8a96d8170ee0",
+      "handshake": {
+        "status": "working",
+        "error": null,
+        "exit_ip": "220.92.53.186",
+        "handshake_ms": 4413
+      },
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "85b9a75aa69ebc02b8eab10056bb4060c0e9eb72": {
+      "id": "85b9a75aa69ebc02b8eab10056bb4060c0e9eb72",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn581622630",
+      "host": "94.180.36.103",
+      "port": 1561,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "RU",
+      "latency_ms": null,
+      "speed_kbps": 155627256,
+      "score_upstream": 406735,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "config_sha256": "f340fb3b97a120c7e08ba5562144f126281293bffecd3da6c2b11025ddaccccf",
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "1b7f8c6798d69b861052a89e773b11f57f3fe63c": {
+      "id": "1b7f8c6798d69b861052a89e773b11f57f3fe63c",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn436682202",
+      "host": "5.3.121.64",
+      "port": 1823,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "RU",
+      "latency_ms": 42,
+      "speed_kbps": 120223150,
+      "score_upstream": 574715,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "config_sha256": "01f6887a492d59628204d07b17df858dd76b78300e7ee2f3d46b76f7cfc5c0dc",
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "b5167ce8aff6da12041df11644ca9e291b9b45df": {
+      "id": "b5167ce8aff6da12041df11644ca9e291b9b45df",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn337434621",
+      "host": "183.91.108.16",
+      "port": 1262,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "latency_ms": 8,
+      "speed_kbps": 95946587,
+      "score_upstream": 374866,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": true,
+        "error": null
+      },
+      "config_sha256": "abf0135ed08570ffa808a29d6a11bc68eb4f188990f816958fc70d9244eb474a",
+      "handshake": {
+        "status": "working",
+        "error": null,
+        "exit_ip": "183.91.108.16",
+        "handshake_ms": 4016
+      },
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "a425fa2a14dafb86def05971f4671841a6dfaa69": {
+      "id": "a425fa2a14dafb86def05971f4671841a6dfaa69",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn407927815",
+      "host": "125.129.67.23",
+      "port": 1424,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "KR",
+      "latency_ms": 30,
+      "speed_kbps": 93327972,
+      "score_upstream": 611227,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": true,
+        "error": null
+      },
+      "config_sha256": "f57309386488888373943c5f457b0ed1d284252e0d60b8740146c2384f1d25a5",
+      "handshake": {
+        "status": "working",
+        "error": null,
+        "exit_ip": "125.129.67.23",
+        "handshake_ms": 4215
+      },
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "40179def6c8dd80386da9c3e5ef2405d7025fc73": {
+      "id": "40179def6c8dd80386da9c3e5ef2405d7025fc73",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn278331865",
+      "host": "222.237.48.187",
+      "port": 995,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "KR",
+      "latency_ms": 34,
+      "speed_kbps": 89212315,
+      "score_upstream": 579536,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "config_sha256": "b3223fcf707b07d40a2118e8fc9384fa8bed4afd9347d85e80f4d63511555db9",
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "41dd75487fc5eff63f1b94cdec62014e9dbbed52": {
+      "id": "41dd75487fc5eff63f1b94cdec62014e9dbbed52",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn402443414",
+      "host": "178.186.24.94",
+      "port": 1868,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "RU",
+      "latency_ms": 61,
+      "speed_kbps": 83033124,
+      "score_upstream": 776492,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": true,
+        "error": null
+      },
+      "config_sha256": "774b7ae5e826bc6afde4b2954d785d70383e3f6441a179bb86f0298e7cd8c9e4",
+      "handshake": {
+        "status": "working",
+        "error": null,
+        "exit_ip": "178.186.24.94",
+        "handshake_ms": 4880
+      },
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "92053c4f8e59630ebc79e18bbafe45e16c09446c": {
+      "id": "92053c4f8e59630ebc79e18bbafe45e16c09446c",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn510691542",
+      "host": "126.79.203.238",
+      "port": 1983,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "latency_ms": 27,
+      "speed_kbps": 78514186,
+      "score_upstream": 365964,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": true,
+        "error": null
+      },
+      "config_sha256": "0d9bfc1364ed528d1e4d597e32cda75017ea775cc7ac83402909c66fc73a684f",
+      "handshake": {
+        "status": "failed",
+        "error": " bound)\n2026-10-05 00:01:34 tcpv4_client link remote: [af_inet]126.79.203.238:1983\n2026-10-05 00:01:36 tls: initial packet from [af_inet]126.79.203.238:1983, sid=674c4013 4cead6a4\n2026-10-05 00:01:36 verify ok: depth=3, c=us, o=internet security research group, cn=isrg root x1\n2026-10-05 00:01:36 verify ok: depth=2, c=us, o=isrg, cn=root yr\n2026-10-05 00:01:36 verify ok: depth=1, c=us, o=let's encrypt, cn=yr2\n2026-10-05 00:01:36 verify ok: depth=0, cn=opengw.net\n2026-10-05 00:01:37 control channel: tlsv1.3, cipher tlsv1.3 tls_aes_256_gcm_sha384, peer certificate: 2048 bits rsa, signature: rsa-sha256, peer temporary key: 253 bits x25519\n2026-10-05 00:01:37 [opengw.net] peer connection initiated with [af_inet]126.79.203.238:1983\n2026-10-05 00:01:37 tls: move_session: dest=tm_active src=tm_initial reinit_src=1\n2026-10-05 00:01:37 tls: tls_multi_process: initial untrusted session promoted to trusted\n2026-10-05 00:01:38 sent control [opengw.net]: 'push_request' (status=1)\n2026-10-05 00:01:43 sent control [opengw.net]: 'push_request' (status=1)\n2026-10-05 00:01:47 [opengw.net] inactivity timeout (--ping-exit), exiting\n2026-10-05 00:01:47 sigterm[soft,ping-exit] received, process exiting\n"
+      },
+      "status": "failed",
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "2ef6cc012298db885ef9fea0c81a59a75e943012": {
+      "id": "2ef6cc012298db885ef9fea0c81a59a75e943012",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn226365648",
+      "host": "175.214.151.148",
+      "port": 1202,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "KR",
+      "latency_ms": 26,
+      "speed_kbps": 78030516,
+      "score_upstream": 362936,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": true,
+        "error": null
+      },
+      "config_sha256": "f2c54bcef60ba2e16593690bfcfcbd198d4105d15962cb9733a544408809a4a3",
+      "handshake": {
+        "status": "working",
+        "error": null,
+        "exit_ip": "175.214.151.148",
+        "handshake_ms": 4470
+      },
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "db1e6a2ae493ded43e842d1c21395fd4a33d586b": {
+      "id": "db1e6a2ae493ded43e842d1c21395fd4a33d586b",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn375245216",
+      "host": "221.103.116.184",
+      "port": 1688,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "latency_ms": 10,
+      "speed_kbps": 77863262,
+      "score_upstream": 616174,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "config_sha256": "96ff7fc4ba4b3015a798a539ab779b41ae90830c6ae1e9ea08a2fcc1fa02f56a",
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "163b515532a76f7c8911bdbf442fd27c4e497889": {
+      "id": "163b515532a76f7c8911bdbf442fd27c4e497889",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn144691275",
+      "host": "36.65.232.175",
+      "port": 1658,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "ID",
+      "latency_ms": 16,
+      "speed_kbps": 77256040,
+      "score_upstream": 719907,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": true,
+        "error": null
+      },
+      "config_sha256": "e942d7320a2a2dae4ae21f0f9ac2a43684c2591f0decb8c03417427a60d0a979",
+      "handshake": {
+        "status": "working",
+        "error": null,
+        "exit_ip": "36.65.232.175",
+        "handshake_ms": 5063
+      },
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "7298e23e344e4704fb754ed37e85c1241777cdc6": {
+      "id": "7298e23e344e4704fb754ed37e85c1241777cdc6",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn516870736",
+      "host": "219.241.10.189",
+      "port": 1683,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "KR",
+      "latency_ms": 31,
+      "speed_kbps": 76242785,
+      "score_upstream": 777057,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": true,
+        "error": null
+      },
+      "config_sha256": "dabdf5a1b9e563bd7409a9aa9197114ecfb4c06a2dc2668c9b9603d1e38f797c",
+      "handshake": {
+        "status": "working",
+        "error": null,
+        "exit_ip": "219.241.10.189",
+        "handshake_ms": 4590
+      },
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "d51478990d827066c0b410b9dae80f90b2a63338": {
+      "id": "d51478990d827066c0b410b9dae80f90b2a63338",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn176792365",
+      "host": "112.185.71.174",
+      "port": 1648,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "KR",
+      "latency_ms": 28,
+      "speed_kbps": 73459448,
+      "score_upstream": 595195,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": true,
+        "error": null
+      },
+      "config_sha256": "1a04dfd05229bbd4a3b3d1f7a67f2db0aebf61c1fa93b57d9c8a830449c87f5c",
+      "handshake": {
+        "status": "working",
+        "error": null,
+        "exit_ip": "112.185.71.174",
+        "handshake_ms": 4589
+      },
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "402d3a3b7d3280c7a8562e3ac631b9cb8b6426d5": {
+      "id": "402d3a3b7d3280c7a8562e3ac631b9cb8b6426d5",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn574906134",
+      "host": "61.253.166.119",
+      "port": 1463,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "KR",
+      "latency_ms": 34,
+      "speed_kbps": 68028427,
+      "score_upstream": 592099,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": true,
+        "error": null
+      },
+      "config_sha256": "280f75dbbd18e89e4b44e39def0ce515d11d78ae90db0af9758f98a7c0d924e7",
+      "handshake": {
+        "status": "working",
+        "error": null,
+        "exit_ip": "61.253.166.119",
+        "handshake_ms": 4092
+      },
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "c0a44385cd6f2dfedb5cc187c6224af59b7cd9f0": {
+      "id": "c0a44385cd6f2dfedb5cc187c6224af59b7cd9f0",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn848677233",
+      "host": "38.25.15.30",
+      "port": 39179,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "PE",
+      "latency_ms": 39,
+      "speed_kbps": 61822468,
+      "score_upstream": 485207,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "config_sha256": "d77ae65760562e38f6fd8d74c7cbb1d709383be15a59aed31b7ed0cc1c627ac9",
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "a199b9d58c93bc534e7ab2cf5ce4c1085dc8f8ca": {
+      "id": "a199b9d58c93bc534e7ab2cf5ce4c1085dc8f8ca",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn933832808",
+      "host": "14.47.67.226",
+      "port": 1915,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "KR",
+      "latency_ms": 30,
+      "speed_kbps": 57547415,
+      "score_upstream": 782995,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": true,
+        "error": null
+      },
+      "config_sha256": "297f27b880e7e23882831219f76d4593b51dcba4c4b141ece5e1d03637808c66",
+      "handshake": {
+        "status": "working",
+        "error": null,
+        "exit_ip": "14.47.67.226",
+        "handshake_ms": 4366
+      },
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "bbf967281d867f860e9ba0b44f97eadff84ff5c4": {
+      "id": "bbf967281d867f860e9ba0b44f97eadff84ff5c4",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn204273568",
+      "host": "95.37.98.97",
+      "port": 1551,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "RU",
+      "latency_ms": 23,
+      "speed_kbps": 56747310,
+      "score_upstream": 609840,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "config_sha256": "0b20027b5d6995841ede8f19ebfa7396fff3e7ab0452afadd1e2ee1642c20f20",
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "bd0d1e0b36fb38e041da752d54d7d5cd5e79bcba": {
+      "id": "bd0d1e0b36fb38e041da752d54d7d5cd5e79bcba",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn523412609",
+      "host": "121.166.193.177",
+      "port": 995,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "KR",
+      "latency_ms": 31,
+      "speed_kbps": 54787588,
+      "score_upstream": 647198,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": true,
+        "error": null
+      },
+      "config_sha256": "5fe149cc2b9f016526128fb8b46120d5340d7178a0570a18554710c8860327fb",
+      "handshake": {
+        "status": "working",
+        "error": null,
+        "exit_ip": "112.169.177.169",
+        "handshake_ms": 4251
+      },
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "5221d972ca640ebe3c634ec1d1e733c09c0ba9f0": {
+      "id": "5221d972ca640ebe3c634ec1d1e733c09c0ba9f0",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn384364240",
+      "host": "109.110.91.61",
+      "port": 11219,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "RU",
+      "latency_ms": 47,
+      "speed_kbps": 53360795,
+      "score_upstream": 483030,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "config_sha256": "e1dffcaba2c83a24e2de06383908d6b8382cae0bc1c72d3f7187a687596ad451",
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "8afa7e477b98dd3ae5f88cac6eb3ae6a90085bf2": {
+      "id": "8afa7e477b98dd3ae5f88cac6eb3ae6a90085bf2",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn236138998",
+      "host": "169.211.222.152",
+      "port": 1381,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "KR",
+      "latency_ms": 30,
+      "speed_kbps": 52888427,
+      "score_upstream": 591746,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "config_sha256": "6d2aed78e9a591e03c9dcb9c918137a437c88ba247ff39051fe9176e395a664d",
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "ee5337620d91e8807a321c53aac3dae13abe2541": {
+      "id": "ee5337620d91e8807a321c53aac3dae13abe2541",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn609012261",
+      "host": "125.197.215.210",
+      "port": 1276,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "JP",
+      "latency_ms": 9,
+      "speed_kbps": 49659596,
+      "score_upstream": 658788,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": true,
+        "error": null
+      },
+      "config_sha256": "8ceb4e66bf80ddf77bec1ece14f23920dff4ddac450e304c7cf87a720a102741",
+      "handshake": {
+        "status": "working",
+        "error": null,
+        "exit_ip": "125.197.215.210",
+        "handshake_ms": 5168
+      },
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "3d39e1d98e479fdfde68748a97967cd56c04b00e": {
+      "id": "3d39e1d98e479fdfde68748a97967cd56c04b00e",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn786463873",
+      "host": "178.64.114.205",
+      "port": 30301,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "RU",
+      "latency_ms": 77,
+      "speed_kbps": 42806605,
+      "score_upstream": 430253,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "config_sha256": "692262d516e8389732e9c0b067e09f43e88c0e1250d6d59703b0b4f4bf04d4c0",
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "374ce61513a649f158ae7efdadbebbbc2014de67": {
+      "id": "374ce61513a649f158ae7efdadbebbbc2014de67",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn986755484",
+      "host": "58.152.29.26",
+      "port": 1852,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "HK",
+      "latency_ms": 1,
+      "speed_kbps": 37183838,
+      "score_upstream": 898742,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": true,
+        "error": null
+      },
+      "config_sha256": "a2693e150a9eddb6b39dfb5ba2f88f10cead951e0a56c5d0ca51bae3197a73cd",
+      "handshake": {
+        "status": "working",
+        "error": null,
+        "exit_ip": "58.152.29.26",
+        "handshake_ms": 4518
+      },
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "8b3433ad669c2810c2543f679a553b9f287775d7": {
+      "id": "8b3433ad669c2810c2543f679a553b9f287775d7",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn391391789",
+      "host": "138.64.250.139",
+      "port": 34977,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "latency_ms": 8,
+      "speed_kbps": 30507675,
+      "score_upstream": 698048,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "config_sha256": "c6f7ab4f797a4cf8752728a86f08645f496f1b5ddc63739962c625c7528cd9bb",
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "cd274e44082a21f8a4cc0b2beea6de983bc786ce": {
+      "id": "cd274e44082a21f8a4cc0b2beea6de983bc786ce",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn865848280",
+      "host": "67.161.99.252",
+      "port": 44633,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "US",
+      "latency_ms": 50,
+      "speed_kbps": 26856819,
+      "score_upstream": 384350,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "config_sha256": "1239266c97f853a54c1c3bb6878b2b7318e3258be1c4ad306f478fd47960cd1f",
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "81967a947a28696037c3be7255c3bf05d964b65e": {
+      "id": "81967a947a28696037c3be7255c3bf05d964b65e",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn763256143",
+      "host": "184.82.70.106",
+      "port": 1380,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "TH",
+      "latency_ms": 7,
+      "speed_kbps": 26482739,
+      "score_upstream": 594375,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "config_sha256": "605f6a1c827eeba13f1544872722fc7127e7d449d48011be96abff4c7243cb6e",
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "24869b8d560b6798873f252273e88e365f44987f": {
+      "id": "24869b8d560b6798873f252273e88e365f44987f",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn239273135",
+      "host": "133.106.35.90",
+      "port": 4633,
+      "proto": "udp",
+      "auth": "certificate",
+      "country": "JP",
+      "latency_ms": 139,
+      "speed_kbps": 24287725,
+      "score_upstream": 360482,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "config_sha256": "7a93939ef675c270a266d2978107c37360db8399ce9fe0c6de0542c659d58774",
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "9529e72539698b5314ba71209190328b5c788f89": {
+      "id": "9529e72539698b5314ba71209190328b5c788f89",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn587535377",
+      "host": "14.53.186.242",
+      "port": 995,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "KR",
+      "latency_ms": 36,
+      "speed_kbps": 7326462,
+      "score_upstream": 436535,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "config_sha256": "cbcedf8e9a1c732593675685094f2c85b0d4d280366e429a2664d6c486d25f2b",
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "7b5fae36a2a946d22d3ae2b848af42e0b9a4ea42": {
+      "id": "7b5fae36a2a946d22d3ae2b848af42e0b9a4ea42",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn428888787",
+      "host": "183.103.132.202",
+      "port": 995,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "KR",
+      "latency_ms": 22,
+      "speed_kbps": 5867220,
+      "score_upstream": 350864,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": false,
+        "error": "timed out"
+      },
+      "config_sha256": "cc93a861934a3a0e3ad0c45824cea211bf592346313626aba5647dd5cfc93831",
+      "status": "unreachable",
+      "handshake": {
+        "status": "not_tested",
+        "error": "tcp unreachable"
+      },
+      "consecutive_failures": 1,
+      "lifecycle": "temporarily_failed",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
+    },
+    "297ed2afe3943c7717fd2c22bc3b95b81a0c8e05": {
+      "id": "297ed2afe3943c7717fd2c22bc3b95b81a0c8e05",
+      "source": "vpngate",
+      "source_url": "https://www.vpngate.net/api/iphone/",
+      "name": "vpn745412775",
+      "host": "47.141.165.251",
+      "port": 1955,
+      "proto": "tcp",
+      "auth": "certificate",
+      "country": "US",
+      "latency_ms": 11,
+      "speed_kbps": null,
+      "score_upstream": 1039806,
+      "source_priority": 180,
+      "checked_at": "2026-10-04T23:58:55.706604+00:00",
+      "tcp": {
+        "reachable": true,
+        "error": null
+      },
+      "config_sha256": "c561974d5e4ae65e9d1c4536ee324d2e917298332d8112ca864246b268c9fcf2",
+      "handshake": {
+        "status": "working",
+        "error": null,
+        "exit_ip": "47.141.165.251",
+        "handshake_ms": 2794
+      },
+      "status": "working",
+      "consecutive_failures": 0,
+      "lifecycle": "working",
+      "first_seen": "2026-10-04T23:58:55.706604+00:00",
+      "last_seen": "2026-10-04T23:58:55.706604+00:00"
     }
   }
 }
